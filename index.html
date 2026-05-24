@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>History Quiz</title>
-   <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-   <div id = "top">
-       <div id = "titleDesc">
-         <p class = "title">History Quiz</p>
-         <p class = "desc">Currently Selected: ....</p>
-       </div>
+    <div id="container">
 
-       <div id = britainOrUS>
-         <button id = "britain">Britain</button>
-         <button id = "us">US</button>
-       </div>
-       <!-- The Title bit, with selection for US or Britain-->
-   </div>
-   <div id = "centre">
-      <div id = "topQBar">
-         <p id = "qTopic">SAMPLE TOPIC</p>
-      </div>
-      <div id = "qTitle">
-         <p id = "question">SAMPLE QUESTION</p>
-      </div>
+        <div id="top">
+            <div id="titleDesc">
+                <p id="title">History Quiz</p>
+            </div>
 
-      <div id = "multiSelect">
-         <button id = "op1">SAMPLE OPTION1</button>
-         <button id = "op2">SAMPLE OPTION2</button>
-         <button id = "op3">SAMPLE OPTION3</button>
-         <button id = "op4">SAMPLE OPTION4</button>
-         <button id = "op5">I don't know</button>
-      </div>
+            <div id=britainOrUS>
+                <button id="britain">Britain</button>
+                <button id="us">US</button>
+            </div>
 
-      <div id = "feedback"></div>
+            <!-- The Title bit, with selection for US or Britain-->
+        </div>
 
-      <button id = "nextQButton">Next Question</button>
-      <!-- main section wi Quiz
-      infinite questions, randomly arranged
-      by default - mixed. each question tells you which era its from 
-      -->
-   </div>
-   <div id = "bottom">
-      
-      <!-- Selection for specific topics-->
-   </div>
+        <div id="centre">
 
-   <script src = "script.js"></script>
+            <div id="topQBar">
+                <p id="qTopic">SAMPLE TOPIC</p>
+            </div>
+
+            <div id="qTitle">
+                <p id="question">SAMPLE QUESTION</p>
+            </div>
+
+            <div id="multiSelect">
+                <button id="op1">SAMPLE OPTION1</button>
+                <button id="op2">SAMPLE OPTION2</button>
+                <button id="op3">SAMPLE OPTION3</button>
+                <button id="op4">SAMPLE OPTION4</button>
+                <button id="op5">I don't know</button>
+            </div>
+
+            <div id="feedback"></div>
+
+            <button id="nextQButton">Next Question</button>
+
+            <!-- main section wi Quiz
+            infinite questions, randomly arranged
+            by default - mixed. each question tells you which era its from 
+            -->
+        </div>
+
+        <div id="bottom">
+
+            <!-- Selection for specific topics-->
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
