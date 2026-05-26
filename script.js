@@ -1,4 +1,5 @@
-document.getElementById("us").addEventListener("click", onStart);
+var currentPaper;
+var currentQ;
 
 function onStart() {
 //main program
@@ -9,15 +10,35 @@ function onStart() {
     which shows in feedback
 */
 const usPaper = "US";
+currentPaper = usPaper;
 displayQ(usPaper);
+document.getElementById("nextQButton").style.display = "none";
 
 //check which paper is selected
+}
+
+
+function selectAnswer(choice, question) {
+    if (choice == question.answer) {
+        document.getElementById("feedback").textContent = ("CORRECT - " + question.feedback);
+    }
+    else {
+        document.getElementById("feedback").textContent = ("INCORRECT - " + question.feedback);
+    }
+    document.getElementById("nextQButton").style.display = "block";
+}
+
+function nextQuestion() {
+    const usPaper = "US";
+    displayQ(usPaper);
+    document.getElementById("feedback").textContent = "";
+    document.getElementById("nextQButton").style.display = "none";
 }
 
 function displayQ(paper) {
     if (paper == "US") {
         const Q = chooseQ(usQs);
-
+        currentQ = Q;
         
         document.getElementById("qTopic").textContent = Q.topic;
         document.getElementById("qTitle").textContent = Q.question;
@@ -37,6 +58,25 @@ function displayQ(paper) {
 function chooseQ(questions) {
     const randomQ = questions[Math.floor(Math.random() * questions.length)];
     return randomQ;
+}
+
+function checkPaper(paper) {
+    if (paper == "US") {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+function usButtonPress() {
+    
+    if (currentPaper != "US") {
+        displayQ("US");
+    }
+    else {
+
+    }
 }
 
 const britishQs = [
@@ -862,6 +902,12 @@ const usQs = [
 ]
 
 
+onStart();
 
-
+document.getElementById("us").addEventListener("click", usButtonPress);
+document.getElementById("nextQButton").addEventListener("click", nextQuestion);
+document.getElementById("op1").addEventListener("click", () => selectAnswer(currentQ.options[0], currentQ));
+document.getElementById("op2").addEventListener("click", () => selectAnswer(currentQ.options[1], currentQ));
+document.getElementById("op3").addEventListener("click", () => selectAnswer(currentQ.options[2], currentQ));
+document.getElementById("op4").addEventListener("click", () => selectAnswer(currentQ.options[3], currentQ));
 
