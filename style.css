@@ -31,8 +31,12 @@
     font-weight: 600;
     font-size: 3rem;
 }
+#desc {
+    text-align: center;
+    padding-top: 0.2rem;
+}
 #britainOrUS {
-    padding-top: 0.8rem;
+    padding-top: 1.4rem;
     display: flex;
     flex: 1;
     gap: 1.4rem;
@@ -58,7 +62,7 @@ p {
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%; 
 }
 #qTopic {
     text-align: left;
@@ -76,6 +80,19 @@ p {
     gap: 1rem;
     align-items: stretch;
     padding-bottom: 3rem;
+}
+#op1, #op2, #op3, #op4 {
+    padding: 1rem 2rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+#feedback {
+    padding-bottom: 1.2rem;
+    display: none;
+}
+#nextQButton {
+    padding: 0.75rem 2rem;
+    display: none;
 }
 /*
 flexbox and grid
