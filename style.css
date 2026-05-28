@@ -50,9 +50,10 @@
     font-size: 1.1rem;
 }
 
-#button {
+button {
     width:100%;
     padding: 0.75rem 1.5rem;
+    background-color: white;
 }
 p {
     font-family: sans-serif;
@@ -60,9 +61,13 @@ p {
 #centre {
     padding-top: 4rem;
     padding-bottom: 2rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
     display: flex;
     flex-direction: column;
     width: 100%; 
+    border-style: solid;
+    border-color: rgb(233, 233, 233);
 }
 #qTopic {
     text-align: left;

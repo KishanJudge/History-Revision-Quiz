@@ -1,6 +1,7 @@
 var currentPaper;
 var currentQ;
 var selected;
+var currentGreen;
 
 function onStart() {
 //main program
@@ -25,15 +26,31 @@ function selectAnswer(choice, question) {
         }
         document.getElementById("feedback").style.display = "block";
         document.getElementById("nextQButton").style.display = "block";
+        getCorrectOpt(question);
         selected = true;
     }
 
+}
+
+function getCorrectOpt(question) {
+    let options = document.getElementsByClassName("but");
+    for (let i = 0; i < 4; i++) {
+        if (question.options[i] == question.answer) {
+            let id = String(options[i].id); 
+            currentGreen = id;
+            console.log(id);
+            document.getElementById(id).style.backgroundColor = "#4CAF50";
+            //#66BB6A
+
+        }
+    }
 }
 
 function nextQuestion() {
     displayQ(currentPaper);
     document.getElementById("feedback").textContent = "";
     document.getElementById("nextQButton").style.display = "none";
+    document.getElementById(currentGreen).style.backgroundColor = "white";
     selected = false;
 }
 
@@ -2067,3 +2084,5 @@ document.getElementById("op2").addEventListener("click", () => selectAnswer(curr
 document.getElementById("op3").addEventListener("click", () => selectAnswer(currentQ.options[2], currentQ));
 document.getElementById("op4").addEventListener("click", () => selectAnswer(currentQ.options[3], currentQ));
 
+//so too vast a proportion of the answers are the 2nd option
+//british ones are also too lengthy need to be more like US ones
