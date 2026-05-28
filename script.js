@@ -39,8 +39,11 @@ function getCorrectOpt(question) {
             let id = String(options[i].id); 
             currentGreen = id;
             console.log(id);
-            document.getElementById(id).style.backgroundColor = "#4CAF50";
-            //#66BB6A
+            document.getElementById(id).style.backgroundColor = "#a8d5b5";
+            document.getElementById(id).style.color = "black";
+            document.getElementById("feedback").style.backgroundColor = "#7c3a3a";
+            //#66BB6A green?
+            //#7c3a3a red
 
         }
     }
@@ -50,7 +53,8 @@ function nextQuestion() {
     displayQ(currentPaper);
     document.getElementById("feedback").textContent = "";
     document.getElementById("nextQButton").style.display = "none";
-    document.getElementById(currentGreen).style.backgroundColor = "white";
+    document.getElementById(currentGreen).style.backgroundColor = "#21262d";
+    document.getElementById(currentGreen).style.color = "white";
     selected = false;
 }
 
@@ -2084,5 +2088,6 @@ document.getElementById("op2").addEventListener("click", () => selectAnswer(curr
 document.getElementById("op3").addEventListener("click", () => selectAnswer(currentQ.options[2], currentQ));
 document.getElementById("op4").addEventListener("click", () => selectAnswer(currentQ.options[3], currentQ));
 
+//fix button styling
 //so too vast a proportion of the answers are the 2nd option
 //british ones are also too lengthy need to be more like US ones

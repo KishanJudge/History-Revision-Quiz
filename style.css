@@ -1,14 +1,30 @@
 :root {
-    /*colours*/
-    
+    --bg: #0d1117;
+    --card: #161b22;
+    --card-light: #21262d;
+
+    --primary: #4f8ef7;
+    --primary-hover: #3b7de8;
+
+    --text: #e6edf3;
+    --muted: #7d8590;
+
+    --success: #3fb950;
+    --danger: #f85149;
+
+    --border: rgba(255, 255, 255, 0.08);
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+
+    --radius: 18px;
+    --transition: 0.25s ease;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-    
 }
+
 #container {
     display: grid;
     place-content: center;
@@ -17,6 +33,7 @@
     width: 100%;
     max-width: 600px;
 }
+
 #top {
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -26,38 +43,47 @@
     justify-content: center;
     width: 100%;
 }
+
 #title {
     text-align: center;
     font-weight: 600;
     font-size: 3rem;
+    color: var(--text);
 }
+
 #desc {
     text-align: center;
     padding-top: 0.2rem;
+    color: var(--muted);
 }
+
 #britainOrUS {
     padding-top: 1.4rem;
     display: flex;
     flex: 1;
     gap: 1.4rem;
 }
+
 #britainOrUS button {
     flex: 1;
     width: 8rem;
 }
+
 #britain, #us {
     padding: 0.75rem 2rem;
     font-size: 1.1rem;
 }
 
-button {
+#button {
     width:100%;
     padding: 0.75rem 1.5rem;
-    background-color: white;
 }
+
 p {
     font-family: sans-serif;
+    color: var(--text);
 }
+
 #centre {
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -65,20 +91,27 @@ p {
     padding-right: 2.8rem;
     display: flex;
     flex-direction: column;
-    width: 100%; 
+    width: 100%;
     border-style: solid;
-    border-color: rgb(233, 233, 233);
+    background: var(--card);
+    border-color: var(--border);
+    box-shadow: var(--shadow);
 }
+
 #qTopic {
     text-align: left;
     width: 100%;
     padding-bottom: 1rem;
+    color: var(--primary);
 }
+
 #qTitle {
     text-align: left;
     width: 100%;
     padding-bottom: 1.4rem;
+    color: var(--text);
 }
+
 #multiSelect {
     display: flex;
     flex-direction: column;
@@ -86,21 +119,26 @@ p {
     align-items: stretch;
     padding-bottom: 3rem;
 }
+
 #op1, #op2, #op3, #op4 {
     padding: 1rem 2rem;
     padding-left: 1rem;
     text-align: left;
+    background: var(--card-light);
+    color: var(--text);
 }
+
 #feedback {
     padding-bottom: 1.2rem;
     display: none;
+    color: var(--muted);
 }
+
 #nextQButton {
     padding: 0.75rem 2rem;
     display: none;
 }
-/*
-flexbox and grid
-rem
-max width
-*/
+
+body {
+    background-color: var(--bg);
+}
