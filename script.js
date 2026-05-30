@@ -237,6 +237,13 @@ const britishQs = [
         feedback: "Wartime state intervention had seemed to justify socialism, but the Cold War shifted the language - enterprise over planning, with socialism recast as the enemy, despite Labour bearing little resemblance to Soviet communism."
     },
     {
+        topic: "Conservative Revival 1945-51",
+        question: "How many Conservative Party members were there by the early 1950s?",
+        options: ["Around 1 million", "Around 2 million", "Around 3 million", "Around 5 million"],
+        answer: "Around 3 million",
+        feedback: "Under Lord Woolton's reorganisation, the Conservative Party reached around 3 million members by the early 1950s, with the Young Conservative movement in 1946 bringing in a younger demographic."
+    },
+    {
         topic: "Churchill's Premiership 1951-55",
         question: "What was Churchill's physical and political condition at the start of his second term?",
         options: [
@@ -253,24 +260,36 @@ const britishQs = [
         question: "What was Butler's economic inheritance in 1951 and how did he respond?",
         options: [
             "A balanced budget - he maintained existing policies while reducing nationalisation",
-            "A £500 million deficit - he devalued the pound and sought an IMF loan",
-            "A £700 million balance of payments deficit - he cut imports, credit and food subsidies, and raised the bank rate from 2% to 4%",
-            "A £200 million surplus - he cut taxes and expanded the welfare state"
+            "A 500 million pound deficit - he devalued the pound and sought an IMF loan",
+            "A 700 million pound balance of payments deficit - he cut imports, credit and food subsidies, and raised the bank rate from 2% to 4%",
+            "A 200 million pound surplus - he cut taxes and expanded the welfare state"
         ],
-        answer: "A £700 million balance of payments deficit - he cut imports, credit and food subsidies, and raised the bank rate from 2% to 4%",
-        feedback: "Butler inherited a £700 million BOP deficit. He responded with savage cuts on imports, credit, and food subsidies, raising the bank rate from 2% to 4%. By 1952 the deficit was wiped out and there was a £259 million surplus."
+        answer: "A 700 million pound balance of payments deficit - he cut imports, credit and food subsidies, and raised the bank rate from 2% to 4%",
+        feedback: "Butler inherited a 700 million pound BOP deficit. He responded with savage cuts on imports, credit, and food subsidies, raising the bank rate from 2% to 4%. By 1952 the deficit was wiped out and there was a 259 million pound surplus."
     },
     {
         topic: "Churchill's Premiership 1951-55",
-        question: "How many houses per year did Macmillan build as Minister of Housing, and how did this compare to the promise?",
+        question: "How many houses per year did Macmillan build as Minister of Housing?",
         options: [
             "250,000 per year - falling short of the 300,000 promise",
             "300,000 per year exactly - meeting but not exceeding the promise",
-            "400,000 per year - far exceeding the promise",
-            "327,000 in 1953 and 354,000 in 1954 - exceeding the 300,000 promise"
+            "327,000 in 1953 and 354,000 in 1954 - exceeding the 300,000 promise",
+            "400,000 per year - far exceeding the promise"
         ],
         answer: "327,000 in 1953 and 354,000 in 1954 - exceeding the 300,000 promise",
         feedback: "Macmillan exceeded the Conservative housing promise of 300,000 houses per year - building 327,000 in 1953 and 354,000 in 1954. By 1964 the Tories had built 1.7 million homes in total."
+    },
+    {
+        topic: "Churchill's Premiership 1951-55",
+        question: "What happened to the balance of payments under Butler between 1951 and 1952?",
+        options: [
+            "A 200 million pound deficit became a 100 million pound deficit",
+            "A 700 million pound deficit became a 259 million pound surplus",
+            "A 700 million pound deficit was halved to 350 million pounds",
+            "A 500 million pound deficit was eliminated but no surplus achieved"
+        ],
+        answer: "A 700 million pound deficit became a 259 million pound surplus",
+        feedback: "Butler inherited a 700 million pound BOP deficit. By 1952, through savage cuts on imports, credit, food subsidies, and raising the bank rate from 2% to 4%, the deficit was wiped out and there was a 259 million pound surplus."
     },
     {
         topic: "Eden's Premiership",
@@ -295,6 +314,13 @@ const britishQs = [
         ],
         answer: "Nasser nationalised the Suez Canal - Britain secretly colluded with France and Israel to invade, but a run on the pound and US refusal to help forced a ceasefire",
         feedback: "Nasser nationalised the Suez Canal in July 1956. Britain secretly colluded with Israel and France - Israel attacked Egypt, providing Britain and France the pretext to intervene. A run on the pound and US refusal of economic support forced a ceasefire. Eden resigned shortly after."
+    },
+    {
+        topic: "Eden's Premiership",
+        question: "By how much did Eden increase the Conservative majority in the 1955 election?",
+        options: ["From 17 to 30 seats", "From 17 to 60 seats", "From 17 to 45 seats", "From 17 to 80 seats"],
+        answer: "From 17 to 60 seats",
+        feedback: "Eden increased the Conservative majority from 17 to 60 seats - the first Prime Minister in 90 years to increase the majority at a general election. He also oversaw barely 1% unemployment in July 1955."
     },
     {
         topic: "Macmillan's Premiership",
@@ -333,6 +359,18 @@ const britishQs = [
         feedback: "Macmillan rebuilt his presentational skills - calm, aristocratic, wearing expensive Savile Row suits and fixing his lopsided teeth. In 1957 a cartoonist drew him as Superman with a giant No.10 on his tunic. He appeared on TV more than Gaitskell, increasingly important as more people had TVs."
     },
     {
+        topic: "Macmillan's Premiership",
+        question: "What was the Night of the Long Knives in 1962?",
+        options: [
+            "Macmillan's secret plan to merge with the Liberal Party to secure a majority",
+            "A series of dramatic policy U-turns that alienated Macmillan's right wing",
+            "Macmillan's reorganisation of the military top brass following the Suez debacle",
+            "Macmillan sacked a third of his cabinet in one night - appearing as if the government was imploding"
+        ],
+        answer: "Macmillan sacked a third of his cabinet in one night - appearing as if the government was imploding",
+        feedback: "The Night of the Long Knives in 1962 saw Macmillan sack a third of his cabinet - appearing as if the government was imploding. Combined with spy scandals and the Profumo Affair, it contributed to the Conservatives losing power in 1964."
+    },
+    {
         topic: "Conservative Fall from Power",
         question: "Why did the Conservatives fall from power by 1964?",
         options: [
@@ -357,6 +395,13 @@ const britishQs = [
         options: ["4 Old Etonians", "7 Old Etonians", "10 Old Etonians", "13 Old Etonians"],
         answer: "10 Old Etonians",
         feedback: "Alec Douglas-Home's cabinet of 23 contained 10 Old Etonians - reinforcing the image of an out-of-touch Establishment at a time when Harold Wilson was presenting himself as a modern meritocrat."
+    },
+    {
+        topic: "Conservative Fall from Power",
+        question: "How many unemployed were there in Britain in 1963?",
+        options: ["Around 300,000", "Around 500,000", "Around 878,000", "Over 1 million"],
+        answer: "Around 878,000",
+        feedback: "Unemployment hit 878,000 in 1963 - a significant increase contributing to Conservative weakness going into the 1964 election. The 1961 'pay pause' to hold down inflation had also damaged the government's popularity."
     },
     {
         topic: "Labour Divisions 1951-59",
@@ -395,6 +440,18 @@ const britishQs = [
         feedback: "Labour's divisions meant voters were unsure what policies they'd get. If a leader can't unite their own party, how can they lead the country? Infighting distracted from attacking the opposition. People still associated Labour with austerity and a 'cloth cap' image."
     },
     {
+        topic: "Labour Divisions 1951-59",
+        question: "When did Gaitskell win the Labour leadership and how was Bevan's response significant?",
+        options: [
+            "1951 - Bevan immediately challenged the result and split the party formally",
+            "1953 - Bevan agreed reluctantly but continued opposing Gaitskell's policies",
+            "1955 - Bevan accepted the result and returned to the fold, forming a Bevan-Gaitskell axis",
+            "1957 - Bevan won instead, consolidating left-wing control of the party"
+        ],
+        answer: "1955 - Bevan accepted the result and returned to the fold, forming a Bevan-Gaitskell axis",
+        feedback: "When Attlee retired in 1955, Gaitskell won the leadership vote overwhelmingly and Bevan accepted, returning to the fold. Between 1955 and 1959 a Bevan-Gaitskell axis developed - the Suez affair brought them together, leading to Bevan becoming shadow foreign secretary."
+    },
+    {
         topic: "Economic Developments 1951-64",
         question: "What characterised the 'stop-go' economic cycle of the 1950s and early 1960s?",
         options: [
@@ -425,7 +482,7 @@ const britishQs = [
             "The term for the cosy relationship between Conservative ministers and trade union leaders",
             "A portmanteau of Butler and Gaitskell suggesting both parties used broadly similar Keynesian demand management",
             "The policy of keeping wages artificially low to control inflation, pursued by both parties",
-            "The shared commitment to the nuclear deterrent across party lines throughout the period"
+            "The shared commitment to the nuclear deterrent across party lines"
         ],
         answer: "A portmanteau of Butler and Gaitskell suggesting both parties used broadly similar Keynesian demand management",
         feedback: "Butskellism - combining Chancellor Butler and Shadow Chancellor Gaitskell - suggested both parties used broadly similar Keynesian demand management. Government expenditure rose from 39% of GDP in 1950 under Labour to 51% in 1960 under the Conservatives."
@@ -433,16 +490,35 @@ const britishQs = [
     {
         topic: "Economic Developments 1951-64",
         question: "By how much did British shipbuilding's share of the world market fall between 1950 and 1974?",
-        options: ["From 25% to 10%", "From 50% to 20%", "From 20% to 5%", "From 37% to 3.7%"],
+        options: ["From 25% to 10%", "From 50% to 20%", "From 37% to 3.7%", "From 20% to 5%"],
         answer: "From 37% to 3.7%",
         feedback: "British shipbuilding declined severely from 37% of world share in 1950 to just 3.7% in 1974 - a tenfold collapse reflecting Britain's broader failure to modernise industry and compete internationally."
     },
     {
         topic: "Economic Developments 1951-64",
         question: "What was the BOT surplus 1956-60 compared to the BOT deficit 1946-50?",
-        options: ["+£50 million compared to -£20 million", "+£200 million compared to -£100 million", "+£132 million compared to -£56 million", "+£300 million compared to -£150 million"],
-        answer: "+£132 million compared to -£56 million",
-        feedback: "The BOT surplus of +£132 million in 1956-60 compared favourably to the deficit of -£56 million in 1946-50, one of the positive economic indicators of the Conservative years before the stop-go cycle worsened."
+        options: [
+            "+50 million pounds compared to -20 million pounds",
+            "+200 million pounds compared to -100 million pounds",
+            "+132 million pounds compared to -56 million pounds",
+            "+300 million pounds compared to -150 million pounds"
+        ],
+        answer: "+132 million pounds compared to -56 million pounds",
+        feedback: "The BOT surplus of +132 million pounds in 1956-60 compared favourably to the deficit of -56 million pounds in 1946-50, one of the positive economic indicators of the Conservative years before the stop-go cycle worsened."
+    },
+    {
+        topic: "Economic Developments 1951-64",
+        question: "How much did Britain's world trade share fall between 1950 and 1960?",
+        options: ["From 30% to 22%", "From 25.5% to 16.5%", "From 20% to 14%", "From 15% to 10%"],
+        answer: "From 25.5% to 16.5%",
+        feedback: "Britain's share of world trade fell from 25.5% in 1950 to 16.5% in 1960, while Germany and Japan's shares were growing. Industrial production grew 3x quicker in France, 4x in West Germany, and 10x in Japan during the same period."
+    },
+    {
+        topic: "Economic Developments 1951-64",
+        question: "What was the annual GDP growth rate of Britain between 1951 and 1964?",
+        options: ["Around 1% per year", "Around 2-3% per year", "Around 4-5% per year", "Around 6-7% per year"],
+        answer: "Around 2-3% per year",
+        feedback: "Britain grew at around 2-3% per year between 1951 and 1964 - positive in absolute terms but lagging significantly behind competitors. France grew at around 4.2% per year 1960-70, while Japan grew far faster."
     },
     {
         topic: "Affluence and Living Standards",
@@ -451,10 +527,10 @@ const britishQs = [
             "Real wages fell slightly as inflation outpaced wage growth throughout the period",
             "Living standards improved only for the middle class - working class wages stagnated",
             "Wages doubled in nominal terms but barely kept pace with inflation overall",
-            "Average male weekly wages rose from around £8 to £18, with real wages rising ahead of prices at nearly 3% per year 1955-60"
+            "Average male weekly wages rose from around 8 pounds to 18 pounds, with real wages rising ahead of prices at nearly 3% per year 1955-60"
         ],
-        answer: "Average male weekly wages rose from around £8 to £18, with real wages rising ahead of prices at nearly 3% per year 1955-60",
-        feedback: "Average weekly wages rose from around £8 in 1951 to around £18 in 1964. Real wages rose ahead of prices at nearly 3% per year 1955-60. Food rationing ended in 1954, and car sales nearly quadrupled from 1.5 million to 5.5 million 1950-65."
+        answer: "Average male weekly wages rose from around 8 pounds to 18 pounds, with real wages rising ahead of prices at nearly 3% per year 1955-60",
+        feedback: "Average weekly wages rose from around 8 pounds in 1951 to around 18 pounds in 1964. Real wages rose ahead of prices at nearly 3% per year 1955-60. Food rationing ended in 1954, and car sales nearly quadrupled from 1.5 million to 5.5 million 1950-65."
     },
     {
         topic: "Affluence and Living Standards",
@@ -478,9 +554,28 @@ const britishQs = [
     {
         topic: "Affluence and Living Standards",
         question: "How did home ownership change between 1950 and 1970?",
-        options: ["Home ownership fell slightly as more people rented from councils", "Home ownership stayed flat at around 30% throughout the period", "Home ownership rose modestly from 27% to 35% over the period", "Home ownership almost doubled from 27% to 50% between 1950 and 1970"],
+        options: [
+            "Home ownership fell slightly as more people rented from councils",
+            "Home ownership stayed flat at around 30% throughout the period",
+            "Home ownership rose modestly from 27% to 35% over the period",
+            "Home ownership almost doubled from 27% to 50% between 1950 and 1970"
+        ],
         answer: "Home ownership almost doubled from 27% to 50% between 1950 and 1970",
         feedback: "Home ownership almost doubled from 27% to 50% between 1950 and 1970 - people were spending more on their homes and the Tories had built 1.7 million homes by 1964. The 1957 Rent Act abolished rent controls, putting 6 million properties on the market."
+    },
+    {
+        topic: "Affluence and Living Standards",
+        question: "How many TV licence holders were there by 1964?",
+        options: ["Around 5 million", "Around 8 million", "Around 13 million", "Around 20 million"],
+        answer: "Around 13 million",
+        feedback: "From two thirds of the population never having seen a TV in 1949, by 1964 there were 13 million licence holders - TV had become a social necessity. The 1953 Coronation alone took viewers from 1.5 million to 3 million overnight."
+    },
+    {
+        topic: "Affluence and Living Standards",
+        question: "What happened to the number of students staying in school until 17 between 1951 and 1955?",
+        options: ["It stayed roughly the same throughout", "It rose by around 50%", "It doubled", "It tripled"],
+        answer: "It doubled",
+        feedback: "By 1955, the number of kids staying in school until 17 had doubled compared to 1951 - a sign of rising aspirations in the age of affluence, though Britain still lagged behind other advanced industrial nations."
     },
     {
         topic: "Class and the Establishment",
@@ -496,6 +591,18 @@ const britishQs = [
     },
     {
         topic: "Class and the Establishment",
+        question: "What was the Profumo Affair?",
+        options: [
+            "A financial scandal in which the Minister for War accepted bribes from defence contractors",
+            "The revelation that cabinet ministers had attended parties hosted by a Soviet spy",
+            "A sex scandal involving a junior minister that the press deliberately exaggerated",
+            "Secretary of State for War John Profumo had an affair with Christine Keeler, who was also linked to a Soviet naval attache - he lied to Parliament, resigned in June 1963, and the scandal added pressure on Macmillan"
+        ],
+        answer: "Secretary of State for War John Profumo had an affair with Christine Keeler, who was also linked to a Soviet naval attache - he lied to Parliament, resigned in June 1963, and the scandal added pressure on Macmillan",
+        feedback: "In 1961 Profumo began an affair with Christine Keeler, who was also linked to Soviet naval attache Eugene Ivanov. He denied wrongdoing to Parliament in 1963, then admitted lying and resigned. The affair fuelled public fascination with sex, class and espionage, and added pressure on Macmillan who resigned later in 1963."
+    },
+    {
+        topic: "Class and the Establishment",
         question: "How did the spy scandals damage Macmillan's government?",
         options: [
             "They had no real political impact as the public was indifferent to Cold War espionage",
@@ -508,15 +615,15 @@ const britishQs = [
     },
     {
         topic: "Class and the Establishment",
-        question: "What was the Profumo Affair?",
+        question: "How long was George Blake's prison sentence and what happened next?",
         options: [
-            "A financial scandal in which the Minister for War accepted bribes from defence contractors",
-            "The revelation that cabinet ministers had attended parties hosted by a Soviet spy",
-            "A sex scandal involving a junior minister that the press deliberately exaggerated",
-            "Secretary of State for War John Profumo had an affair with Christine Keeler, who was also linked to a Soviet naval attache - he lied to Parliament, resigned in June 1963, and the scandal added pressure on Macmillan"
+            "20 years - he served his full sentence and was released in 1981",
+            "30 years - he escaped after 10 years and lived the rest of his life in East Germany",
+            "42 years - he made one of the most daring escapes in 1966 and was awarded the Order of Lenin in Moscow",
+            "Life imprisonment - he died in prison in 1974"
         ],
-        answer: "Secretary of State for War John Profumo had an affair with Christine Keeler, who was also linked to a Soviet naval attache - he lied to Parliament, resigned in June 1963, and the scandal added pressure on Macmillan",
-        feedback: "In 1961 Profumo began an affair with Christine Keeler, who was also linked to Soviet naval attache Eugene Ivanov. He denied wrongdoing to Parliament in 1963, then admitted lying and resigned. The affair fuelled public fascination with sex, class and espionage, and added pressure on Macmillan who resigned later in 1963."
+        answer: "42 years - he made one of the most daring escapes in 1966 and was awarded the Order of Lenin in Moscow",
+        feedback: "George Blake was sentenced to 42 years in 1961. He made one of the most daring escapes in 1966, was smuggled out of England and was awarded the Order of Lenin on arrival in Moscow. Sir Dick White, head of MI6, commented: 'the government could fall over this'."
     },
     {
         topic: "Women in the Affluent Society",
@@ -533,9 +640,21 @@ const britishQs = [
     {
         topic: "Women in the Affluent Society",
         question: "What proportion of married women worked in 1951 compared to 1961?",
-        options: ["1 in 8 in 1951 rising to 1 in 5 in 1961", "1 in 3 in 1951 rising to 1 in 2 in 1961", "1 in 4 in 1951 rising to 1 in 4 in 1961", "1 in 5 in 1951 rising to 1 in 3 in 1961"],
+        options: [
+            "1 in 8 in 1951 rising to 1 in 5 in 1961",
+            "1 in 3 in 1951 rising to 1 in 2 in 1961",
+            "1 in 5 in 1951 rising to 1 in 3 in 1961",
+            "1 in 4 in 1951 rising to 1 in 4 in 1961"
+        ],
         answer: "1 in 5 in 1951 rising to 1 in 3 in 1961",
         feedback: "In 1951, 1 in 5 married women worked; by 1961, 1 in 3 did - made possible by contraception and the breakdown of the marriage bar. But women remained trapped in low-status jobs and in 1958 were paid less than 2/3 of a man's wage for the same job."
+    },
+    {
+        topic: "Women in the Affluent Society",
+        question: "What proportion of women's wages compared to men's did women earn in 1958?",
+        options: ["Less than 1/3", "Less than 1/2", "Less than 2/3", "Less than 3/4"],
+        answer: "Less than 2/3",
+        feedback: "In 1958, women were paid less than 2/3 of a man's wage for the same job. Despite more women entering the workforce, they remained trapped in low-status 'careers for girls' jobs."
     },
     {
         topic: "Youth Culture 1951-64",
@@ -544,10 +663,10 @@ const britishQs = [
             "The introduction of comprehensive schools brought young people from different backgrounds together",
             "The Baby Boom generation reached adulthood simultaneously, creating a large peer group",
             "American rock and roll music created a shared cultural identity across class boundaries",
-            "Young people who had not experienced wartime hardship enjoyed greater affluence, financial independence through widely available work, reduced obligations to parents, and national service abolished in 1960"
+            "Young people who had not experienced wartime hardship enjoyed greater affluence, financial independence, reduced obligations to parents, and national service abolished in 1960"
         ],
-        answer: "Young people who had not experienced wartime hardship enjoyed greater affluence, financial independence through widely available work, reduced obligations to parents, and national service abolished in 1960",
-        feedback: "By the late 50s, youth were too young to have experienced wartime hardship. Unskilled work was widely available, providing financial independence. The 1959 Mark Abrams survey found young people spending £830 million and providing 40% of all cinema admissions."
+        answer: "Young people who had not experienced wartime hardship enjoyed greater affluence, financial independence, reduced obligations to parents, and national service abolished in 1960",
+        feedback: "By the late 50s, youth were too young to have experienced wartime hardship. Unskilled work was widely available, providing financial independence. The 1959 Mark Abrams survey found young people spending 830 million pounds and providing 40% of all cinema admissions."
     },
     {
         topic: "Youth Culture 1951-64",
@@ -564,9 +683,16 @@ const britishQs = [
     {
         topic: "Youth Culture 1951-64",
         question: "How much were young people spending annually by 1959 according to the Mark Abrams survey?",
-        options: ["£200 million", "£500 million", "£830 million", "£1.2 billion"],
-        answer: "£830 million",
-        feedback: "The 1959 Mark Abrams survey found that young people had prospered, spending £830 million annually and providing 40% of all cinema admissions - demonstrating the enormous economic power of the new teenage consumer."
+        options: ["200 million pounds", "500 million pounds", "830 million pounds", "1.2 billion pounds"],
+        answer: "830 million pounds",
+        feedback: "The 1959 Mark Abrams survey found that young people had prospered, spending 830 million pounds annually and providing 40% of all cinema admissions - demonstrating the enormous economic power of the new teenage consumer."
+    },
+    {
+        topic: "Youth Culture 1951-64",
+        question: "How many people were arrested after the Battle of Margate in May 1964?",
+        options: ["21 arrested", "51 arrested", "117 arrested", "200 arrested"],
+        answer: "51 arrested",
+        feedback: "At the Battle of Margate in May 1964, 51 people were arrested and 1,900 pounds in fines were issued. The Daily Mirror published 'Wild Ones Invade Seaside Town' - but the reality was more mundane, with photographers paying kids to pose for photos."
     },
     {
         topic: "Immigration and Race 1951-64",
@@ -583,7 +709,12 @@ const britishQs = [
     {
         topic: "Immigration and Race 1951-64",
         question: "How many immigrants entered the UK in 1961 compared to the previous five years combined?",
-        options: ["50,000 - roughly equal to the previous 5 years combined", "80,000 - slightly more than the previous 5 years combined", "130,000 - equivalent to the previous 5 years combined", "200,000 - twice the previous 5 years combined"],
+        options: [
+            "50,000 - roughly equal to the previous 5 years combined",
+            "80,000 - slightly more than the previous 5 years combined",
+            "130,000 - equivalent to the previous 5 years combined",
+            "200,000 - twice the previous 5 years combined"
+        ],
         answer: "130,000 - equivalent to the previous 5 years combined",
         feedback: "In 1961, 130,000 immigrants entered the UK - the equivalent of the previous 5 years combined. By 1960-62, more migrants had arrived than in the whole of the 20th century to that point, prompting the Commonwealth Immigrants Act 1962."
     },
@@ -610,6 +741,13 @@ const britishQs = [
         ],
         answer: "An Antiguan carpenter stabbed to death by six white youths - police treated it as robbery despite evidence of racial motive, and 1,000 Black and white people lined the streets at his funeral",
         feedback: "Kelso Cochrane was an Antiguan carpenter stabbed to death by six white youths. Despite evidence of racial motive, police investigated it as a robbery, only arrested two who were later released. 1,000 Black and white people lined the streets in solidarity at his funeral."
+    },
+    {
+        topic: "Immigration and Race 1951-64",
+        question: "How many people were arrested during the 1958 Notting Hill Race Riots?",
+        options: ["Around 30", "Around 75", "117 people", "Over 200"],
+        answer: "117 people",
+        feedback: "The 1958 Notting Hill riots saw white youths attack West Indians and Black people. 117 people were arrested. Four nights of rioting brought the issue to national attention. The Notting Hill Carnival was established in 1959 in response."
     },
     {
         topic: "Foreign Relations 1951-64",
@@ -645,7 +783,7 @@ const britishQs = [
             "Britain objected because membership would mean losing economic sovereignty, feared political union, feared damaging the US special relationship, and 40% of exports went to the Empire/Commonwealth"
         ],
         answer: "Britain objected because membership would mean losing economic sovereignty, feared political union, feared damaging the US special relationship, and 40% of exports went to the Empire/Commonwealth",
-        feedback: "Britain objected: it would no longer control its own economy; economic unity might lead to political unity; it feared damaging the special relationship with the US; and 40% of British exports went to the Empire/Commonwealth of 800 million people compared to under 200 million in Europe."
+        feedback: "Britain objected: it would no longer control its own economy; economic unity might lead to political union; it feared damaging the special relationship with the US; and 40% of British exports went to the Empire/Commonwealth of 800 million people compared to under 200 million in Europe."
     },
     {
         topic: "Foreign Relations 1951-64",
@@ -661,10 +799,22 @@ const britishQs = [
     },
     {
         topic: "Foreign Relations 1951-64",
-        question: "What was the economic performance of ECSC members in its first 5 years?",
-        options: ["Steel production among the Six rose 10% in its first 5 years", "Steel production among the Six rose 25% in its first 5 years", "Steel production among the Six rose 50% in its first 5 years", "Steel production among the Six rose 75% in its first 5 years"],
-        answer: "Steel production among the Six rose 50% in its first 5 years",
+        question: "How much did steel production rise among the ECSC Six in its first 5 years?",
+        options: ["10%", "25%", "50%", "75%"],
+        answer: "50%",
         feedback: "Steel production among the Six rose 50% in the ECSC's first 5 years. In the EEC, within 5 years it became the world's biggest exporter and buyer of raw materials. Britain's parallel economic stagnation made the contrast stark."
+    },
+    {
+        topic: "Foreign Relations 1951-64",
+        question: "What was the Palestine issue and how did it affect Britain's finances?",
+        options: [
+            "Britain was spending 10 million pounds per year with 1/20 of armed forces there",
+            "Britain was spending 20 million pounds per year with 1/15 of armed forces there",
+            "Britain was spending 40 million pounds per year with 1/10 of armed forces there",
+            "Britain was spending 60 million pounds per year with 1/5 of armed forces there"
+        ],
+        answer: "Britain was spending 40 million pounds per year with 1/10 of armed forces there",
+        feedback: "By 1946-47 Britain was overwhelmed by events in Palestine - 1/10 of British armed forces occupied the territory at a cost of 40 million pounds per year. In February 1947, an exhausted cabinet deferred the Palestine problem back to the UN, withdrawing in 1948."
     },
     {
         topic: "Post-War Consensus",
@@ -690,6 +840,13 @@ const britishQs = [
         answer: "Right-wing Tories called Attlee's legacy a 'social mistake'; Bevanites argued it wasn't socialist enough; Labour retained Clause IV; and sharp disagreements existed on immigration and the stop-go economic cycle",
         feedback: "Evidence against: right-wing Tories believed continuation of Attlee's legacy was a 'social mistake'; Bevanites argued it wasn't nearly socialist enough; Labour retained Clause IV; the Suez Crisis led to Labour attacks on Eden; Gaitskell criticised Butler's stop-go cycle; and sharp disagreements on immigration existed."
     },
+    {
+        topic: "Post-War Consensus",
+        question: "By how much did expenditure on social services rise as a proportion of total public expenditure between 1951 and 1955?",
+        options: ["From 25% to 30%", "From 35% to 40%", "From 39.2% to 43%", "From 45% to 50%"],
+        answer: "From 39.2% to 43%",
+        feedback: "Expenditure on social services rose from 39.2% to 43% of total public expenditure between 1951 and 1955 under the Conservative government - evidence that the Tories were maintaining the welfare state rather than dismantling it."
+    },
 
     // =====================================
     // THE SIXTIES 1964-1970
@@ -714,10 +871,10 @@ const britishQs = [
             "The pound was devalued by 5% - Wilson handled it calmly and it caused little damage",
             "The pound was devalued by 10% - Wilson successfully blamed the Conservative legacy",
             "The pound was devalued by 25% - immediately boosting exports",
-            "The pound was devalued by 14% from $2.80 to $2.40 - Wilson's ill-judged TV broadcast appeared to deny the severity, Callaghan resigned as Chancellor, and it was a political catastrophe"
+            "The pound was devalued by 14% from 2.80 to 2.40 dollars - Wilson's ill-judged TV broadcast appeared to deny the severity, Callaghan resigned as Chancellor, and it was a political catastrophe"
         ],
-        answer: "The pound was devalued by 14% from $2.80 to $2.40 - Wilson's ill-judged TV broadcast appeared to deny the severity, Callaghan resigned as Chancellor, and it was a political catastrophe",
-        feedback: "In November 1967 the pound was devalued by 14% from $2.80 to $2.40. Wilson's ill-judged TV broadcast appeared to deny the severity. Callaghan resigned as Chancellor, swapping roles with Roy Jenkins. It was a political catastrophe for the government."
+        answer: "The pound was devalued by 14% from 2.80 to 2.40 dollars - Wilson's ill-judged TV broadcast appeared to deny the severity, Callaghan resigned as Chancellor, and it was a political catastrophe",
+        feedback: "In November 1967 the pound was devalued by 14% from 2.80 to 2.40 dollars. Wilson's ill-judged TV broadcast appeared to deny the severity. Callaghan resigned as Chancellor, swapping roles with Roy Jenkins. It was a political catastrophe for the government."
     },
     {
         topic: "Wilson's Labour Governments 1964-70",
@@ -733,14 +890,14 @@ const britishQs = [
     },
     {
         topic: "Wilson's Labour Governments 1964-70",
-        question: "By how much did working days lost through strikes increase under Wilson 1964-69?",
-        options: ["From 1 million to 2 million working days lost", "From 1.75 million in 1963 to 7 million in 1969", "From 500,000 to 3 million working days lost", "From 2 million to 5 million working days lost"],
+        question: "By how much did working days lost through strikes increase under Wilson 1963-69?",
+        options: ["From 1 million to 2 million", "From 1.75 million in 1963 to 7 million in 1969", "From 500,000 to 3 million", "From 2 million to 5 million"],
         answer: "From 1.75 million in 1963 to 7 million in 1969",
         feedback: "Working days lost through strikes increased from 1.75 million in 1963 to 2.9 million in 1965 and 7 million in 1969. This alarming rise, including 'wildcat' strikes led by shop stewards, was a key reason Wilson tried - and failed - to introduce 'In Place of Strife'."
     },
     {
         topic: "Wilson's Labour Governments 1964-70",
-        question: "What did the 1965 LSE study by Abel-Smith and Townsend reveal about poverty?",
+        question: "What did the 1965 LSE study reveal about poverty?",
         options: [
             "That poverty had been virtually eliminated by the welfare state",
             "That poverty was exclusively concentrated in the elderly and could be solved by raising pensions",
@@ -760,7 +917,26 @@ const britishQs = [
             "Traditional supporters felt the government had failed - key industries declined, unemployment rose from 400,000 to 600,000, and ongoing issues with the pound, poverty, and trade unions eroded support"
         ],
         answer: "Traditional supporters felt the government had failed - key industries declined, unemployment rose from 400,000 to 600,000, and ongoing issues with the pound, poverty, and trade unions eroded support",
-        feedback: "Many traditional supporters felt the government had failed to live up to its promises. Key industries - shipbuilding, coal mining, railway - continued to decline. Unemployment rose from 400,000 to just over 600,000 by 1970. The end of pay restraint meant steep wage increases and inflation regardless."
+        feedback: "Many traditional supporters felt the government had failed to live up to its promises. Key industries - shipbuilding, coal mining, railway - continued to decline. Unemployment rose from 400,000 to just over 600,000 by 1970."
+    },
+    {
+        topic: "Wilson's Labour Governments 1964-70",
+        question: "What was Labour's majority after the 1966 general election?",
+        options: ["4 seats", "30 seats", "96 seats", "150 seats"],
+        answer: "96 seats",
+        feedback: "The 1966 general election saw Labour win a 96-seat majority - the highest share of the vote since 1945. This gave Wilson the mandate to pursue his modernising agenda, though economic problems soon undermined his government."
+    },
+    {
+        topic: "Wilson's Labour Governments 1964-70",
+        question: "What was the 800 million pound BOP deficit that Wilson inherited, and why did it matter?",
+        options: [
+            "It was a minor inconvenience that Wilson resolved within a year through modest cuts",
+            "It forced immediate devaluation of the pound in 1964",
+            "It led Wilson to impose savage spending cuts that caused a recession",
+            "It was a major constraint - Wilson refused devaluation, borrowed heavily from the IMF, held wages down and raised import duties, but was eventually forced to devalue in 1967"
+        ],
+        answer: "It was a major constraint - Wilson refused devaluation, borrowed heavily from the IMF, held wages down and raised import duties, but was eventually forced to devalue in 1967",
+        feedback: "Wilson inherited an 800 million pound BOP deficit from the Conservatives. He refused devaluation, Chancellor Callaghan borrowed heavily from the IMF and held wages down while raising import duties. But the pound was finally devalued by 14% in November 1967 - a political catastrophe."
     },
     {
         topic: "Liberal Legislation 1960s",
@@ -772,7 +948,7 @@ const britishQs = [
             "Bentley was hanged despite having a mental age of a child while his younger accomplice who fired the shot could not be; Ellis shot her abusive partner who had caused a miscarriage - 600 letters called for a reprieve"
         ],
         answer: "Bentley was hanged despite having a mental age of a child while his younger accomplice who fired the shot could not be; Ellis shot her abusive partner who had caused a miscarriage - 600 letters called for a reprieve",
-        feedback: "Bentley had a mental age of a child yet was hanged because his younger accomplice Craig, who fired the shot, was too young to hang. Ruth Ellis shot an abusive boyfriend who had caused her a miscarriage by punching her in the stomach. 600 letters called for a reprieve. Both cases shaped opinion ahead of the 1965 abolition."
+        feedback: "Bentley had a mental age of a child yet was hanged because his younger accomplice Craig, who fired the shot, was too young to hang. Ruth Ellis shot an abusive boyfriend who had caused her a miscarriage by punching her in the stomach. 600 letters called for a reprieve."
     },
     {
         topic: "Liberal Legislation 1960s",
@@ -796,7 +972,7 @@ const britishQs = [
             "Private clinics were only accessible to upper classes while others relied on dangerous backstreet abortions - 100,000-200,000 illegal abortions per year, 35,000 hospital admissions. The Thalidomide disaster swayed public opinion massively"
         ],
         answer: "Private clinics were only accessible to upper classes while others relied on dangerous backstreet abortions - 100,000-200,000 illegal abortions per year, 35,000 hospital admissions. The Thalidomide disaster swayed public opinion massively",
-        feedback: "Private clinics were only accessible to upper classes. Others relied on dangerous backstreet abortions - 100,000-200,000 illegal abortions per year with 35,000 admitted to hospital. The Thalidomide disaster, in which a drug caused horrible birth defects from 1959-62, massively swayed public opinion. The Act permitted termination within 28 weeks with consent of two doctors."
+        feedback: "Private clinics were only accessible to upper classes. Others relied on dangerous backstreet abortions - 100,000-200,000 per year with 35,000 admitted to hospital. The Thalidomide disaster, in which a drug caused horrible birth defects from 1959-62, massively swayed public opinion."
     },
     {
         topic: "Liberal Legislation 1960s",
@@ -808,7 +984,7 @@ const britishQs = [
             "It removed the requirement to prove fault - couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages in the 1950s to nearly half by the 1970s"
         ],
         answer: "It removed the requirement to prove fault - couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages in the 1950s to nearly half by the 1970s",
-        feedback: "The Divorce Reform Act 1969 removed the requirement to prove fault, ending the need for private investigators only the wealthy could afford. Couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages in the 1950s to nearly half by the 1970s."
+        feedback: "The Divorce Reform Act 1969 removed the requirement to prove fault, ending the need for private investigators only the wealthy could afford. Couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% to nearly half by the 1970s."
     },
     {
         topic: "Liberal Legislation 1960s",
@@ -821,6 +997,18 @@ const britishQs = [
         ],
         answer: "It abolished stage censorship - scripts had previously needed to be licensed through the Lord Chamberlain's office. Writers began experimenting with new styles, and performances like 'Hair' and 'Oh Calcutta!' featured nudity",
         feedback: "The Theatre Act 1968 abolished stage censorship. Until this point scripts had to be licensed through the Lord Chamberlain's office. Backed by Labour backbencher George Strauss and supported by Roy Jenkins, it enabled writers to experiment with new styles."
+    },
+    {
+        topic: "Liberal Legislation 1960s",
+        question: "What was the Murder (Abolition of Death Penalty) Act 1965?",
+        options: [
+            "It permanently abolished the death penalty and introduced life imprisonment immediately",
+            "It reduced the death penalty to cases of multiple murder only",
+            "It transferred the decision to impose the death penalty from judges to juries",
+            "It abolished the death penalty on a trial basis for 5 years, then made permanent in 1969 - prisoner beating also ceased in 1967"
+        ],
+        answer: "It abolished the death penalty on a trial basis for 5 years, then made permanent in 1969 - prisoner beating also ceased in 1967",
+        feedback: "The Murder (Abolition of Death Penalty) Act 1965 abolished the death penalty on a trial basis for 5 years, then made permanent in 1969. Prisoner beating ceased in 1967. Jenkins also introduced majority jury verdicts - 10/12 rather than full unanimity. Despite these reforms, the rate of violent crime went up."
     },
     {
         topic: "Social and Cultural Change 1960s",
@@ -860,10 +1048,34 @@ const britishQs = [
     },
     {
         topic: "Social and Cultural Change 1960s",
-        question: "How many ITV advertising revenues grew between 1956 and 1961?",
-        options: ["From £5 million to £30 million", "From £13 million to £93 million", "From £20 million to £60 million", "From £8 million to £50 million"],
-        answer: "From £13 million to £93 million",
-        feedback: "ITV proved a 'licence to print money' - advertising revenue grew from £13 million in 1956 to £93 million in 1961. Lord Reith, the BBC's first Director-General, likened ITV to 'smallpox, bubonic plague and the black death'."
+        question: "How much did ITV advertising revenues grow between 1956 and 1961?",
+        options: [
+            "From 5 million to 30 million pounds",
+            "From 13 million to 93 million pounds",
+            "From 20 million to 60 million pounds",
+            "From 8 million to 50 million pounds"
+        ],
+        answer: "From 13 million to 93 million pounds",
+        feedback: "ITV proved a 'licence to print money' - advertising revenue grew from 13 million pounds in 1956 to 93 million pounds in 1961. Lord Reith, the BBC's first Director-General, likened ITV to 'smallpox, bubonic plague and the black death'."
+    },
+    {
+        topic: "Social and Cultural Change 1960s",
+        question: "What was Mary Whitehouse's campaign and what did it achieve?",
+        options: [
+            "She successfully lobbied Parliament to introduce a Broadcasting Standards Act",
+            "Her campaign was widely ridiculed and attracted fewer than 10,000 supporters",
+            "She successfully had ITV's licence revoked and forced it to adopt BBC-style public service obligations",
+            "She led the Clean Up TV campaign attracting nearly 500,000 petitions and founded the National Viewers and Listeners Association in 1965 - but ultimately failed to impact programmes shown"
+        ],
+        answer: "She led the Clean Up TV campaign attracting nearly 500,000 petitions and founded the National Viewers and Listeners Association in 1965 - but ultimately failed to impact programmes shown",
+        feedback: "Mary Whitehouse led the Clean Up TV campaign, attracting nearly 500,000 petitions. This led to the National Viewers and Listeners Association in 1965, soon with 100,000 members. But it failed to impact programmes shown. Michael Grade put it: 'she really wanted television to be propaganda for a very moral view of the world'."
+    },
+    {
+        topic: "Social and Cultural Change 1960s",
+        question: "What percentage of May 1965's top 10 US singles chart positions were held by British acts?",
+        options: ["5 out of 10", "7 out of 10", "9 out of 10", "All 10 out of 10"],
+        answer: "9 out of 10",
+        feedback: "In May 1965, British records held 9 out of 10 top places in the US singles chart, demonstrating the extraordinary global impact of British pop music - the Beatles, Rolling Stones, and others - during the 1960s."
     },
     {
         topic: "Women's Rights 1964-70",
@@ -872,9 +1084,9 @@ const britishQs = [
             "Male workers struck in support of female colleagues' equal pay demands, winning immediate equality",
             "Female workers struck demanding access to the same training schemes as men",
             "A wildcat strike by women workers that the TUC refused to support, highlighting union sexism",
-            "Women sewing machinists walked out after a regrading leaving them 15% below male rates, halting car production. Barbara Castle raised their pay to 8% below the men's rate. It led directly to the 1970 Equal Pay Act"
+            "Women sewing machinists walked out after a regrading leaving them 15% below male rates, halting car production. Barbara Castle raised their pay to 8% below men's rate. It led directly to the 1970 Equal Pay Act"
         ],
-        answer: "Women sewing machinists walked out after a regrading leaving them 15% below male rates, halting car production. Barbara Castle raised their pay to 8% below the men's rate. It led directly to the 1970 Equal Pay Act",
+        answer: "Women sewing machinists walked out after a regrading leaving them 15% below male rates, halting car production. Barbara Castle raised their pay to 8% below men's rate. It led directly to the 1970 Equal Pay Act",
         feedback: "Women sewing machinists at Ford's Dagenham plant walked out in 1968, halting car production. The regrading left them 15% below the male rate. Barbara Castle intervened - their pay was raised to 8% below men's rate. Only by 1984 was 95% of men's rate secured. It led directly to the 1970 Equal Pay Act."
     },
     {
@@ -906,7 +1118,7 @@ const britishQs = [
             "Triggered by the Kenyan Asian influx, it restricted citizenship to those with at least one parent or grandparent born in the UK - effectively excluding Kenyan Asians. 35 Labour, 15 Tory, and all Liberal MPs voted against it"
         ],
         answer: "Triggered by the Kenyan Asian influx, it restricted citizenship to those with at least one parent or grandparent born in the UK - effectively excluding Kenyan Asians. 35 Labour, 15 Tory, and all Liberal MPs voted against it",
-        feedback: "When Kenya gained independence in 1963, 40,000 Asians held British passports. 13,000 arrived in the first two months of 1967 alone. The emergency Act restricted citizenship to those with at least one parent or grandparent born in the UK - effectively excluding Kenyan Asians. Incredibly divisive - 35 Labour, 15 Tory, and all Liberal MPs voted against it."
+        feedback: "When Kenya gained independence in 1963, 40,000 Asians held British passports. 13,000 arrived in the first two months of 1967 alone. The emergency Act restricted citizenship to those with at least one parent or grandparent born in the UK - effectively excluding Kenyan Asians. 35 Labour, 15 Tory, and all Liberal MPs voted against it."
     },
     {
         topic: "Immigration and Race 1964-70",
@@ -921,16 +1133,35 @@ const britishQs = [
         feedback: "Powell's speech predicted racial violence: 'I seem to see the Tiber foaming with much blood'. He argued the Race Relations Bill would mean 'the black man will have the whip hand over the white man'. Heath sacked him from the shadow cabinet, yet 74% of a poll supported Powell, 80% wanted stricter controls, and he received 43,000 letters within weeks."
     },
     {
+        topic: "Immigration and Race 1964-70",
+        question: "How many Kenyan Asians arrived in the first two months of 1967?",
+        options: ["Around 3,000", "Around 7,000", "Around 13,000", "Around 20,000"],
+        answer: "Around 13,000",
+        feedback: "Around 13,000 Kenyan Asians arrived in the first two months of 1967 alone - prompting the emergency Commonwealth Immigrants Act 1968 which restricted UK citizenship to those with at least one parent or grandparent born in the UK."
+    },
+    {
         topic: "Northern Ireland 1964-70",
         question: "What was the Battle of the Bogside in 1969?",
         options: [
             "An IRA attack on the RUC that killed 15 police officers",
             "A loyalist attack on Catholic homes in Belfast that triggered British Army deployment",
             "A siege of the Bogside by British troops that ended with IRA surrender",
-            "Skirmishes after the Apprentice Boys marched near the Catholic Bogside rapidly escalated into a full-scale uprising - the RUC used tear gas; 8 were killed, at least 750 injured, and £2.25 million in damage was caused"
+            "Skirmishes after the Apprentice Boys marched near the Catholic Bogside rapidly escalated into a full-scale uprising - the RUC used tear gas; 8 were killed, at least 750 injured, and 2.25 million pounds in damage was caused"
         ],
-        answer: "Skirmishes after the Apprentice Boys marched near the Catholic Bogside rapidly escalated into a full-scale uprising - the RUC used tear gas; 8 were killed, at least 750 injured, and £2.25 million in damage was caused",
-        feedback: "The Apprentice Boys were permitted to march through Londonderry, passing close to the Catholic Bogside. Skirmishes rapidly escalated into a full-scale uprising. The RUC used tear gas and baton charges. 8 were killed by the RUC and B Specials, at least 750 injured, and £2.25 million in compensation was owed for 180 homes and buildings damaged."
+        answer: "Skirmishes after the Apprentice Boys marched near the Catholic Bogside rapidly escalated into a full-scale uprising - the RUC used tear gas; 8 were killed, at least 750 injured, and 2.25 million pounds in damage was caused",
+        feedback: "The Apprentice Boys were permitted to march through Londonderry, passing close to the Catholic Bogside. Skirmishes rapidly escalated into a full-scale uprising. The RUC used tear gas and baton charges. 8 were killed by the RUC and B Specials, at least 750 injured, and 2.25 million pounds in compensation was owed."
+    },
+    {
+        topic: "Northern Ireland 1964-70",
+        question: "What was the impact of the Falls Road Curfew of 1970?",
+        options: [
+            "It successfully suppressed IRA activity and reduced violence for the next two years",
+            "It was welcomed by Catholic communities as proof the army was targeting IRA gun caches",
+            "It led to the Sunningdale Agreement as both sides sought to de-escalate tensions",
+            "The army found 100 weapons but caused considerable damage to households and 4 deaths. Overnight, population sentiment turned from neutral or sympathetic to the military presence to outright hatred"
+        ],
+        answer: "The army found 100 weapons but caused considerable damage to households and 4 deaths. Overnight, population sentiment turned from neutral or sympathetic to the military presence to outright hatred",
+        feedback: "The Falls Road curfew of 1970 saw the army find 100 weapons, but considerable damage was done to households and 4 people died - none with any IRA connection. Overnight, population sentiment turned from neutral or sympathetic to the military presence to outright hatred."
     },
     {
         topic: "Education Reform 1960s",
@@ -957,6 +1188,18 @@ const britishQs = [
         feedback: "Wilson said the Open University was what he most wanted to be remembered for. Jennie Lee was appointed to handle the project - her working class background was crucial. First students began January 1971, taught by radio and TV. Tory Ian Macleod called it 'blithering nonsense'. By 1980 it had 70,000 students, awarding more degrees than Oxbridge."
     },
     {
+        topic: "Education Reform 1960s",
+        question: "What did the Robbins Report 1963 reveal about university attendance in Britain?",
+        options: [
+            "Only 2% of Britain's youngsters attended its 30 universities vs 8% in France and 15% in the USA",
+            "Only 4% of Britain's youngsters attended its 30 universities vs 12% in France and 25% in the USA",
+            "Only 8% of Britain's youngsters attended its 30 universities vs 20% in France and 35% in the USA",
+            "Only 10% of Britain's youngsters attended its 30 universities vs 25% in France and 40% in the USA"
+        ],
+        answer: "Only 4% of Britain's youngsters attended its 30 universities vs 12% in France and 25% in the USA",
+        feedback: "The Robbins Report 1963 revealed just 4% of Britain's youngsters attended its 30 universities vs 12% in France, 25% in the USA, with most following arts-related courses - few studying science and technology. This led to significant expansion of higher education."
+    },
+    {
         topic: "Wilson and Foreign Policy",
         question: "How did Wilson handle British military commitment to Vietnam?",
         options: [
@@ -980,6 +1223,18 @@ const britishQs = [
         answer: "Wilson met Smith aboard HMS Tiger and HMS Fearless - Smith agreed to packages then rejected them at home both times. Sandbrook called it a symbol of 'British government's fading reputation' failing to control its own colonists",
         feedback: "By mid-1966 Smith's regime had dug in - sanctions had evaporated as Rhodesia traded through Mozambique and South Africa. Wilson met Smith aboard HMS Tiger in 1966 and HMS Fearless in 1968 - both times Smith agreed to packages then rejected them. Sandbrook said it symbolised 'British government's fading reputation'."
     },
+    {
+        topic: "Wilson and Foreign Policy",
+        question: "What was Healey's White Paper 1967 on defence?",
+        options: [
+            "It announced a massive increase in defence spending to reassert British global power",
+            "It announced Britain would develop its own nuclear deterrent independent of the US",
+            "It committed Britain to strengthening its NATO forces in Europe as its primary military role",
+            "It announced British troops would be withdrawn from Malaysia, Singapore and the Persian Gulf within 10 years - Britain would cease to play a worldwide military role"
+        ],
+        answer: "It announced British troops would be withdrawn from Malaysia, Singapore and the Persian Gulf within 10 years - Britain would cease to play a worldwide military role",
+        feedback: "Healey's White Paper 1967 announced British troops would be pulled out of Malaysia, Singapore and the Persian Gulf within 10 years - Britain would cease to play a worldwide military role. This marked the end of Britain's pretensions as a global power."
+    },
 
     // =====================================
     // END OF POST-WAR CONSENSUS 1970-1979
@@ -992,10 +1247,10 @@ const britishQs = [
             "Heath continued the Keynesian consensus, expanding public spending and achieving low inflation",
             "Heath immediately joined the EEC and used European structural funds to modernise British industry",
             "Heath successfully reduced inflation through strict monetarist control of the money supply",
-            "Heath declared a 'new style of government' aiming to reduce state intervention - but inflation rose to 15% by end of 1971, BOP deficit reached nearly £1 billion, and unemployment exceeded 850,000 by 1973"
+            "Heath declared a 'new style of government' aiming to reduce state intervention - but inflation rose to 15% by end of 1971, BOP deficit reached nearly 1 billion pounds, and unemployment exceeded 850,000 by 1973"
         ],
-        answer: "Heath declared a 'new style of government' aiming to reduce state intervention - but inflation rose to 15% by end of 1971, BOP deficit reached nearly £1 billion, and unemployment exceeded 850,000 by 1973",
-        feedback: "Heath entered office declaring a 'new style of government' - a Tory 'quiet revolution' reducing state intervention. But inflation rose to 15% by end of 1971, and by 1973 the BOP deficit was nearly £1 billion with unemployment over 850,000. Chancellor Ian Macleod died weeks into the government."
+        answer: "Heath declared a 'new style of government' aiming to reduce state intervention - but inflation rose to 15% by end of 1971, BOP deficit reached nearly 1 billion pounds, and unemployment exceeded 850,000 by 1973",
+        feedback: "Heath entered office declaring a 'new style of government' - a Tory 'quiet revolution' reducing state intervention. But inflation rose to 15% by end of 1971, and by 1973 the BOP deficit was nearly 1 billion pounds with unemployment over 850,000. Chancellor Ian Macleod died weeks into the government."
     },
     {
         topic: "Heath's Government 1970-74",
@@ -1007,7 +1262,7 @@ const britishQs = [
             "Heath returned to controlling prices and incomes - contradicting his free market approach - bailing out Upper Clyde Shipbuilders, nationalising Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'"
         ],
         answer: "Heath returned to controlling prices and incomes - contradicting his free market approach - bailing out Upper Clyde Shipbuilders, nationalising Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'",
-        feedback: "In 1972 Heath announced a return to controlling prices and incomes - directly contradicting his original free market approach. He bailed out failing companies like Upper Clyde Shipbuilders and nationalised Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'. The 1972 Industry Act gave unprecedented powers of industrial intervention."
+        feedback: "In 1972 Heath announced a return to controlling prices and incomes - directly contradicting his original free market approach. He bailed out failing companies like Upper Clyde Shipbuilders and nationalised Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'."
     },
     {
         topic: "Heath's Government 1970-74",
@@ -1055,14 +1310,38 @@ const britishQs = [
             "Heath was very pro-European and saw it as a means to modernise British society - the Commons approved entry 356 votes to 244, and Britain formally joined in January 1973"
         ],
         answer: "Heath was very pro-European and saw it as a means to modernise British society - the Commons approved entry 356 votes to 244, and Britain formally joined in January 1973",
-        feedback: "Heath was very pro-European and saw EEC membership as a means to modernise British society, believing Britain could no longer act alone in the world. The Commons approved entry 356 votes to 244 and Britain formally joined in January 1973. However, the Common Agricultural Policy imposed high food import tariffs."
+        feedback: "Heath was very pro-European and saw EEC membership as a means to modernise British society, believing Britain could no longer act alone in the world. The Commons approved entry 356 votes to 244 and Britain formally joined in January 1973."
     },
     {
         topic: "Heath's Government 1970-74",
         question: "By how much did oil prices rise following the Yom Kippur War?",
-        options: ["From $2 to $10 a barrel by end of decade", "From $5 to $20 a barrel by end of decade", "From $2 to $35 a barrel by end of decade", "From $3 to $50 a barrel by end of decade"],
-        answer: "From $2 to $35 a barrel by end of decade",
-        feedback: "The Yom Kippur War caused OPEC to cut oil supplies to western countries - coinciding with British EEC entry in 1973. Prices spiked from $2 to $35 a barrel by the end of the decade, removing the economic stimulus Britain had hoped for from EEC membership."
+        options: ["From 2 to 10 dollars a barrel by end of decade", "From 5 to 20 dollars a barrel by end of decade", "From 2 to 35 dollars a barrel by end of decade", "From 3 to 50 dollars a barrel by end of decade"],
+        answer: "From 2 to 35 dollars a barrel by end of decade",
+        feedback: "The Yom Kippur War caused OPEC to cut oil supplies to western countries - coinciding with British EEC entry in 1973. Prices spiked from 2 to 35 dollars a barrel by the end of the decade, removing the economic stimulus Britain had hoped for from EEC membership."
+    },
+    {
+        topic: "Heath's Government 1970-74",
+        question: "What was the Barber Boom?",
+        options: [
+            "A period of tight monetary policy that brought inflation down to record lows under Chancellor Barber",
+            "A failed attempt by Barber to reduce VAT that led to runaway inflation",
+            "Chancellor Barber's removal of lending limits for high street banks - lending rose 37% in 1972, 43% in 1973 - causing an inflation and house price boom",
+            "Barber's successful programme of public spending cuts that balanced the budget by 1973"
+        ],
+        answer: "Chancellor Barber's removal of lending limits for high street banks - lending rose 37% in 1972, 43% in 1973 - causing an inflation and house price boom",
+        feedback: "The Barber Boom saw Chancellor Barber remove lending limits for high street banks - lending rose 37% in 1972, 43% in 1973 - causing an inflation and house price boom. This made Heath's subsequent attempts to control inflation through wages policy even more difficult."
+    },
+    {
+        topic: "Heath's Government 1970-74",
+        question: "What happened when the 1973-74 miners voted on whether to strike?",
+        options: [
+            "55% voted to strike - a slim majority that Heath tried to challenge legally",
+            "68% voted to strike - Heath immediately agreed to talks to avoid a confrontation",
+            "81% voted to strike - Heath rejected the TUC's offer to treat miners as a special case and announced the Three Day Week",
+            "91% voted to strike - Heath immediately conceded to all demands to avoid economic paralysis"
+        ],
+        answer: "81% voted to strike - Heath rejected the TUC's offer to treat miners as a special case and announced the Three Day Week",
+        feedback: "81% of the miners voted to strike after the NUM executive rejected a 13% pay increase. Heath rejected the TUC's offer to treat miners as a special case and announced the Three Day Week, severely restricting electricity. Television ended at 10:30, citizens had to share baths and brush teeth in the dark."
     },
     {
         topic: "Wilson and Callaghan 1974-79",
@@ -1074,7 +1353,7 @@ const britishQs = [
             "An agreement with the TUC abolishing the Industrial Relations Act in exchange for a wage limit - but the miners' full wage claim was settled immediately, wages rose 19% in 1974 and 23% in 1975"
         ],
         answer: "An agreement with the TUC abolishing the Industrial Relations Act in exchange for a wage limit - but the miners' full wage claim was settled immediately, wages rose 19% in 1974 and 23% in 1975",
-        feedback: "Wilson's second government abolished the Industrial Relations Act and introduced the Social Contract - the TUC agreed to a £6/week limit on wage rises. However, the miners' strike was settled by allowing their full wage claim, encouraging further action. Wages rose 19% in 1974 and 23% in 1975."
+        feedback: "Wilson's second government abolished the Industrial Relations Act and introduced the Social Contract - the TUC agreed to a 6 pounds per week limit on wage rises. However, the miners' strike was settled by allowing their full wage claim, encouraging further action. Wages rose 19% in 1974 and 23% in 1975."
     },
     {
         topic: "Wilson and Callaghan 1974-79",
@@ -1083,10 +1362,10 @@ const britishQs = [
             "Britain refused the IMF loan and cut spending voluntarily, emerging stronger within six months",
             "The IMF imposed a 20% devaluation of sterling as a condition of the emergency loan",
             "Britain was forced to accept IMF supervision of all economic policy for five years",
-            "A huge BOP deficit, 16% inflation, and the pound falling to $1.57 forced Healey to ask the IMF for a £3 billion loan - £2.5 billion in cuts followed. Economically successful but politically disastrous; Labour lost 4 by-elections and its Commons majority"
+            "A huge BOP deficit, 16% inflation, and the pound falling to 1.57 dollars forced Healey to ask the IMF for a 3 billion pound loan - 2.5 billion pounds in cuts followed. Economically successful but politically disastrous; Labour lost 4 by-elections and its Commons majority"
         ],
-        answer: "A huge BOP deficit, 16% inflation, and the pound falling to $1.57 forced Healey to ask the IMF for a £3 billion loan - £2.5 billion in cuts followed. Economically successful but politically disastrous; Labour lost 4 by-elections and its Commons majority",
-        feedback: "The 1976 crisis was caused by a huge BOP deficit, 16% inflation, unemployment over 1 million, and the pound falling to $1.57. Healey asked the IMF for £3 billion, granted on condition of massive cuts. Along with North Sea Oil, by 1977 Britain could repay much of the loan. But it was politically disastrous - Labour lost 4 by-elections and its Commons majority."
+        answer: "A huge BOP deficit, 16% inflation, and the pound falling to 1.57 dollars forced Healey to ask the IMF for a 3 billion pound loan - 2.5 billion pounds in cuts followed. Economically successful but politically disastrous; Labour lost 4 by-elections and its Commons majority",
+        feedback: "The 1976 crisis was caused by a huge BOP deficit, 16% inflation, unemployment over 1 million, and the pound falling to 1.57 dollars. Healey asked the IMF for 3 billion pounds, granted on condition of massive cuts. Along with North Sea Oil, by 1977 Britain could repay much of the loan. But it was politically disastrous - Labour lost 4 by-elections and its Commons majority."
     },
     {
         topic: "Wilson and Callaghan 1974-79",
@@ -1137,6 +1416,25 @@ const britishQs = [
         feedback: "In 1975, 17 million voted yes and 8 million voted no. Only 2/3 of the electorate voted. Crucially, it avoided a Labour party split - 'no' campaigners within Labour could not argue with the democratic result. Wilson had promised the referendum precisely to manage deep divisions within his party."
     },
     {
+        topic: "Wilson and Callaghan 1974-79",
+        question: "How many working days were lost in strikes during the Winter of Discontent in 1979?",
+        options: ["Around 10 million", "Around 15 million", "Around 29 million", "Around 40 million"],
+        answer: "Around 29 million",
+        feedback: "29 million working days were lost in 1979 during the Winter of Discontent - up from 1.75 million in 1963, reflecting how dramatically industrial relations had deteriorated. The press labelled Callaghan's relaxed leadership style as 'Crisis? What crisis?'"
+    },
+    {
+        topic: "Wilson and Callaghan 1974-79",
+        question: "What were the results of the Scottish and Welsh devolution referendums in 1979?",
+        options: [
+            "Scotland 45% yes, Wales 30% yes - both failing to reach the 40% threshold",
+            "Scotland 33% yes, Wales 12% yes - both failing to reach the 40% threshold",
+            "Scotland 51% yes, Wales 35% yes - both passed but fell short of the required parliamentary margin",
+            "Scotland 40% yes, Wales 20% yes - Scotland passed, Wales failed"
+        ],
+        answer: "Scotland 33% yes, Wales 12% yes - both failing to reach the 40% threshold",
+        feedback: "The devolution referendums required 40% of the electorate to vote in favour. Only 12% of Welsh and 33% of Scots voted yes - both failing the threshold. Plans were shelved, the SNP withdrew support, a vote of no confidence followed, and Callaghan was forced to call the general election Labour lost."
+    },
+    {
         topic: "Society in the 1970s",
         question: "What progress did women make in the 1970s?",
         options: [
@@ -1158,7 +1456,7 @@ const britishQs = [
             "It grew rapidly to 20,000 members by 1976, its marches provoked violence with 100 incidents over 2.5 years including 2 murders, and assaults on Asians and Afro-Caribbeans rose by a third"
         ],
         answer: "It grew rapidly to 20,000 members by 1976, its marches provoked violence with 100 incidents over 2.5 years including 2 murders, and assaults on Asians and Afro-Caribbeans rose by a third",
-        feedback: "The National Front grew rapidly to 20,000 members by 1976. Its marches provoked violence - 100 incidents over 2.5 years including 2 murders. Assaults on Asians and Afro-Caribbeans rose by a third. The skinhead movement became linked to the NF and football hooliganism. But the Rock Against Racism movement attracted 100,000 to a Trafalgar Square concert in opposition."
+        feedback: "The National Front grew rapidly to 20,000 members by 1976. Its marches provoked violence - 100 incidents over 2.5 years including 2 murders. Assaults on Asians and Afro-Caribbeans rose by a third. But the Rock Against Racism movement attracted 100,000 to a Trafalgar Square concert in opposition."
     },
     {
         topic: "Society in the 1970s",
@@ -1198,131 +1496,200 @@ const britishQs = [
     },
     {
         topic: "Society in the 1970s",
-        question: "What percentage of women's wages compared to men's did women earn in 1970, and how had this changed by 1977?",
-        options: ["From 45% in 1970 to 55% in 1977", "From 75% in 1970 to 85% in 1977", "From 50% in 1970 to 65% in 1977", "From 59% in 1970 to 70% in 1977"],
+        question: "What percentage of women's wages compared to men's were women earning in 1970, and how had this changed by 1977?",
+        options: [
+            "From 45% in 1970 to 55% in 1977",
+            "From 75% in 1970 to 85% in 1977",
+            "From 50% in 1970 to 65% in 1977",
+            "From 59% in 1970 to 70% in 1977"
+        ],
         answer: "From 59% in 1970 to 70% in 1977",
         feedback: "Women's wages rose from 59% of men's in 1970 to 70% by 1977 following the Equal Pay Act and Sex Discrimination Act - progress, but still far from equality. The Equal Opportunities Commission set up to enforce the law was largely toothless, completing only 9 investigations in 8 years."
+    },
+    {
+        topic: "Society in the 1970s",
+        question: "How many National Front members were there by 1976?",
+        options: ["Around 5,000", "Around 10,000", "Around 20,000", "Around 50,000"],
+        answer: "Around 20,000",
+        feedback: "The National Front grew rapidly to 20,000 members by 1976, rebranding as anti-radical and attracting a broad membership. Its marches provoked 100 incidents of violence over 2.5 years, including 2 murders."
+    },
+    {
+        topic: "Britain and Europe 1970-79",
+        question: "What was the 1975 EEC referendum result and why was it significant for Labour?",
+        options: [
+            "51% yes, 49% no - failing to resolve the issue within Labour",
+            "Britain voted to leave the EEC, forcing renegotiation of entry terms under Callaghan",
+            "The referendum returned a 70% yes vote, decisively ending debate",
+            "17 million voted yes, 8 million voted no - avoiding a Labour party split as 'no' campaigners within Labour could not argue with the democratic result"
+        ],
+        answer: "17 million voted yes, 8 million voted no - avoiding a Labour party split as 'no' campaigners within Labour could not argue with the democratic result",
+        feedback: "In 1975, 17 million voted yes and 8 million voted no. Only 2/3 of the electorate voted. Crucially, it avoided a Labour party split - 'no' campaigners within Labour could not argue with the democratic result. Wilson had promised the referendum precisely to manage deep divisions within his party."
+    },
+    {
+        topic: "Britain and Europe 1970-79",
+        question: "What were the unfavourable terms of British EEC entry in 1973?",
+        options: [
+            "Britain had to abolish sterling and adopt the European currency immediately",
+            "Britain had to give up its UN Security Council seat as a condition of entry",
+            "Britain was required to withdraw all troops from Germany within 5 years of entry",
+            "The Common Agricultural Policy imposed high tariffs on food imports, and the Arab-Israeli War oil crisis caused a recession removing the hoped-for economic stimulus"
+        ],
+        answer: "The Common Agricultural Policy imposed high tariffs on food imports, and the Arab-Israeli War oil crisis caused a recession removing the hoped-for economic stimulus",
+        feedback: "The terms of British EEC entry were unfavourable - the Common Agricultural Policy imposed high tariffs on food imports. The Arab-Israeli War 1973 led to an oil crisis causing a recession across western Europe, removing the economic stimulus Britain had hoped for with its joining."
+    },
+    {
+        topic: "Britain and Europe 1970-79",
+        question: "Why did Wilson apply to rejoin EEC negotiations in 1967?",
+        options: [
+            "Heath pressured Wilson to apply on behalf of the Conservative opposition",
+            "The US threatened to cut financial support unless Britain joined the EEC",
+            "Wilson was personally enthusiastic about European integration and saw it as Britain's future",
+            "Commonwealth trade was declining as countries diversified their trade, EEC completed its Customs Union in 1968, and Britain's GDP grew only 2.3% per year 1960-70 compared to 4.2% for the Six"
+        ],
+        answer: "Commonwealth trade was declining as countries diversified their trade, EEC completed its Customs Union in 1968, and Britain's GDP grew only 2.3% per year 1960-70 compared to 4.2% for the Six",
+        feedback: "Wilson applied to rejoin EEC negotiations in 1967 because Commonwealth trade was declining as countries diversified their trade after Macmillan made the move to Europe, the EEC completed its Customs Union in July 1968 closing 250 million European consumers to British goods, and Britain's GDP grew only 2.3% per year 1960-70 compared to 4.2% for the Six."
     }
 ]
 
 const usQs = [
     {
-        topic: "Reconstruction",
-        question: "When was the Freedmen's Bureau established, and what was its original intended duration?",
-        options: ["1863, three years", "1867, five years", "1865, one year", "1870, two years"],
-        answer: "1865, one year",
-        feedback: "The Freedmen's Bureau was set up in 1865 to help former slaves with education and employment. It was only supposed to run for one year but was later extended to five years."
-    },
-    {
         topic: "Civil War",
         question: "How many states seceded from the Union to form the Confederacy?",
-        options: ["9", "13", "7", "11"],
+        options: ["7", "11", "9", "13"],
         answer: "11",
         feedback: "A total of 11 states seceded from the Union and set up the Confederacy."
     },
     {
         topic: "Civil War",
         question: "Approximately what percentage of the US population died in the Civil War?",
-        options: ["1%", "2%", "5%", "0.5%"],
+        options: ["5%", "0.5%", "2%", "1%"],
         answer: "2%",
         feedback: "At least 620,000 soldiers died - roughly 2% of the population in 1861."
     },
     {
         topic: "Civil War",
         question: "How did casualties at the Battle of Antietam compare to American deaths at D-Day?",
-        options: ["Twice as many", "Half as many", "Three times as many", "Roughly equal"],
+        options: ["Roughly equal", "Three times as many", "Twice as many", "Half as many"],
         answer: "Three times as many",
         feedback: "The number of casualties in a single day at Antietam was three times the American deaths at D-Day."
     },
     {
         topic: "Civil War",
         question: "What fraction of Mississippi's state revenue in 1865 was spent on artificial limbs?",
-        options: ["1/3", "1/10", "1/2", "1/5"],
+        options: ["1/10", "1/3", "1/5", "1/2"],
         answer: "1/5",
         feedback: "Mississippi spent one fifth of its entire state revenue in 1865 on artificial limbs, illustrating the devastating human cost of the Civil War on the South."
     },
     {
         topic: "Civil War",
         question: "By how much did the North's wealth increase over the course of the 1860s?",
-        options: ["Over 75%", "Over 100%", "Over 50%", "Over 25%"],
+        options: ["Over 100%", "Over 25%", "Over 75%", "Over 50%"],
         answer: "Over 50%",
         feedback: "The North's wealth increased by over 50% over the course of the 1860s, while the South was left economically devastated."
     },
     {
         topic: "Civil War",
         question: "How much had the South invested in slaves in 1860?",
-        options: ["$1 billion", "$5 billion", "$3.5 billion", "$2 billion"],
-        answer: "$3.5 billion",
-        feedback: "Southern investment in slaves stood at $3.5 billion in 1860. After the Civil War and abolition, that investment became entirely worthless."
+        options: ["2 billion dollars", "5 billion dollars", "3.5 billion dollars", "1 billion dollars"],
+        answer: "3.5 billion dollars",
+        feedback: "Southern investment in slaves stood at 3.5 billion dollars in 1860. After the Civil War and abolition, that investment became entirely worthless."
     },
     {
         topic: "Civil War",
         question: "Where did Robert E. Lee surrender to Ulysses S. Grant in April 1865?",
-        options: ["Richmond, Virginia", "Petersburg, Virginia", "Gettysburg, Pennsylvania", "Appomattox Court House"],
+        options: ["Gettysburg, Pennsylvania", "Appomattox Court House", "Richmond, Virginia", "Petersburg, Virginia"],
         answer: "Appomattox Court House",
         feedback: "In April 1865, Robert E. Lee surrendered to Ulysses S. Grant at Appomattox Court House, effectively ending the Civil War."
     },
     {
+        topic: "Civil War",
+        question: "How many soldiers died in the Civil War in total?",
+        options: ["Around 200,000", "Around 400,000", "At least 620,000", "Around 800,000"],
+        answer: "At least 620,000",
+        feedback: "At least 620,000 soldiers died in the Civil War - around 2% of the total population in 1861."
+    },
+    {
+        topic: "Civil War",
+        question: "What happened to the plantation system after the Civil War?",
+        options: ["It was nationalised by the federal government", "It was bought up by northern industrialists", "It continued largely unchanged under new management", "It collapsed - great estates were divided into tenant farms rented to sharecroppers"],
+        answer: "It collapsed - great estates were divided into tenant farms rented to sharecroppers",
+        feedback: "The plantation system collapsed after the Civil War, with great estates divided into tenant farms rented to sharecroppers."
+    },
+    {
+        topic: "Civil War",
+        question: "What did the 13th Amendment do?",
+        options: ["Gave citizenship to all born in the US", "Gave voting rights to freed slaves", "Abolished slavery", "Established equal protection under the law"],
+        answer: "Abolished slavery",
+        feedback: "The 13th Amendment abolished slavery across the United States."
+    },
+    {
         topic: "Reconstruction",
-        question: "What did Lincoln's 10% Plan of April 1864 require for a rebel state to be readmitted?",
-        options: ["50% of electorate pledge loyalty", "All citizens renounce slavery formally", "A new state constitution approved by Congress", "10% of electorate pledge future loyalty to the US"],
+        question: "When was the Freedmen's Bureau established, and what was its original intended duration?",
+        options: ["1867, five years", "1863, three years", "1870, two years", "1865, one year"],
+        answer: "1865, one year",
+        feedback: "The Freedmen's Bureau was set up in 1865 to help former slaves with education and employment. It was only supposed to run for one year but was later extended to five years."
+    },
+    {
+        topic: "Reconstruction",
+        question: "What did Lincoln's 10% Plan require for a rebel state to be readmitted?",
+        options: ["All citizens renounce slavery formally", "50% of electorate pledge loyalty", "A new state constitution approved by Congress", "10% of electorate pledge future loyalty to the US"],
         answer: "10% of electorate pledge future loyalty to the US",
         feedback: "Under the 10% Plan, rebel states could be readmitted if 10% of the electorate agreed to future allegiance to the US and supported existing acts regarding slavery."
     },
     {
         topic: "Reconstruction",
-        question: "What did the Radical Republicans' Wade-Davis Bill require, in contrast to Lincoln's 10% Plan?",
-        options: ["5% of electorate to pledge loyalty", "Full citizenship for all freed slaves immediately", "Military tribunals for Confederate leaders", "50% of electorate to take a tougher oath, excluding ex-Confederates from government"],
+        question: "What did the Radical Republicans' Wade-Davis Bill require?",
+        options: ["Full citizenship for all freed slaves immediately", "5% of electorate to pledge loyalty", "Military tribunals for Confederate leaders", "50% of electorate to take a tougher oath, excluding ex-Confederates from government"],
         answer: "50% of electorate to take a tougher oath, excluding ex-Confederates from government",
         feedback: "The Radical Republicans' Wade-Davis Bill required 50% of the electorate to take a much tougher loyalty oath and excluded ex-Confederates from roles in government."
     },
     {
         topic: "Reconstruction",
         question: "Why did Andrew Johnson veto the 1866 Civil Rights Act?",
-        options: ["He believed it was too lenient on the South", "He opposed equal pay for freed slaves", "He felt Congress had no authority over citizenship", "He argued it undermined the federal-state balance by giving citizenship to all born in the US"],
+        options: ["He opposed equal pay for freed slaves", "He believed it was too lenient on the South", "He felt Congress had no authority over citizenship", "He argued it undermined the federal-state balance by giving citizenship to all born in the US"],
         answer: "He argued it undermined the federal-state balance by giving citizenship to all born in the US",
         feedback: "Johnson vetoed the 1866 Civil Rights Act - which gave citizenship to all born in the US - arguing it undermined the federal-state balance."
     },
     {
         topic: "Reconstruction",
         question: "By how many votes did Andrew Johnson escape conviction at his impeachment trial?",
-        options: ["5 votes", "3 votes", "1 vote", "10 votes"],
+        options: ["10 votes", "1 vote", "5 votes", "3 votes"],
         answer: "1 vote",
         feedback: "Johnson escaped impeachment by just one vote after an 11-week trial, having promised to enforce Reconstruction acts and stop attacking Congress publicly."
     },
     {
         topic: "Reconstruction",
         question: "What did the 15th Amendment of 1869 guarantee?",
-        options: ["Abolition of slavery across the US", "Citizenship for all born in the US", "Equal pay regardless of race", "Voting rights could not be denied based on race, color or previous servitude"],
+        options: ["Abolition of slavery across the US", "Equal pay regardless of race", "Citizenship for all born in the US", "Voting rights could not be denied based on race, color or previous servitude"],
         answer: "Voting rights could not be denied based on race, color or previous servitude",
         feedback: "The 15th Amendment gave voting rights to all male freedmen - the right to vote could not be denied on the basis of race, color, or previous servitude."
     },
     {
         topic: "Reconstruction",
         question: "Which Supreme Court case weakened the 14th Amendment by preventing individuals being prosecuted for civil rights violations?",
-        options: ["US v Reese", "Marbury v Madison", "Plessy v Ferguson", "Cruikshank v US"],
+        options: ["Plessy v Ferguson", "Marbury v Madison", "Cruikshank v US", "US v Reese"],
         answer: "Cruikshank v US",
         feedback: "Cruikshank v US undermined the 14th Amendment by ruling that individuals could not be prosecuted for civil rights violations, severely limiting federal protection of Black Americans."
     },
     {
         topic: "Reconstruction",
         question: "What was the outcome of the 1876 presidential election compromise?",
-        options: ["Democrats won the presidency in exchange for civil rights protections", "Grant was given a third term in office", "The election was re-run in disputed Southern states", "Hayes took the presidency provided Republicans withdrew from the South"],
+        options: ["Grant was given a third term in office", "Democrats won in exchange for civil rights protections", "The election was re-run in disputed Southern states", "Hayes took the presidency provided Republicans withdrew from the South"],
         answer: "Hayes took the presidency provided Republicans withdrew from the South",
         feedback: "Hayes won the electoral college 184 to 165. As a compromise, he took the presidency on the condition that Republicans withdrew from the South - effectively ending Reconstruction."
     },
     {
         topic: "Reconstruction",
-        question: "How did Black political representation change between Reconstruction and the end of the century?",
-        options: ["It stayed roughly the same throughout the period", "It grew as African Americans gained political experience", "It was never significant even during Reconstruction", "17 Black Americans served in Congress and 600 in state legislatures during Reconstruction, falling to a few scattered local officials by century's end"],
-        answer: "17 Black Americans served in Congress and 600 in state legislatures during Reconstruction, falling to a few scattered local officials by century's end",
-        feedback: "During Reconstruction, 17 African Americans served in Congress and 600 in state legislatures. By the end of the century this had fallen to just a few scattered local officials, reflecting the rollback of Black political power."
+        question: "How many Black Americans served in Congress during Reconstruction?",
+        options: ["5", "17", "30", "10"],
+        answer: "17",
+        feedback: "During Reconstruction, 17 African Americans served in Congress and 600 in state legislatures. By the end of the century this had fallen to just a few scattered local officials."
     },
     {
         topic: "Reconstruction",
         question: "What was the 1873 Colfax Massacre?",
-        options: ["Federal troops massacred a KKK gathering in Louisiana", "Union soldiers fired on white supremacist rioters in South Carolina", "A massacre of sharecroppers by plantation owners in Mississippi", "A mob of 150-300 white men including KKK massacred a Black militia defending a courthouse after a disputed election"],
-        answer: "A mob of 150-300 white men including KKK massacred a Black militia defending a courthouse after a disputed election",
+        options: ["Federal troops massacred a KKK gathering in Louisiana", "A massacre of sharecroppers by plantation owners in Mississippi", "Union soldiers fired on white supremacist rioters in South Carolina", "A mob of 150-300 white men including KKK massacred a Black militia defending a courthouse"],
+        answer: "A mob of 150-300 white men including KKK massacred a Black militia defending a courthouse",
         feedback: "After a disputed election, a Black militia defended a courthouse fearing a Democratic takeover. A mob of 150-300 white men including KKK members massacred them - as many as 153 may have died."
     },
     {
@@ -1334,50 +1701,85 @@ const usQs = [
     },
     {
         topic: "Reconstruction",
-        question: "What was the KKK's origin and early membership estimate?",
-        options: ["Founded by Union veterans in Ohio 1865, 100K members", "Founded in Mississippi 1868, 200K members by 1870", "Started by plantation owners in Georgia 1865, 300K members", "Started by Confederate veterans in Tennessee 1866; Nathan Bedford Forrest estimated over 500K members by 1867"],
-        answer: "Started by Confederate veterans in Tennessee 1866; Nathan Bedford Forrest estimated over 500K members by 1867",
+        question: "When was the KKK started and who founded it?",
+        options: ["Union veterans in Ohio, 1865", "Plantation owners in Georgia, 1865", "Confederate veterans in Tennessee, 1866", "Former politicians in Mississippi, 1868"],
+        answer: "Confederate veterans in Tennessee, 1866",
         feedback: "The KKK was started by Confederate veterans in Tennessee in 1866. Nathan Bedford Forrest, head of the Klan in 1867, estimated more than 500,000 members in the South."
     },
     {
         topic: "Reconstruction",
-        question: "What factors caused Northern enthusiasm for Reconstruction to wane by the early 1870s?",
+        question: "How many KKK members did Nathan Bedford Forrest estimate in the South by 1867?",
+        options: ["More than 100,000", "More than 200,000", "More than 500,000", "More than 1,000,000"],
+        answer: "More than 500,000",
+        feedback: "Nathan Bedford Forrest, head of the Klan in 1867, estimated more than 500,000 members in the South. The KKK used systematic violence, economic bullying and intimidation to suppress Black votes."
+    },
+    {
+        topic: "Reconstruction",
+        question: "What factors caused Northern enthusiasm for Reconstruction to wane in the early 1870s?",
         options: ["Military success suppressing the KKK made Reconstruction seem complete", "Radical Republicans lost control of Congress in the 1870 midterms", "Grant publicly abandoned Reconstruction policy in 1872", "Corruption under Grant, the Panic of 1873, and Northern disassociation from the Black struggle in the South"],
         answer: "Corruption under Grant, the Panic of 1873, and Northern disassociation from the Black struggle in the South",
         feedback: "Corruption under Grant fouled the political atmosphere, the Panic of 1873 turned Northern attention to economic problems, and many Northern whites had little personal connection to the African American struggle in the South."
     },
     {
+        topic: "Reconstruction",
+        question: "What was the 1872 Amnesty Act?",
+        options: ["It extended the Freedmen's Bureau for another five years", "It pardoned all Confederate soldiers convicted of war crimes", "It gave freed slaves the right to claim Confederate land", "It restored voting rights and right to hold office to almost all former Confederates"],
+        answer: "It restored voting rights and right to hold office to almost all former Confederates",
+        feedback: "The 1872 Amnesty Act restored voting rights and the right to hold office to all but a few hundred former Confederates, weakening Reconstruction by re-empowering the old Confederate class."
+    },
+    {
+        topic: "Reconstruction",
+        question: "How many Black Americans were in Confederate state legislatures during Reconstruction?",
+        options: ["Around 100", "Around 300", "Around 600", "Around 900"],
+        answer: "Around 600",
+        feedback: "During Reconstruction, 600 African Americans served in state legislatures. By the end of the century this had fallen to just a few scattered local officials, reflecting the rollback of Black political power."
+    },
+    {
+        topic: "Reconstruction",
+        question: "How many Black refugees fled to Nashville in 1868 escaping KKK violence?",
+        options: ["500-1,000", "1,000-2,000", "3,000-4,000", "5,000-6,000"],
+        answer: "3,000-4,000",
+        feedback: "3,000-4,000 Black refugees streamed into Nashville in 1868, escaping KKK violence. The KKK used squads of masked men who broke into houses, shot, whipped and raped inhabitants."
+    },
+    {
+        topic: "Reconstruction",
+        question: "How many people were killed in Louisiana between November 1867 and election day 1868?",
+        options: ["Around 200", "Around 500", "Over 1,000", "Over 2,000"],
+        answer: "Over 1,000",
+        feedback: "Over 1,000 people were murdered between November 1867 and election day 1868 in Louisiana. In St. Landry Parish alone, 200-300 Black people were killed and Black prisoners were marched out and executed."
+    },
+    {
         topic: "Gilded Age",
-        question: "What share of American wealth did the richest 9% of Americans own in 1890?",
-        options: ["51%", "81%", "61%", "71%"],
+        question: "What share of American wealth did the richest 9% own in 1890?",
+        options: ["51%", "61%", "71%", "81%"],
         answer: "71%",
         feedback: "By 1890, the richest 9% of Americans owned 71% of all wealth, illustrating the extreme inequality of the Gilded Age."
     },
     {
         topic: "Gilded Age",
-        question: "By what point had the US surpassed Britain as the world's leading producer of manufactured goods and steel?",
-        options: ["By 1870", "By 1900", "By 1913", "By the middle of the 1880s"],
+        question: "By what point had the US surpassed Britain as the world's leading producer of manufactured goods?",
+        options: ["By 1870", "By 1913", "By 1900", "By the middle of the 1880s"],
         answer: "By the middle of the 1880s",
         feedback: "By the middle of the 1880s, the US had surpassed Britain as the world's leading producer of manufactured goods and steel - a remarkable rise from being a second-rate power in 1860."
     },
     {
         topic: "Gilded Age",
-        question: "What price did Carnegie sell his business to J.P. Morgan for, and when?",
-        options: ["$200 million in 1900", "$350 million in 1905", "$480 million in 1913", "$600 million in 1915"],
-        answer: "$480 million in 1913",
-        feedback: "Carnegie sold his business to J.P. Morgan in 1913 for $480 million, one of the largest business transactions in history at the time."
+        question: "What price did Carnegie sell his business to J.P. Morgan for in 1913?",
+        options: ["200 million dollars", "350 million dollars", "480 million dollars", "600 million dollars"],
+        answer: "480 million dollars",
+        feedback: "Carnegie sold his business to J.P. Morgan in 1913 for 480 million dollars, one of the largest business transactions in history at the time."
     },
     {
         topic: "Gilded Age",
-        question: "What share of American oil did Rockefeller control by the 1880s, and what was his fortune by 1889?",
-        options: ["A quarter of oil; $50 million fortune", "A third of oil; $100 million fortune", "Three quarters of oil; $400 million fortune", "Half of American oil; $200 million fortune"],
-        answer: "Half of American oil; $200 million fortune",
-        feedback: "By the 1880s Rockefeller controlled half of all American oil. By 1889 his fortune stood at $200 million."
+        question: "What share of American oil did Rockefeller control by the 1880s?",
+        options: ["A quarter", "A third", "Three quarters", "Half"],
+        answer: "Half",
+        feedback: "By the 1880s Rockefeller controlled half of all American oil. By 1889 his fortune stood at 200 million dollars."
     },
     {
         topic: "Gilded Age",
         question: "What was the Credit Mobilier scandal?",
-        options: ["Jay Gould and Jim Fisk manipulated the gold market with presidential connections", "Congressmen voted themselves major salary increases paid for by taxpayers", "Railroad companies colluded to fix freight rates across state lines", "12 members of Congress accepted bribes from Credit Mobilier and agreed to ignore its shady dealings"],
+        options: ["Jay Gould manipulated the gold market with presidential connections", "Congressmen voted themselves salary increases paid for by taxpayers", "Railroad companies colluded to fix freight rates across state lines", "12 members of Congress accepted bribes from Credit Mobilier and agreed to ignore its shady dealings"],
         answer: "12 members of Congress accepted bribes from Credit Mobilier and agreed to ignore its shady dealings",
         feedback: "The Credit Mobilier scandal revealed that 12 members of Congress had accepted bribes from the company and agreed to ignore its corrupt dealings, badly damaging public trust in government."
     },
@@ -1390,38 +1792,66 @@ const usQs = [
     },
     {
         topic: "Gilded Age",
-        question: "What was the 1883 Pendleton Act?",
-        options: ["It broke up the Standard Oil monopoly", "It banned foreign contract labour entirely", "It created the Interstate Commerce Commission", "It established a merit system of promotions in the civil service"],
-        answer: "It established a merit system of promotions in the civil service",
+        question: "What did the 1883 Pendleton Act establish?",
+        options: ["A merit system of promotions in the civil service", "The Interstate Commerce Commission", "A ban on foreign contract labour", "The breakup of Standard Oil"],
+        answer: "A merit system of promotions in the civil service",
         feedback: "Chester Arthur pushed for the 1883 Pendleton Act, which created a merit system of promotions and continuity in the civil service, though it initially affected only around 10% of federal employees."
     },
     {
         topic: "Gilded Age",
-        question: "What was the Great Railroad Strike of 1877?",
-        options: ["Railroad owners locked out workers demanding safety improvements", "Chinese railroad workers struck for equal pay in California", "Railroad workers protested against the Pendleton Act reforms", "Over 100,000 workers struck across multiple states after repeated wage cuts, shutting down rail lines"],
-        answer: "Over 100,000 workers struck across multiple states after repeated wage cuts, shutting down rail lines",
+        question: "How many workers went on strike in the Great Railroad Strike of 1877?",
+        options: ["Over 10,000", "Over 50,000", "Over 100,000", "Over 200,000"],
+        answer: "Over 100,000",
         feedback: "The 1877 Great Railroad Strike saw over 100,000 workers strike across multiple states after employers repeatedly cut wages to cover losses from the 1873 depression, shutting down rail lines nationwide."
     },
     {
         topic: "Gilded Age",
-        question: "How did J.P. Morgan make his fortune?",
-        options: ["He founded Standard Oil and monopolised the petroleum industry", "He built the transcontinental railroad and profited from land grants", "He manufactured steel and undercut Carnegie's prices nationally", "He inherited $12 million and increased his wealth through skills as a financier, helping create US Steel - the first $1 billion company"],
-        answer: "He inherited $12 million and increased his wealth through skills as a financier, helping create US Steel - the first $1 billion company",
-        feedback: "J.P. Morgan inherited $12 million and increased his fortunes through his skills as a financier. He was a major force behind the creation of large corporations, including US Steel - the first $1 billion company."
+        question: "What was US Steel - the company J.P. Morgan helped create?",
+        options: ["The first 500 million dollar company", "The first 1 billion dollar company", "The first 2 billion dollar company", "The first 100 million dollar company"],
+        answer: "The first 1 billion dollar company",
+        feedback: "J.P. Morgan inherited 12 million dollars and increased his fortunes through skills as a financier. He was a major force behind the creation of large corporations, including US Steel - the first 1 billion dollar company."
     },
     {
         topic: "Gilded Age",
-        question: "How did the US economy grow between 1865 and 1898?",
-        options: ["Coal production rose 400%, railway track mileage rose 300%", "Coal production rose 600%, railway track mileage rose 400%", "Coal production rose 200%, railway track mileage rose 800%", "Coal production rose 800%, railway track mileage rose 567%"],
-        answer: "Coal production rose 800%, railway track mileage rose 567%",
+        question: "How did the US economy grow between 1865 and 1898 in terms of coal and railways?",
+        options: ["Coal rose 400%, railways 300%", "Coal rose 600%, railways 400%", "Coal rose 800%, railways 567%", "Coal rose 200%, railways 800%"],
+        answer: "Coal rose 800%, railways 567%",
         feedback: "Between 1865 and 1898, coal production rose 800% and railway track mileage rose 567%, reflecting the extraordinary pace of American industrialisation in the Gilded Age."
     },
     {
         topic: "Gilded Age",
         question: "Between 1895 and 1904, how many companies merged into giant corporations?",
-        options: ["Over 5,000 companies merged into 50 corporations", "Over 25,000 companies merged into 200 corporations", "Over 10,000 companies merged into 100 corporations", "Over 18,000 companies merged into 157 giant corporations"],
-        answer: "Over 18,000 companies merged into 157 giant corporations",
+        options: ["Over 5,000 into 50", "Over 10,000 into 100", "Over 18,000 into 157", "Over 25,000 into 200"],
+        answer: "Over 18,000 into 157",
         feedback: "Between 1895 and 1904, over 18,000 companies merged into just 157 giant corporations, reflecting the massive consolidation of American industry during the Gilded Age."
+    },
+    {
+        topic: "Gilded Age",
+        question: "What share of US manufactured goods did America produce in 1870?",
+        options: ["10%", "15%", "23%", "30%"],
+        answer: "23%",
+        feedback: "In 1870, the US produced 23% of the world's manufactured goods. By the middle of the 1880s, the US had surpassed Britain as the world's leading producer of manufactured goods and steel."
+    },
+    {
+        topic: "Gilded Age",
+        question: "How much did US steel production grow between 1875 and 1900?",
+        options: ["From 200,000 to 20 million tons", "From 360,000 to 60 million tons", "From 500,000 to 80 million tons", "From 100,000 to 10 million tons"],
+        answer: "From 360,000 to 60 million tons",
+        feedback: "US steel production grew from 360,000 tons in 1875 to 60 million tons per year by 1900, a 166-fold increase reflecting the transformation of American industry during the Gilded Age."
+    },
+    {
+        topic: "Gilded Age",
+        question: "What was the NY Customs House and why was it controversial?",
+        options: ["A tax office that charged excessive import duties on foreign goods", "A centre of the spoils system employing 1,000 party workers - senators like Conkling dominated politics through control of it", "A courthouse that tried cases involving corrupt businessmen", "A warehouse that stored confiscated goods from smugglers"],
+        answer: "A centre of the spoils system employing 1,000 party workers - senators like Conkling dominated politics through control of it",
+        feedback: "The NY Customs House was a centre of the spoils system, employing 1,000 party workers. Senators like Roscoe Conkling dominated NY politics through control of it. In 1874, metal importers paid Conkling a 50,000 dollar bribe."
+    },
+    {
+        topic: "Gilded Age",
+        question: "What share of American sugar did the Sugar Trust control?",
+        options: ["70%", "80%", "98%", "90%"],
+        answer: "98%",
+        feedback: "The Sugar Trust controlled 98% of American sugar, while the tobacco company controlled 90% of cigarette production - examples of the extreme monopoly power achieved during the Gilded Age."
     },
     {
         topic: "Jim Crow and Civil Rights",
@@ -1433,49 +1863,70 @@ const usQs = [
     {
         topic: "Jim Crow and Civil Rights",
         question: "What was the Mississippi 'understanding clause' of 1890?",
-        options: ["African Americans had to prove they owned property before voting", "African Americans needed two white witnesses to register to vote", "Voters had to pay a $1 poll tax to access the ballot", "Voters had to give a reasonable interpretation of the constitution when read to them, determined by white registrars"],
+        options: ["African Americans had to prove they owned property before voting", "African Americans needed two white witnesses to register to vote", "Voters had to pay a poll tax to access the ballot", "Voters had to give a reasonable interpretation of the constitution when read to them, determined by white registrars"],
         answer: "Voters had to give a reasonable interpretation of the constitution when read to them, determined by white registrars",
         feedback: "Mississippi's 1890 'understanding clause' required voters to give a reasonable interpretation of the constitution when it was read to them - judged entirely by white registrars, making it an effective tool for disenfranchising Black voters."
     },
     {
         topic: "Jim Crow and Civil Rights",
         question: "How many people were lynched between 1882 and 1899?",
-        options: ["Over 500 people lynched", "Over 1,000 people lynched", "Over 5,000 people lynched", "Over 2,500 people lynched"],
-        answer: "Over 2,500 people lynched",
+        options: ["Over 500", "Over 1,000", "Over 2,500", "Over 5,000"],
+        answer: "Over 2,500",
         feedback: "Between 1882 and 1899, over 2,500 men and women were lynched. In 1892 alone, 161 Black people were lynched."
     },
     {
         topic: "Jim Crow and Civil Rights",
         question: "How did Booker T. Washington and W.E.B. Du Bois differ in approach?",
-        options: ["Washington wanted political struggle; Du Bois favoured economic self-improvement", "Both agreed on economics but disagreed on the pace of change", "Washington wanted integration; Du Bois wanted separate Black institutions", "Washington emphasised self-help and economic advancement; Du Bois called him the 'Great Accommodator' and wanted active political struggle"],
+        options: ["Washington wanted political struggle; Du Bois favoured economic advancement", "Both agreed on economics but disagreed on the pace of change", "Washington wanted integration; Du Bois wanted separate Black institutions", "Washington emphasised self-help and economic advancement; Du Bois called him the 'Great Accommodator' and wanted active political struggle"],
         answer: "Washington emphasised self-help and economic advancement; Du Bois called him the 'Great Accommodator' and wanted active political struggle",
         feedback: "Booker T. Washington focused on self-help and economic advancement. Du Bois called Washington the 'Great Accommodator' and argued instead for active political struggle for civil rights."
     },
     {
         topic: "Jim Crow and Civil Rights",
         question: "What were Black literacy rates before and after slavery?",
-        options: ["Around 20-30% under slavery, rising to 70% by 1910", "Around 1-2% under slavery, rising to 30% by 1910", "Around 40% under slavery, rising to 80% by 1910", "Around 5-10% under slavery, rising to 50% by 1910"],
-        answer: "Around 5-10% under slavery, rising to 50% by 1910",
+        options: ["20-30% under slavery, rising to 70% by 1910", "1-2% under slavery, rising to 30% by 1910", "5-10% under slavery, rising to 50% by 1910", "40% under slavery, rising to 80% by 1910"],
+        answer: "5-10% under slavery, rising to 50% by 1910",
         feedback: "Black literacy rates rose from around 5-10% under slavery to 50% by 1910, reflecting the enormous educational effort of African Americans in the post-Civil War decades despite systematic underfunding of Black schools."
     },
     {
         topic: "Jim Crow and Civil Rights",
         question: "What was the Springfield Riot of 1908 and what did it lead to?",
-        options: ["A race riot following a disputed election, leading to the 15th Amendment being enforced", "A labour riot linking race and class, leading to the formation of the AFL", "A massacre of sharecroppers, leading to federal anti-lynching legislation", "A racially motivated mob attacked Black neighbourhoods, leading to the formation of the NAACP in 1909"],
+        options: ["A race riot after a disputed election, leading to the 15th Amendment being enforced", "A labour riot linking race and class, leading to the formation of the AFL", "A massacre of sharecroppers, leading to federal anti-lynching legislation", "A racially motivated mob attacked Black neighbourhoods, leading to the formation of the NAACP in 1909"],
         answer: "A racially motivated mob attacked Black neighbourhoods, leading to the formation of the NAACP in 1909",
         feedback: "The Springfield Riot saw a racially motivated mob attack Black neighbourhoods following the arrest of two Black men. At least 6 people died and numerous homes were destroyed. It led to the formation of the NAACP in 1909."
     },
     {
         topic: "Jim Crow and Civil Rights",
-        question: "Between 1889 and 1929, how many people were lynched in the US and what proportion were Black?",
-        options: ["Around 1,000 people; 50% were Black", "Around 2,000 people; 70% were Black", "Around 6,000 people; 90% were Black", "Nearly 4,000 people; 85% were Black"],
-        answer: "Nearly 4,000 people; 85% were Black",
+        question: "Between 1889 and 1929, how many people were lynched and what proportion were Black?",
+        options: ["Around 1,000; 50% were Black", "Around 2,000; 70% were Black", "Nearly 4,000; 85% were Black", "Around 6,000; 90% were Black"],
+        answer: "Nearly 4,000; 85% were Black",
         feedback: "Between 1889 and 1929, nearly 4,000 people were lynched - 85% of them Black. Only 50 perpetrators were ever arrested and only 4 were sentenced."
     },
     {
+        topic: "Jim Crow and Civil Rights",
+        question: "How many Black people were lynched in 1892 alone?",
+        options: ["51", "101", "161", "201"],
+        answer: "161",
+        feedback: "In 1892, 161 Black people were lynched. Ida B. Wells published these statistics in the Memphis Free Speech in 1892 - in retaliation, a mob destroyed the newspaper's office."
+    },
+    {
+        topic: "Jim Crow and Civil Rights",
+        question: "What did Ida B. Wells do in 1892?",
+        options: ["Founded the NAACP in response to the Springfield Riot", "Led a march of 1,500 women in New York protesting racial violence", "Took her anti-discrimination case to the Supreme Court", "Published lynching statistics in Memphis Free Speech - a mob later destroyed her newspaper's office"],
+        answer: "Published lynching statistics in Memphis Free Speech - a mob later destroyed her newspaper's office",
+        feedback: "Ida B. Wells published lynching statistics in the Memphis Free Speech in 1892. In retaliation, a mob destroyed the newspaper's office, forcing her to continue her campaign from the North."
+    },
+    {
+        topic: "Jim Crow and Civil Rights",
+        question: "How did Black literacy rates change from slavery to 1910?",
+        options: ["From 5-10% to 50%", "From 20% to 70%", "From 1% to 25%", "From 30% to 80%"],
+        answer: "From 5-10% to 50%",
+        feedback: "Black literacy rates rose from around 5-10% under slavery to 50% by 1910. The number of Black students in school doubled between 1877 and 1887, though still only two thirds of eligible students were enrolled."
+    },
+    {
         topic: "Westward Expansion",
-        question: "How many acres could be claimed under the 1862 Homestead Act, and for how long did the land need to be cultivated?",
-        options: ["80 acres for 3 years", "320 acres for 7 years", "240 acres for 4 years", "160 acres for 5 years"],
+        question: "How many acres could be claimed under the 1862 Homestead Act, and for how long?",
+        options: ["80 acres for 3 years", "240 acres for 4 years", "320 acres for 7 years", "160 acres for 5 years"],
         answer: "160 acres for 5 years",
         feedback: "The 1862 Homestead Act offered 160 acres in any of 30 domain states, provided the land was cultivated continuously for 5 years. By the end of the Act, over 270 million acres had been claimed and settled."
     },
@@ -1489,57 +1940,99 @@ const usQs = [
     {
         topic: "Westward Expansion",
         question: "What happened at the Battle of Little Bighorn?",
-        options: ["General Sherman negotiated a peace treaty with Sitting Bull", "The US Army successfully rounded up the last Sioux holdouts", "Sitting Bull and Crazy Horse surrendered after being surrounded", "George Custer divided his force and attempted to encircle a Native encampment without waiting for the rest - his unit of 210 men was attacked and all were killed"],
-        answer: "George Custer divided his force and attempted to encircle a Native encampment without waiting for the rest - his unit of 210 men was attacked and all were killed",
+        options: ["General Sherman negotiated a peace treaty with Sitting Bull", "The US Army successfully rounded up the last Sioux holdouts", "Sitting Bull and Crazy Horse surrendered after being surrounded", "Custer divided his force and attempted to encircle a Native encampment without waiting - his unit of 210 men was attacked and all were killed"],
+        answer: "Custer divided his force and attempted to encircle a Native encampment without waiting - his unit of 210 men was attacked and all were killed",
         feedback: "Custer divided his units into three and attempted to encircle the encampment without waiting for the rest of his force. His unit of 210 men came under attack and all were killed - the most famous US military defeat of the Indian Wars."
     },
     {
         topic: "Westward Expansion",
-        question: "What did the 1887 Dawes Act do to Native American reservation land?",
-        options: ["Doubled the size of reservations as compensation", "Granted full US citizenship to all tribal members immediately", "Required Native American children to attend federal boarding schools", "Carved reservations into 160-acre family allotments, with surplus land given to non-Native Americans - land dropped from 138 to 48 million acres by 1934"],
+        question: "What did the 1887 Dawes Act do to Native American land?",
+        options: ["Doubled the size of reservations as compensation", "Granted full US citizenship to all tribal members", "Required Native American children to attend boarding schools", "Carved reservations into 160-acre family allotments, with surplus land given to non-Native Americans - land dropped from 138 to 48 million acres by 1934"],
         answer: "Carved reservations into 160-acre family allotments, with surplus land given to non-Native Americans - land dropped from 138 to 48 million acres by 1934",
         feedback: "The Dawes Act carved reservation land into 160-acre allotments for each family head. The rest was declared surplus and given to non-Native Americans - reservation land dropped from 138 million to 48 million acres by 1934, a loss of 65%."
     },
     {
         topic: "Westward Expansion",
         question: "What happened at the Battle of Wounded Knee in 1890?",
-        options: ["Native Americans successfully repelled a US Army attack and negotiated a peace treaty", "The last major battle of the Great Sioux War ended in Native American defeat", "The US Army suppressed a planned Native American uprising before it began", "Nervous 7th Cavalry fired into a group of Sioux - 200 Sioux died including many women and children, and 31 soldiers were killed"],
+        options: ["Native Americans repelled a US Army attack and negotiated a peace treaty", "The last major battle of the Sioux War ended in Native American defeat", "The US Army suppressed a planned uprising before it began", "Nervous 7th Cavalry fired into a group of Sioux - 200 Sioux died including many women and children, and 31 soldiers were killed"],
         answer: "Nervous 7th Cavalry fired into a group of Sioux - 200 Sioux died including many women and children, and 31 soldiers were killed",
         feedback: "The 1890 Battle of Wounded Knee saw nervous 7th Cavalry fire into a group of Sioux - 200 Sioux died, many of them women and children. 31 soldiers were also killed. Some describe it as an accidental battle; others as a massacre."
     },
     {
         topic: "Westward Expansion",
         question: "What ended the era of the open range cattle drives?",
-        options: ["The invention of refrigerated railcars made long drives obsolete", "The closing of the frontier declared by the Census Bureau in 1890", "Federal legislation prohibited the long drive route entirely", "Two severe winters in 1885-87 killed possibly 90% of Western cattle, ruining thousands of cattlemen"],
+        options: ["The invention of refrigerated railcars made long drives obsolete", "The closing of the frontier declared by the Census Bureau in 1890", "Federal legislation prohibited the long drive route", "Two severe winters in 1885-87 killed possibly 90% of Western cattle, ruining thousands of cattlemen"],
         answer: "Two severe winters in 1885-87 killed possibly 90% of Western cattle, ruining thousands of cattlemen",
         feedback: "Two severe winters in 1885-87 resulted in the deaths of millions of Western cattle - possibly 90% of the total - ruining thousands of cattlemen including the Swan Land and Cattle Company of Wyoming."
     },
     {
         topic: "Westward Expansion",
         question: "What was Frederick Jackson Turner's 'Frontier Thesis'?",
-        options: ["The West was a source of national division and should be governed separately", "Manifest Destiny required the US to expand beyond its continental borders", "The closing of the frontier would inevitably lead to social conflict in cities", "The West acted as a safety valve for discord, created self-reliant individuals, and was central to American identity and freedom"],
+        options: ["The West was a source of national division and should be governed separately", "Manifest Destiny required the US to expand beyond its continental borders", "The closing of the frontier would lead to social conflict in cities", "The West acted as a safety valve for discord, created self-reliant individuals, and was central to American identity and freedom"],
         answer: "The West acted as a safety valve for discord, created self-reliant individuals, and was central to American identity and freedom",
         feedback: "Frederick Jackson Turner's 1893 thesis argued that the West acted as a safety valve for discord and violence, created self-reliant individuals, and was a central part of America's identity of freedom."
     },
     {
         topic: "Westward Expansion",
         question: "What happened to the Buffalo population between 1800 and 1886?",
-        options: ["Fell from 10 million to around 500,000", "Fell from 5 million to around 10,000", "Fell from 50 million to around 1 million", "Fell from 30 million to a point where the Smithsonian Institute could not find 25 good specimens"],
-        answer: "Fell from 30 million to a point where the Smithsonian Institute could not find 25 good specimens",
+        options: ["Fell from 10 million to around 500,000", "Fell from 5 million to around 10,000", "Fell from 50 million to around 1 million", "Fell from 30 million to a point where the Smithsonian could not find 25 good specimens"],
+        answer: "Fell from 30 million to a point where the Smithsonian could not find 25 good specimens",
         feedback: "In 1800 there were around 30 million Buffalo. By 1886 the Smithsonian Institute could not find 25 'good specimens' - the near-total extermination of the Buffalo was devastating to Native American Plains cultures."
+    },
+    {
+        topic: "Westward Expansion",
+        question: "How many acres were granted to railroad companies by 1871?",
+        options: ["Almost 50 million acres", "Almost 80 million acres", "Almost 128 million acres", "Almost 200 million acres"],
+        answer: "Almost 128 million acres",
+        feedback: "By 1871, almost 128 million acres had been granted to Union Pacific and Central Pacific railroad companies. Grants were brought to an end the same year."
+    },
+    {
+        topic: "Westward Expansion",
+        question: "What did Captain Richard Henry Pratt say about Native American assimilation in 1892?",
+        options: ["'A stronger race is gradually displacing a weaker'", "'Civilisation is the only salvation for the native peoples'", "'The only good Indian is a dead Indian'", "'Kill the Indian in him, and save the man'"],
+        answer: "'Kill the Indian in him, and save the man'",
+        feedback: "Captain Richard Henry Pratt said in 1892: 'Kill the Indian in him, and save the man' - encapsulating the brutal assimilationist philosophy behind the federal boarding school system."
+    },
+    {
+        topic: "Westward Expansion",
+        question: "How many cattle went north on the long drive route between 1866 and 1885?",
+        options: ["1.5 million cattle", "3 million cattle", "5.7 million cattle", "8 million cattle"],
+        answer: "5.7 million cattle",
+        feedback: "Between 1866 and 1885, 5.7 million cattle went north by the long drive route devised by Joseph McCoy in 1867. The era ended with the devastating winters of 1885-87."
+    },
+    {
+        topic: "Westward Expansion",
+        question: "How many acres were claimed under the Homestead Act in total?",
+        options: ["Over 100 million acres", "Over 200 million acres", "Over 270 million acres", "Over 400 million acres"],
+        answer: "Over 270 million acres",
+        feedback: "By the end of the Homestead Act, over 270 million acres had been claimed and settled. However, homesteaders frequently did not have access to the best lands, which were claimed by speculators and railroads."
+    },
+    {
+        topic: "Westward Expansion",
+        question: "How many Chinese workers helped build the transcontinental railroad?",
+        options: ["Around 5,000", "Around 10,000", "Around 15,000", "Around 25,000"],
+        answer: "Around 15,000",
+        feedback: "Around 15,000 Chinese workers helped build the 700 miles of track connecting the Union Pacific and Central Pacific lines between 1863 and 1869. White workers were paid twice what Chinese workers received."
+    },
+    {
+        topic: "Westward Expansion",
+        question: "How much did the amount of land held by Native Americans on reservations fall between 1887 and 1934?",
+        options: ["From 200 million to 100 million acres", "From 100 million to 60 million acres", "From 138 million to 48 million acres", "From 80 million to 20 million acres"],
+        answer: "From 138 million to 48 million acres",
+        feedback: "Reservation land dropped from 138 million to 48 million acres between 1887 and 1934 - a loss of 65% before the Dawes Act was repealed. By the 1880s, most Native Americans were on reservations."
     },
     {
         topic: "Immigration",
         question: "What was the purpose of the 1882 Chinese Exclusion Act?",
-        options: ["It banned all Asian immigration permanently", "It required Chinese immigrants to pass a literacy test", "It limited Chinese workers to railroad construction only", "It banned Chinese immigration for 10 years"],
+        options: ["It banned all Asian immigration permanently", "It required Chinese immigrants to pass a literacy test", "It limited Chinese workers to railroad construction", "It banned Chinese immigration for 10 years"],
         answer: "It banned Chinese immigration for 10 years",
         feedback: "The Chinese Exclusion Act of 1882 banned Chinese immigration for 10 years. By the 1880s there were over 100,000 Chinese in the US, and organisations like the AFL under Samuel Gompers strongly opposed competition from Chinese labourers."
     },
     {
         topic: "Immigration",
         question: "What was the Chinese workers' strike of 1867?",
-        options: ["500 Chinese workers struck in San Francisco demanding citizenship rights", "Chinese miners struck against unsafe conditions in Pennsylvania coal mines", "Chinese factory workers in New York struck demanding an end to child labour", "3,000 Chinese railroad workers struck demanding equal pay - the strike failed and their food supply was cut off in a remote area"],
-        answer: "3,000 Chinese railroad workers struck demanding equal pay - the strike failed and their food supply was cut off in a remote area",
+        options: ["500 Chinese workers struck in San Francisco demanding citizenship rights", "Chinese miners struck against unsafe conditions in Pennsylvania", "Chinese factory workers in New York struck against child labour", "3,000 Chinese railroad workers struck demanding equal pay - the strike failed and food was cut off"],
+        answer: "3,000 Chinese railroad workers struck demanding equal pay - the strike failed and food was cut off",
         feedback: "In 1867, 3,000 Chinese workers went on strike demanding equal pay - white workers were paid twice as much. The strike failed and their food supply was cut off in the remote area where they were working."
     },
     {
@@ -1552,28 +2045,49 @@ const usQs = [
     {
         topic: "Immigration",
         question: "How many immigrants arrived in the US between 1881 and 1900?",
-        options: ["3 million", "6 million", "14 million", "9 million"],
+        options: ["3 million", "6 million", "9 million", "14 million"],
         answer: "9 million",
         feedback: "9 million immigrants arrived between 1881 and 1900, with a further 8 million in the preceding two decades. Over 14 million more arrived between 1901 and 1920."
     },
     {
         topic: "Immigration",
         question: "What was the Haymarket Bomb outrage of 1886?",
-        options: ["Railroad workers bombed a scab labour train in Chicago", "Anarchists bombed the New York Customs House in protest at the spoils system", "A bomb at a Carnegie steel plant killed several workers during a strike", "A peaceful protest turned violent when a bomb was thrown at police, fatally linking the Knights of Labor with violence and radicalism"],
+        options: ["Railroad workers bombed a scab labour train in Chicago", "Anarchists bombed the New York Customs House in protest", "A bomb at a Carnegie steel plant killed several workers", "A peaceful protest turned violent when a bomb was thrown at police, fatally linking the Knights of Labor with violence and radicalism"],
         answer: "A peaceful protest turned violent when a bomb was thrown at police, fatally linking the Knights of Labor with violence and radicalism",
         feedback: "The 1886 Haymarket Bomb outrage saw a peaceful protest turn violent when a bomb was thrown at police, killing several officers. This fatally linked the Knights of Labor with violence and radicalism in the public mind."
     },
     {
         topic: "Immigration",
         question: "What distinguished the AFL from the Knights of Labor?",
-        options: ["The AFL was more radical and included unskilled workers and immigrants", "The AFL supported political action while the Knights focused only on wages", "The AFL was founded earlier and was the more established union body", "The AFL admitted only skilled white men and focused on wages and hours, while the Knights of Labor was inclusive to immigrants"],
+        options: ["The AFL was more radical and included unskilled workers and immigrants", "The AFL supported political action while the Knights focused only on wages", "The AFL was founded earlier and was the more established union", "The AFL admitted only skilled white men and focused on wages and hours, while the Knights of Labor was inclusive to immigrants"],
         answer: "The AFL admitted only skilled white men and focused on wages and hours, while the Knights of Labor was inclusive to immigrants",
         feedback: "Led by Samuel Gompers, the AFL admitted only skilled white men and focused on higher wages and shorter working days, winning recognition and collective bargaining agreements from employers. The Knights of Labor was more inclusive, welcoming immigrants."
     },
     {
+        topic: "Immigration",
+        question: "How many Germans or people with at least one German parent lived in the US in 1914?",
+        options: ["Over 2 million", "Over 5 million", "Over 8 million", "Over 12 million"],
+        answer: "Over 8 million",
+        feedback: "Over 8 million of the 105 million US population had been born in Germany or had at least one German parent - a significant factor in debates over American neutrality at the start of World War I."
+    },
+    {
+        topic: "Immigration",
+        question: "How many immigrants arrived in the US between 1890 and 1917?",
+        options: ["7 million", "12 million", "17 million", "22 million"],
+        answer: "17 million",
+        feedback: "Between 1890 and 1917, 17 million immigrants arrived in the US - more from Southern and Eastern Europe than before. This fuelled fears of unassimilable immigrants bringing European radicalism."
+    },
+    {
+        topic: "Immigration",
+        question: "How many immigrants arrived in the US between 1901 and 1920?",
+        options: ["Over 5 million", "Over 10 million", "Over 14 million", "Over 20 million"],
+        answer: "Over 14 million",
+        feedback: "Over 14 million immigrants arrived in the US between 1901 and 1920. By 1890, NYC had as many Germans as Hamburg, and Milwaukee had 22 German-language newspapers."
+    },
+    {
         topic: "US Imperialism",
         question: "What was the USS Maine incident?",
-        options: ["A US warship was deliberately sunk by Spain to provoke a war", "Spain attacked the USS Maine after the US imposed trade sanctions on Cuba", "The USS Maine accidentally ran aground and was seized by Spanish forces", "An explosion sank the USS Maine in Havana harbour in February 1898, killing 266 sailors - the press quickly blamed Spain"],
+        options: ["A US warship deliberately sunk by Spain to provoke war", "Spain attacked the USS Maine after the US imposed trade sanctions on Cuba", "The USS Maine ran aground and was seized by Spanish forces", "An explosion sank the USS Maine in Havana harbour in February 1898, killing 266 sailors - the press quickly blamed Spain"],
         answer: "An explosion sank the USS Maine in Havana harbour in February 1898, killing 266 sailors - the press quickly blamed Spain",
         feedback: "On 15 February 1898, an explosion sank the USS Maine, killing 266 sailors. The press was quick to blame Spain - 'Remember the Maine, to hell with Spain!' - helping to push the US towards war."
     },
@@ -1582,28 +2096,63 @@ const usQs = [
         question: "What territories did the US acquire following the Spanish-American War?",
         options: ["Cuba, Puerto Rico and Guam", "Hawaii, Guam and the Philippines", "Cuba, Hawaii and Puerto Rico", "The Philippines, Puerto Rico and Guam"],
         answer: "The Philippines, Puerto Rico and Guam",
-        feedback: "The 1898 Teller Amendment forswore annexation of Cuba. The US acquired the Philippines, Puerto Rico and Guam, and secured a permanent naval base in Cuba. The Philippines cost $20 million."
+        feedback: "The 1898 Teller Amendment forswore annexation of Cuba. The US acquired the Philippines, Puerto Rico and Guam, and secured a permanent naval base in Cuba. The Philippines cost 20 million dollars."
     },
     {
         topic: "US Imperialism",
         question: "What was the Roosevelt Corollary?",
-        options: ["An extension of the Burlingame Treaty governing trade with Latin America", "A trade agreement with Latin American nations guaranteeing American commercial access", "A military alliance with Britain and France to counter European colonialism", "An extension of the Monroe Doctrine asserting the US right to intervene in cases of chronic wrongdoing in Latin America"],
+        options: ["An extension of the Burlingame Treaty governing trade with Latin America", "A trade agreement with Latin American nations guaranteeing American access", "A military alliance with Britain and France to counter European colonialism", "An extension of the Monroe Doctrine asserting the US right to intervene in cases of chronic wrongdoing in Latin America"],
         answer: "An extension of the Monroe Doctrine asserting the US right to intervene in cases of chronic wrongdoing in Latin America",
         feedback: "The Roosevelt Corollary was an extension of the Monroe Doctrine asserting that the US had the right to intervene in Latin America in cases of 'chronic wrongdoing or impotence'. It was used to justify taking over Dominican Republic finances in 1905 and military intervention in Nicaragua in 1912."
     },
     {
         topic: "US Imperialism",
         question: "How did the US secure the Panama Canal Zone?",
-        options: ["It purchased the rights from Colombia for $50 million", "It built the canal on neutral territory after a multilateral treaty", "It seized the canal zone from Spain following the Spanish-American War", "It backed Panama's independence from Colombia in 1903 and secured the canal zone for $10 million plus annual rent"],
-        answer: "It backed Panama's independence from Colombia in 1903 and secured the canal zone for $10 million plus annual rent",
-        feedback: "The US backed Panama's independence from Colombia in 1903, sending the cruiser Nashville to prevent Colombians retaking control. The US secured control of the canal zone for $10 million and $250,000 annual rent. The canal opened in 1914."
+        options: ["It purchased the rights from Colombia for 50 million dollars", "It built the canal on neutral territory after a multilateral treaty", "It seized the canal zone from Spain following the Spanish-American War", "It backed Panama's independence from Colombia in 1903 and secured the canal zone for 10 million dollars plus annual rent"],
+        answer: "It backed Panama's independence from Colombia in 1903 and secured the canal zone for 10 million dollars plus annual rent",
+        feedback: "The US backed Panama's independence from Colombia in 1903, sending the cruiser Nashville to prevent Colombians retaking control. The US secured control of the canal zone for 10 million dollars and 250,000 dollars annual rent. The canal opened in 1914."
     },
     {
         topic: "US Imperialism",
         question: "Why did the US annex Hawaii in 1898?",
-        options: ["To prevent a Japanese takeover of the islands", "To establish a naval base following the lessons of the Spanish-American War", "Congress voted for annexation after a Hawaiian request for statehood", "Hawaii had become economically dependent on the US since 1875 - by the 1890s 3,000 American sugar growers dominated the island - and it was a vital stopping station to the Far East"],
+        options: ["To prevent a Japanese takeover of the islands", "To establish a naval base following lessons of the Spanish-American War", "Congress voted for annexation after a Hawaiian request for statehood", "Hawaii had become economically dependent on the US since 1875 - by the 1890s 3,000 American sugar growers dominated the island - and it was a vital stopping station to the Far East"],
         answer: "Hawaii had become economically dependent on the US since 1875 - by the 1890s 3,000 American sugar growers dominated the island - and it was a vital stopping station to the Far East",
         feedback: "Since 1875 the US had imported Hawaiian sugar duty free, making Hawaii increasingly dependent on the US economy. By the 1890s, 3,000 American sugar growers out of 90,000 Hawaiians dominated the island. Hawaii was also a vital stopping station on the way to the Far East."
+    },
+    {
+        topic: "US Imperialism",
+        question: "What was Alfred Thayer Mahan's key argument in 'The Influence of Sea Power Upon History' (1890)?",
+        options: ["The US should avoid overseas entanglements and focus on continental expansion", "Free trade and diplomacy were more effective than military power", "The US navy should focus on coastal defence rather than power projection", "The US needed a modern steam fleet and naval bases to become a world power"],
+        answer: "The US needed a modern steam fleet and naval bases to become a world power",
+        feedback: "Captain Alfred Thayer Mahan's hugely influential 1890 book argued that a modern steam fleet and naval bases - especially in the Caribbean and Pacific - were essential for the US to become a great power."
+    },
+    {
+        topic: "US Imperialism",
+        question: "How many Americans were killed in combat in the Spanish-American War?",
+        options: ["Fewer than 100", "Fewer than 200", "Fewer than 400", "Around 1,000"],
+        answer: "Fewer than 400",
+        feedback: "Fewer than 400 Americans were killed in combat in the Spanish-American War, though around 5,000 died from disease. Secretary of State John Hay called it a 'splendid little war'."
+    },
+    {
+        topic: "US Imperialism",
+        question: "What was the 1823 Monroe Doctrine?",
+        options: ["A trade agreement giving the US preferred trading status in Latin America", "A military alliance between the US and Britain against European powers", "A treaty establishing US control over the Caribbean Sea", "A warning to European powers against interference or colonisation in the Western Hemisphere"],
+        answer: "A warning to European powers against interference or colonisation in the Western Hemisphere",
+        feedback: "The 1823 Monroe Doctrine warned European powers against interference or colonisation in the Western Hemisphere. The Roosevelt Corollary of 1904 extended this to justify US intervention in Latin American nations."
+    },
+    {
+        topic: "US Imperialism",
+        question: "How much did the US pay for the Philippines after the Spanish-American War?",
+        options: ["5 million dollars", "10 million dollars", "20 million dollars", "50 million dollars"],
+        answer: "20 million dollars",
+        feedback: "The Philippines cost the US 20 million dollars - reflecting the commitment to expansion. The US also acquired Puerto Rico and Guam, while the Teller Amendment forswore annexation of Cuba."
+    },
+    {
+        topic: "US Imperialism",
+        question: "What was the state of the US navy by the end of the 19th century relative to its economy?",
+        options: ["It was ranked 5th in the world despite being one of the largest economies", "It was ranked 10th in the world despite being one of the largest economies", "It was ranked 17th in the world despite being one of the largest economies", "It was ranked 25th in the world despite being one of the largest economies"],
+        answer: "It was ranked 17th in the world despite being one of the largest economies",
+        feedback: "By the end of the century, the nation's economy was one of the world's largest, but the navy only ranked 17th. In 1882, of 140 ships on the naval list, only 42 were operational."
     },
     {
         topic: "Progressive Era",
@@ -1615,23 +2164,23 @@ const usQs = [
     {
         topic: "Progressive Era",
         question: "What action did Roosevelt take against the Northern Securities Company in 1902?",
-        options: ["He personally negotiated a merger to create a regulated monopoly", "He asked Congress to pass a law breaking up all railroad monopolies", "He fined the company but allowed it to continue under new regulations", "He instructed attorney general Philander Knox to start anti-trust proceedings - the Supreme Court declared the company illegal in 1904 and dissolved it"],
-        answer: "He instructed attorney general Philander Knox to start anti-trust proceedings - the Supreme Court declared the company illegal in 1904 and dissolved it",
-        feedback: "In 1902 TR instructed attorney general Philander C. Knox to start proceedings against the Northern Securities company - involving taking on both J.P. Morgan and Rockefeller. In 1904, the Supreme Court declared the company illegal and it was dissolved. TR went on to 44 anti-trust prosecutions."
+        options: ["He personally negotiated a merger to create a regulated monopoly", "He asked Congress to pass a law breaking up all railroad monopolies", "He fined the company but allowed it to continue under new regulations", "He instructed attorney general Philander Knox to start anti-trust proceedings - the Supreme Court declared the company illegal in 1904"],
+        answer: "He instructed attorney general Philander Knox to start anti-trust proceedings - the Supreme Court declared the company illegal in 1904",
+        feedback: "In 1902 TR instructed attorney general Philander C. Knox to start proceedings against the Northern Securities company - involving taking on both J.P. Morgan and Rockefeller. In 1904, the Supreme Court declared the company illegal and it was dissolved."
     },
     {
         topic: "Progressive Era",
         question: "What did the 1906 Hepburn Act do?",
-        options: ["Banned child labour in factories across the US", "Established the first federal income tax on earnings", "Required all meat to be federally inspected before sale", "Gave a federal commission power to inspect railroad books and lay down maximum rates"],
+        options: ["Banned child labour in factories", "Established the first federal income tax on earnings", "Required all meat to be federally inspected before sale", "Gave a federal commission power to inspect railroad books and lay down maximum rates"],
         answer: "Gave a federal commission power to inspect railroad books and lay down maximum rates",
         feedback: "The 1906 Hepburn Act gave a federal government commission the power to inspect the books of railroad companies and lay down maximum rates - a major step in protecting the public from railroad monopoly power."
     },
     {
         topic: "Progressive Era",
         question: "How did Roosevelt resolve the 1902 Anthracite Coal Strike?",
-        options: ["He sided with employers and threatened to use troops against the strikers", "He passed emergency legislation forcing both sides to accept federal arbitration", "He personally negotiated a deal with union leaders without involving employers", "He summoned both sides and threatened to seize the mines if employers refused arbitration - employers raised wages and offered 9-hour days"],
+        options: ["He sided with employers and threatened troops against the strikers", "He passed emergency legislation forcing both sides to accept arbitration", "He personally negotiated with union leaders without involving employers", "He summoned both sides and threatened to seize the mines if employers refused arbitration - employers raised wages and offered 9-hour days"],
         answer: "He summoned both sides and threatened to seize the mines if employers refused arbitration - employers raised wages and offered 9-hour days",
-        feedback: "In 1902, employers had locked out striking miners. TR summoned both sides and threatened to send in troops if employers refused arbitration. The employers ultimately raised wages and offered 9-hour days - a landmark moment in presidential intervention in labour disputes."
+        feedback: "In 1902, employers had locked out striking miners. TR summoned both sides and threatened to send in troops if employers refused arbitration. The employers ultimately raised wages and offered 9-hour days."
     },
     {
         topic: "Progressive Era",
@@ -1643,30 +2192,58 @@ const usQs = [
     {
         topic: "Progressive Era",
         question: "What was Taft's 'dollar diplomacy'?",
-        options: ["A domestic policy encouraging Americans to invest in Liberty Bonds", "A tariff policy tying American trade agreements to the gold standard", "A plan to use American financial aid to stabilise European post-war economies", "A foreign policy encouraging US investments in Latin America and the Far East, using the government to promote US commercial interests abroad"],
+        options: ["A domestic policy encouraging Americans to invest in Liberty Bonds", "A tariff policy tying American trade to the gold standard", "A plan to use American financial aid to stabilise European economies", "A foreign policy encouraging US investments in Latin America and the Far East, using the government to promote US commercial interests abroad"],
         answer: "A foreign policy encouraging US investments in Latin America and the Far East, using the government to promote US commercial interests abroad",
         feedback: "Dollar diplomacy was Taft's foreign policy - encouraging US investments in South and Central America, the Caribbean and the Far East, and using government officials to promote the sale of American products overseas."
     },
     {
         topic: "Progressive Era",
-        question: "What split the Republican Party and led to the 1912 election result?",
-        options: ["A disagreement over the gold standard between eastern and western Republicans", "Taft's dismissal of conservation policies alienated western Republicans", "A scandal involving Taft's cabinet drove progressive Republicans to support TR", "TR returned to run against Taft after growing frustration with his conservatism - TR ran as a Progressive, splitting the Republican vote. Result: Democrats 41.8%, Progressives 27.4%, Republicans 23.3%"],
-        answer: "TR returned to run against Taft after growing frustration with his conservatism - TR ran as a Progressive, splitting the Republican vote. Result: Democrats 41.8%, Progressives 27.4%, Republicans 23.3%",
-        feedback: "TR was unhappy with Taft's efforts and returned to run again. Unable to win the Republican nomination, he ran as a Progressive (National Progressive Party). The result: Democrats 41.8%, Progressives 27.4%, Republicans 23.3% - handing Wilson the presidency."
+        question: "What split the Republican Party in the 1912 election?",
+        options: ["A disagreement over the gold standard between eastern and western Republicans", "Taft's dismissal of conservation policies alienated western Republicans", "A scandal involving Taft's cabinet drove progressive Republicans to TR", "TR returned to run against Taft after growing frustration with his conservatism, splitting the Republican vote - Democrats 41.8%, Progressives 27.4%, Republicans 23.3%"],
+        answer: "TR returned to run against Taft after growing frustration with his conservatism, splitting the Republican vote - Democrats 41.8%, Progressives 27.4%, Republicans 23.3%",
+        feedback: "TR was unhappy with Taft's efforts and returned to run again. Unable to win the Republican nomination, he ran as a Progressive. The result: Democrats 41.8%, Progressives 27.4%, Republicans 23.3% - handing Wilson the presidency."
+    },
+    {
+        topic: "Progressive Era",
+        question: "How many anti-trust prosecutions did TR pursue in total?",
+        options: ["14", "28", "44", "60"],
+        answer: "44",
+        feedback: "TR pursued 44 anti-trust prosecutions including American Tobacco and Standard Oil, earning him the nickname 'Great Trust-Buster'. Taft actually pursued more - 99 prosecutions - though he backed away from antitrust efforts by 1911."
+    },
+    {
+        topic: "Progressive Era",
+        question: "How many acres of forest did TR order placed on federal reserves?",
+        options: ["50 million acres", "100 million acres", "150 million acres", "200 million acres"],
+        answer: "150 million acres",
+        feedback: "TR ordered 150 million acres of forest placed on federal reserves and strictly enforced laws on grazing, mining, and lumbering. Between 1905 and 1909, some 120 million acres of land were taken into public domain."
+    },
+    {
+        topic: "Progressive Era",
+        question: "What was the 'Mongrel Tariff' of 1882?",
+        options: ["A tariff that raised rates by an average of 25% across the board", "A tariff that reduced rates by an average of only 1.47% - far less than the 20-25% recommended", "A tariff that introduced free trade with Britain and France", "A tariff that doubled rates on manufactured goods from Germany"],
+        answer: "A tariff that reduced rates by an average of only 1.47% - far less than the 20-25% recommended",
+        feedback: "Arthur's specially appointed committee called for a 20-25% reduction in tariff rates. Congress defied this, passing the 'Mongrel Tariff' 1882, dropping rates by an average of only 1.47%."
+    },
+    {
+        topic: "Progressive Era",
+        question: "What was the circulation of McClure's magazine by 1904?",
+        options: ["250,000 copies", "500,000 copies", "750,000 copies", "1 million copies"],
+        answer: "750,000 copies",
+        feedback: "By 1904 McClure's magazine was selling 750,000 copies, and 8 years later Collier's magazine reached 1 million sales per edition. These muckraking publications exposed political and business corruption in most of America's cities."
     },
     {
         topic: "World War I",
         question: "What was the Zimmermann Telegram?",
-        options: ["A German pledge to resume unrestricted submarine warfare against Allied shipping", "An intercepted German order to sink the Lusitania in 1915", "Germany's offer of a ceasefire based on Wilson's 14 Points", "A secret German proposal to Mexico - Germany would help Mexico recover Texas, Arizona and New Mexico if the US declared war"],
+        options: ["A German pledge to resume unrestricted submarine warfare", "An intercepted German order to sink the Lusitania", "Germany's offer of a ceasefire based on Wilson's 14 Points", "A secret German proposal to Mexico - Germany would help Mexico recover Texas, Arizona and New Mexico if the US declared war"],
         answer: "A secret German proposal to Mexico - Germany would help Mexico recover Texas, Arizona and New Mexico if the US declared war",
-        feedback: "German Foreign Secretary Arthur Zimmermann sent a secret telegram to the Mexican German Ambassador proposing an alliance - Germany would help Mexico recover Texas, Arizona and New Mexico if the US went to war. It was intercepted by British intelligence and helped push the US into the war."
+        feedback: "German Foreign Secretary Arthur Zimmermann sent a secret telegram to the Mexican German Ambassador proposing an alliance - Germany would help Mexico recover Texas, Arizona and New Mexico if the US went to war. It was intercepted by British intelligence."
     },
     {
         topic: "World War I",
         question: "What was the financial cost of American participation in World War I?",
-        options: ["$10 billion in total war costs", "$20 billion in war costs with no loans to allies", "$50 billion including post-war reconstruction costs", "$33.5 billion in war costs plus $7 billion lent to allies"],
-        answer: "$33.5 billion in war costs plus $7 billion lent to allies",
-        feedback: "The war cost $33.5 billion plus $7 billion lent to allies. Two thirds of the cost was raised through war bonds - liberty and victory loans - with celebrities like Charlie Chaplin deployed to encourage bond purchases."
+        options: ["10 billion dollars in total", "20 billion dollars with no loans to allies", "50 billion dollars including reconstruction", "33.5 billion dollars in war costs plus 7 billion dollars lent to allies"],
+        answer: "33.5 billion dollars in war costs plus 7 billion dollars lent to allies",
+        feedback: "The war cost 33.5 billion dollars plus 7 billion dollars lent to allies. Two thirds of the cost was raised through war bonds - liberty and victory loans - with celebrities like Charlie Chaplin deployed to encourage bond purchases."
     },
     {
         topic: "World War I",
@@ -1678,35 +2255,63 @@ const usQs = [
     {
         topic: "World War I",
         question: "What was Senator Henry Cabot Lodge's core objection to the Treaty of Versailles?",
-        options: ["He believed the reparations on Germany were too harsh and would cause instability", "He thought the League gave too much power to Britain and France", "He opposed the principle of national self-determination as destabilising", "He objected to Article X, which obligated League members to defend one another and could override Congress's war powers"],
+        options: ["He believed reparations on Germany were too harsh", "He thought the League gave too much power to Britain and France", "He opposed the principle of national self-determination as destabilising", "He objected to Article X, which obligated League members to defend one another and could override Congress's war powers"],
         answer: "He objected to Article X, which obligated League members to defend one another and could override Congress's war powers",
         feedback: "Lodge's key objection was Article X, which obligated League of Nations members to defend one another - potentially allowing the League to override Congress's constitutional war powers. Wilson refused to accept any amendments and the Senate voted twice against ratification."
     },
     {
         topic: "World War I",
         question: "What was the 'Red Summer' of 1919?",
-        options: ["A wave of communist-inspired strikes across American industrial cities", "The Palmer Raids targeting radical immigrants across 36 cities", "The Seattle General Strike spreading to other cities across the country", "Mob violence erupting in over 36 cities - 12 veterans lynched, 76 African Americans lynched by year's end"],
+        options: ["A wave of communist-inspired strikes across American industrial cities", "The Palmer Raids targeting radical immigrants across 36 cities", "The Seattle General Strike spreading to other cities", "Mob violence erupting in over 36 cities - 12 veterans lynched, 76 African Americans lynched by year's end"],
         answer: "Mob violence erupting in over 36 cities - 12 veterans lynched, 76 African Americans lynched by year's end",
         feedback: "Mob violence erupted in over 36 cities in 1919 - the 'Red Summer'. Twelve veterans were dead from lynching and 76 African Americans had been lynched by year's end. An effort by Black sharecroppers in Elaine, Arkansas to organise for better wages led to a massacre with 200 African Americans dead."
     },
     {
         topic: "World War I",
         question: "What was the sinking of the Lusitania in 1915?",
-        options: ["A US Navy vessel sunk by German forces in the North Atlantic", "A German supply ship sunk by a British destroyer, drawing the US into the conflict", "A neutral American cargo ship sunk by Germany, triggering a diplomatic crisis", "A British luxury liner sunk by a German submarine - over 1,000 died including 129 Americans. Germany temporarily called off unrestricted U-boat warfare but resumed it in 1917"],
+        options: ["A US Navy vessel sunk by German forces in the North Atlantic", "A German supply ship sunk by a British destroyer", "A neutral American cargo ship sunk by Germany", "A British luxury liner sunk by a German submarine - over 1,000 died including 129 Americans. Germany temporarily called off unrestricted U-boat warfare but resumed it in 1917"],
         answer: "A British luxury liner sunk by a German submarine - over 1,000 died including 129 Americans. Germany temporarily called off unrestricted U-boat warfare but resumed it in 1917",
         feedback: "In 1915, the British luxury liner Lusitania was sunk by a German submarine - over 1,000 people died, including 129 Americans. Germany temporarily called off unrestricted U-boat warfare in response to American outrage, before resuming it in 1917."
     },
     {
+        topic: "World War I",
+        question: "What was the Espionage Act of 1917 and how was it extended?",
+        options: ["It authorised surveillance of German-American communities, extended to Irish-Americans in 1918", "It banned German-language newspapers, extended to all foreign language media in 1918", "It required registration of all immigrants from enemy nations, extended to neutral nations in 1918", "It made it a felony to speak, act or write anything the government viewed as seditious, extended with the 1918 Sedition Act"],
+        answer: "It made it a felony to speak, act or write anything the government viewed as seditious, extended with the 1918 Sedition Act",
+        feedback: "The Espionage Act of 1917 made it a felony to speak, act or write anything the government viewed as seditious. Restrictions were extended with the 1918 Sedition Act, and the American Protective League created a civilian surveillance apparatus."
+    },
+    {
+        topic: "World War I",
+        question: "How many Americans served in World War I in total?",
+        options: ["Over 1 million", "Over 2 million", "Over 4 million", "Over 6 million"],
+        answer: "Over 4 million",
+        feedback: "Over 4 million Americans served in WW1, nearly 400,000 of them African American. Most Black troops were assigned to labour duties rather than combat roles, reflecting rigid segregation in the army."
+    },
+    {
+        topic: "World War I",
+        question: "By what year did 70% of US exports go to the Allied nations?",
+        options: ["1914", "1915", "1916", "1917"],
+        answer: "1916",
+        feedback: "By 1916, 70% of US exports went to the Allied nations. Trade with the Allies stood at 3 billion dollars compared to just 170 million dollars with Germany - a major economic factor pushing the US towards the Allied side."
+    },
+    {
+        topic: "World War I",
+        question: "How many working days were lost from strike action in 1957 in Britain?",
+        options: ["Over 2 million", "Over 4 million", "Over 8 million", "Over 12 million"],
+        answer: "Over 8 million",
+        feedback: "Over 8 million working days were lost from strike action in 1957, highlighting the underlying labour tensions in the British economy during the supposedly prosperous Macmillan years."
+    },
+    {
         topic: "World War I and African Americans",
         question: "What were conditions like for African American soldiers in World War I?",
-        options: ["African Americans were fully integrated into all units and served with distinction", "African American officers commanded integrated units at the front", "The War Department gave African American units the most dangerous frontline assignments", "Rigid segregation - most Black troops were assigned to labour duties, often without proper training. AA women were not allowed to nurse abroad"],
-        answer: "Rigid segregation - most Black troops were assigned to labour duties, often without proper training. AA women were not allowed to nurse abroad",
-        feedback: "There was rigid segregation in the army. Most African American troops were assigned to Services of Supply (SOS) units - retrieving dead soldiers, building roads, working at docks. African American women were not allowed to nurse abroad. White Southern officers accused the 92nd Division of being 'rapists, malcontents and incompetent soldiers'."
+        options: ["African Americans were fully integrated and served with distinction", "African American officers commanded integrated units at the front", "The War Department gave Black units the most dangerous frontline assignments", "Rigid segregation - most Black troops were assigned to labour duties, often without proper training. African American women were not allowed to nurse abroad"],
+        answer: "Rigid segregation - most Black troops were assigned to labour duties, often without proper training. African American women were not allowed to nurse abroad",
+        feedback: "There was rigid segregation in the army. Most African American troops were assigned to Services of Supply (SOS) units - retrieving dead soldiers, building roads, working at docks. African American women were not allowed to nurse abroad."
     },
     {
         topic: "World War I and African Americans",
         question: "What was the 'Harlem Hell-fighters' regiment's achievement in World War I?",
-        options: ["They were the first all-Black unit to land in France", "They captured the most enemy soldiers of any American regiment in the war", "They were awarded the Medal of Honor for their defence of the Argonne Forest", "They served 191 days at the front - more than any other American outfit - never lost a foot of ground, and members were awarded the French Croix de Guerre"],
+        options: ["They were the first all-Black unit to land in France", "They captured the most enemy soldiers of any American regiment", "They were awarded the Medal of Honor for their defence of the Argonne Forest", "They served 191 days at the front - more than any other American outfit - never lost a foot of ground, and members were awarded the French Croix de Guerre"],
         answer: "They served 191 days at the front - more than any other American outfit - never lost a foot of ground, and members were awarded the French Croix de Guerre",
         feedback: "The 'Harlem Hell-fighters' served 191 days at the front - more than any other American outfit. They never lost a foot of ground to the Germans. Members were awarded the French Croix de Guerre."
     },
@@ -1720,44 +2325,107 @@ const usQs = [
     {
         topic: "Prohibition",
         question: "How widespread was prohibition before the 18th Amendment?",
-        options: ["Only a handful of rural counties were dry before 1919", "Only Southern states had local prohibition before the federal amendment", "Prohibition was exclusively an urban phenomenon before the federal amendment", "40% of counties were dry by 1906 and a full dozen states by 1909"],
+        options: ["Only a handful of rural counties were dry before 1919", "Only Southern states had local prohibition before the federal amendment", "Prohibition was exclusively an urban phenomenon", "40% of counties were dry by 1906 and a full dozen states by 1909"],
         answer: "40% of counties were dry by 1906 and a full dozen states by 1909",
         feedback: "Prohibition had significant grassroots support well before the 18th Amendment - 40% of the nation's counties were dry by 1906, and a full dozen states had gone dry by 1909."
     },
     {
+        topic: "Prohibition",
+        question: "What coalition of interests drove Prohibition?",
+        options: ["Mainly Southern Democrats opposed to the economic power of Northern breweries", "Primarily Northern Progressives and the Women's Christian Temperance Union alone", "Republican Party leaders who saw Prohibition as a vote-winning rural policy", "A broad coalition including the Anti-Saloon League, suffragists, anti-German wartime sentiment, and industrialists like Carnegie and Ford"],
+        answer: "A broad coalition including the Anti-Saloon League, suffragists, anti-German wartime sentiment, and industrialists like Carnegie and Ford",
+        feedback: "The prohibition coalition was remarkably broad - the ASL linked prohibition to suffrage, exploited anti-German hysteria (major breweries like Pabst and Schlitz were German-owned), and industrialists like Carnegie and Ford believed alcohol undercut worker performance."
+    },
+    {
         topic: "Red Scare",
         question: "What were the Palmer Raids of 1919-20?",
-        options: ["Federal raids on KKK headquarters across the South following racial violence", "Army raids on communist cells in major industrial cities following the Seattle Strike", "Congressional investigations into radical trade union activity following the Homestead Strike", "Attorney General Palmer directed raids across 36 cities - 6,000 arrested, 556 immigrants deported. The Supreme Court later ruled evidence gathered was illegal"],
-        answer: "Attorney General Palmer directed raids across 36 cities - 6,000 arrested, 556 immigrants deported. The Supreme Court later ruled evidence gathered was illegal",
+        options: ["Federal raids on KKK headquarters across the South", "Army raids on communist cells in major industrial cities", "Congressional investigations into radical trade union activity", "Attorney General Palmer directed raids across 36 cities - 6,000 arrested, 556 immigrants deported. Supreme Court later ruled evidence gathered was illegal"],
+        answer: "Attorney General Palmer directed raids across 36 cities - 6,000 arrested, 556 immigrants deported. Supreme Court later ruled evidence gathered was illegal",
         feedback: "The 1919-20 Palmer Raids saw Attorney General Palmer direct raids across 36 cities - 6,000 were arrested, radicals were seized nationwide, and 556 immigrants were deported. The Supreme Court later ruled that evidence gathered during the raids was illegal."
     },
     {
         topic: "Red Scare",
         question: "What factors fuelled the Red Scare of 1919?",
-        options: ["The discovery of a Soviet spy network inside the US government", "A series of communist election victories in state legislatures across the country", "German propaganda campaigns targeting American workers after the war ended", "The 1917 Bolshevik Revolution, cost of living rising 99% between 1913-19, rapid demobilisation of 4 million troops, bomb attacks by anarchists, and widespread strikes"],
+        options: ["The discovery of a Soviet spy network inside the US government", "A series of communist election victories in state legislatures", "German propaganda campaigns targeting American workers", "The 1917 Bolshevik Revolution, cost of living rising 99% between 1913-19, rapid demobilisation of 4 million troops, bomb attacks by anarchists, and widespread strikes"],
         answer: "The 1917 Bolshevik Revolution, cost of living rising 99% between 1913-19, rapid demobilisation of 4 million troops, bomb attacks by anarchists, and widespread strikes",
         feedback: "The Red Scare was fuelled by the 1917 Bolshevik Revolution, the cost of living rising 99% between 1913-19, rapid demobilisation of 4 million troops with inadequate planning, anarchist bomb attacks, and the Seattle General Strike."
     },
     {
+        topic: "Red Scare",
+        question: "What happened to Sacco and Vanzetti?",
+        options: ["They were acquitted after a landmark civil liberties case", "They were deported under the Anarchist Exclusion Act after a political trial", "They were pardoned by President Harding after evidence of their innocence emerged", "Two Italian immigrants convicted of robbery and murder in Massachusetts in 1920 in a biased trial - they were executed in 1927"],
+        answer: "Two Italian immigrants convicted of robbery and murder in Massachusetts in 1920 in a biased trial - they were executed in 1927",
+        feedback: "Sacco and Vanzetti were two Italian immigrants convicted of robbery and murder in Massachusetts in 1920. Their trial was widely condemned as biased and unfair. They were executed in 1927, their case becoming a symbol of anti-immigrant prejudice."
+    },
+    {
+        topic: "Red Scare",
+        question: "How many members did the KKK expand to by the mid-1920s?",
+        options: ["1 million members", "2 million members", "4 million members", "6 million members"],
+        answer: "4 million members",
+        feedback: "The KKK expanded to 4 million members by the mid-1920s, rebranding as anti-radical and attracting middle class members. Civil liberties were severely curtailed by the Red Scare - detention without due process became more commonplace."
+    },
+    {
         topic: "Harding and Normalcy",
         question: "What was Warren Harding's appeal in the 1920 election?",
-        options: ["He promised to continue Wilson's progressive internationalism at home and abroad", "He promised to crush the Red Scare with firm military action against radicals", "He ran on expanding civil rights following the race riots of 1919", "He called for 'healing not heroics, normalcy not revolution' - higher tariffs, lower taxes, fewer immigrants, and rejection of the League of Nations"],
+        options: ["He promised to continue Wilson's progressive internationalism", "He promised to crush the Red Scare with firm military action", "He ran on expanding civil rights following the race riots of 1919", "He called for 'healing not heroics, normalcy not revolution' - higher tariffs, lower taxes, fewer immigrants, and rejection of the League of Nations"],
         answer: "He called for 'healing not heroics, normalcy not revolution' - higher tariffs, lower taxes, fewer immigrants, and rejection of the League of Nations",
         feedback: "Harding called for 'healing not heroics, normalcy not revolution, serenity not surgery'. His policies appealed broadly after years of war, red scare, race riots and economic hardship. He won 61% of the popular vote."
     },
     {
+        topic: "Harding and Normalcy",
+        question: "What was innovative about Harding's 1920 election campaign?",
+        options: ["He was the first candidate to make a national radio broadcast", "He was the first to use opinion polls to target his campaign messages", "He was the first to campaign specifically in African American communities", "It used radio, photography, and Hollywood celebrity surrogates - Albert Lasker was the first full-time advertising man to head a national campaign"],
+        answer: "It used radio, photography, and Hollywood celebrity surrogates - Albert Lasker was the first full-time advertising man to head a national campaign",
+        feedback: "Harding's 1920 front porch campaign used radio, photography, and Hollywood celebrity surrogates - Al Jolson travelled the country on his behalf. Albert Lasker was the first full-time advertising man to head a national campaign, understanding the power of celebrity."
+    },
+    {
+        topic: "Harding and Normalcy",
+        question: "By what percentage did Harding defeat Cox in the 1920 election?",
+        options: ["51%", "55%", "61%", "68%"],
+        answer: "61%",
+        feedback: "Harding defeated Cox by the greatest majority in two-party history at that point - 61% of the popular vote. Public exhaustion after WW1, the red scare, race riots and economic hardship made his message of normalcy highly appealing."
+    },
+    {
         topic: "Populism",
         question: "What was W.J.B.'s famous 'Cross of Gold' speech about?",
-        options: ["A call to break up the banking monopolies controlling American agriculture", "A call for the nationalisation of railroad companies to protect farmers from exploitation", "A demand for free trade to help farming communities access global markets freely", "An attack on the gold standard and how it destroyed opportunity for farming communities, pulling populist voters towards the Democrat Party"],
+        options: ["A call to break up banking monopolies controlling agriculture", "A call for nationalisation of railroad companies to protect farmers", "A demand for free trade to help farming communities access global markets", "An attack on the gold standard and how it destroyed opportunity for farming communities, pulling populist voters towards the Democrat Party"],
         answer: "An attack on the gold standard and how it destroyed opportunity for farming communities, pulling populist voters towards the Democrat Party",
         feedback: "W.J.B.'s famous speech - 'You shall not crucify mankind upon a cross of gold' - addressed the gold standard and how it destroyed opportunity for farming communities, making him the vehicle pulling populist voters to the Democrat Party."
     },
     {
         topic: "Populism",
         question: "How did the Populist Party perform in the 1892 election?",
-        options: ["They swept the South but failed to make inroads in the North or West", "They merged with the Democratic Party before the election took place", "They won just a handful of local races and failed to elect anyone to Congress", "Their presidential candidate James B. Weaver won 1 million votes, they won 22 electoral votes and 5 of 7 House seats in Kansas"],
+        options: ["They swept the South but failed in the North and West", "They merged with the Democratic Party before the election", "They won just a handful of local races", "Their presidential candidate James B. Weaver won 1 million votes, they won 22 electoral votes and 5 of 7 House seats in Kansas"],
         answer: "Their presidential candidate James B. Weaver won 1 million votes, they won 22 electoral votes and 5 of 7 House seats in Kansas",
         feedback: "The 1892 election was a significant early success for the Populists - James B. Weaver won 1 million votes for president, the party won 22 electoral votes and 5 of 7 House seats in Kansas."
+    },
+    {
+        topic: "Populism",
+        question: "What were the key grievances of the Populist Party?",
+        options: ["Excessive immigration driving down wages and undermining American culture", "High import tariffs protecting eastern manufacturers at the expense of farmers", "Federal government corruption and the spoils system undermining democratic governance", "No reasonable transport rates, farmers facing low prices and droughts, banks restraining credit, and the gold standard limiting money supply"],
+        answer: "No reasonable transport rates, farmers facing low prices and droughts, banks restraining credit, and the gold standard limiting money supply",
+        feedback: "Populists faced no reasonable transport rates - it was cheaper to ship goods from Chicago to Liverpool than across two states - as well as low prices, droughts, political isolation, banks restraining credit, and a gold standard that meant a limited money supply."
+    },
+    {
+        topic: "Populism",
+        question: "What was W.J.B. known as and why?",
+        options: ["The 'Great Reformer' because he championed federal regulation of banks", "The 'Silver Senator' because he campaigned exclusively for free silver coinage", "The 'Farm Champion' because he came from a farming family in Nebraska", "The 'Great Commoner' because he reached out across social and economic divides"],
+        answer: "The 'Great Commoner' because he reached out across social and economic divides",
+        feedback: "W.J.B. became known as the 'Great Commoner' because he reached out across social and economic divides. He addressed the gold standard and how it destroyed opportunity for farming communities, becoming the vehicle pulling populist voters to the Democrat Party."
+    },
+    {
+        topic: "Populism",
+        question: "What was the GDP growth rate of the US between 1865 and 1898?",
+        options: ["Around 1.5% per annum", "Around 2.5% per annum", "Around 3.8% per annum", "Around 5% per annum"],
+        answer: "Around 3.8% per annum",
+        feedback: "GDP rose by around 3.8% per annum between 1865 and 1898. Between 1865 and 1890, the number of people on farms rose from 10 to 25 million, reflecting the enormous expansion of American agriculture in this period."
+    },
+    {
+        topic: "Populism",
+        question: "What was the 1900 Currency Act?",
+        options: ["It introduced a silver standard for US currency", "It created the Federal Reserve to manage money supply", "It devalued the dollar by 20% to boost agricultural exports", "It committed the US to the gold standard"],
+        answer: "It committed the US to the gold standard",
+        feedback: "The 1900 Currency Act committed the US to the gold standard - a major defeat for the Populist movement which had campaigned for free silver coinage to expand the money supply and help indebted farmers."
     }
 ]
 
