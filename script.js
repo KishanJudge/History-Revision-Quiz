@@ -26,7 +26,7 @@ function selectAnswer(index) {
         }
         else {
             document.getElementById("feedback").textContent = ("INCORRECT - " + question.feedback);
-            getChoice(choice);
+            getChoice(choice, currentQ);
         }
         document.getElementById("feedback").style.display = "block";
         document.getElementById("nextQButton").style.display = "block";
@@ -36,7 +36,7 @@ function selectAnswer(index) {
 
 }
 
-function getChoice(choice) {
+function getChoice(choice, question) {
     let options = document.getElementsByClassName("but");
     for (let i = 0; i < 4; i++) {
         if (question.options[i] == choice) {
@@ -71,10 +71,15 @@ function nextQuestion() {
     displayQ(currentPaper);
     document.getElementById("feedback").textContent = "";
     document.getElementById("nextQButton").style.display = "none";
-    document.getElementById(currentGreen).style.backgroundColor = "#21262d";
-    document.getElementById(currentGreen).style.color = "white";
-    document.getElementById(currentSelect).style.backgroundColor = "#21262d";
-    document.getElementById(currentSelect).style.color = "white";
+    if (currentGreen) {
+        document.getElementById(currentGreen).style.backgroundColor = "#21262d";
+        document.getElementById(currentGreen).style.color = "white";
+    }
+    if (currentSelect) {
+        document.getElementById(currentSelect).style.backgroundColor = "#21262d";
+        document.getElementById(currentSelect).style.color = "white";
+    }
+
     selected = false;
 }
 
