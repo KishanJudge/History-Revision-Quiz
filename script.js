@@ -183,266 +183,262 @@ function britainButtonPress() {
 }
 
 const britishQs = [
+
     {
-        topic: "Conservative Dominance 1951-64",
-        question: "What were the four main reasons for the Conservative revival after 1945?",
+        topic: "Conservative Revival 1945-51",
+        question: "What were the election results in 1945, 1950 and 1951?",
         options: [
-            "Press support, Churchill's popularity, Labour's economic failures, and Cold War fears",
-            "Structural reorganisation, policy development and propaganda, domestic economic problems, and the impact of the Cold War",
-            "Lord Woolton's fundraising, the housing promise, lower taxes, and anti-immigration policy",
-            "The Young Conservative movement, the Industrial Charter, the Korean War, and Labour's divisions"
+            "1945: Labour 200 seat maj; 1950: 20 seat maj; 1951: Tories won 10 seat maj",
+            "1945: Labour 80 seat maj; 1950: 2 seat maj; 1951: Tories won 25 seat maj",
+            "1945: Labour 146 seat maj; 1950: 5 seat maj; 1951: Tories won 16 seat maj despite 0.8% fewer votes",
+            "1945: Labour 100 seat maj; 1950: 15 seat maj; 1951: Tories won 30 seat maj"
         ],
-        answer: "Structural reorganisation, policy development and propaganda, domestic economic problems, and the impact of the Cold War",
-        feedback: "The four key reasons for Conservative revival were: structural reorganisation under Lord Woolton, policy development and propaganda (e.g. the Industrial Charter and Right Road for Britain), domestic economic problems like austerity and rationing, and the Cold War shifting public opinion away from socialism."
+        answer: "1945: Labour 146 seat maj; 1950: 5 seat maj; 1951: Tories won 16 seat maj despite 0.8% fewer votes",
+        feedback: "Labour won a 146-seat majority in 1945. By 1950 this fell to 5 seats, and in 1951 the Tories won a 16-seat majority despite receiving 0.8% fewer votes — a quirk of first past the post."
     },
     {
-        topic: "Conservative Dominance 1951-64",
-        question: "What did the 1947 Industrial Charter and the 1949 'Right Road for Britain' signal about Conservative policy?",
+        topic: "Conservative Revival 1945-51",
+        question: "Who headed Conservative structural reorganisation after 1945 and what did it achieve?",
         options: [
-            "A plan to reverse all of Attlee's reforms and return to free market economics",
-            "The Industrial Charter recognised unions and reduced taxation; the Right Road stressed Tories would not abandon Attlee's reforms or the welfare state",
-            "A commitment to nationalising more industries beyond Labour's plans",
-            "A return to pre-war minimal state intervention and balanced budgets"
+            "Rab Butler — reformed party finances and introduced the Young Conservative movement",
+            "Harold Macmillan — reorganised constituency associations and introduced central funding",
+            "Lord Beaverbrook — rebuilt the press wing and expanded membership to 5 million",
+            "Lord Woolton — built a fighting fund from small donations, reaching around 3 million members by the early 1950s"
         ],
-        answer: "The Industrial Charter recognised unions and reduced taxation; the Right Road stressed Tories would not abandon Attlee's reforms or the welfare state",
-        feedback: "The 1947 Industrial Charter recognised the importance of unions, called for less taxation and government expenditure, and signalled greater individual enterprise. The 1949 Right Road for Britain reassured voters the Tories would not dismantle Attlee's welfare state — crucial for winning centrist support."
+        answer: "Lord Woolton — built a fighting fund from small donations, reaching around 3 million members by the early 1950s",
+        feedback: "Lord Woolton headed reorganisation as party chairman, fathered small member donations to restore finances, and reached around 3 million members by the early 1950s. The Young Conservative movement in 1946 brought in a younger demographic."
     },
     {
-        topic: "Conservative Dominance 1951-64",
-        question: "What was Churchill's physical and political condition at the start of his second premiership?",
+        topic: "Conservative Revival 1945-51",
+        question: "What did the 1949 'Right Road for Britain' reassure voters about?",
         options: [
-            "He was 65, in excellent health, with a clear radical programme",
+            "That Conservatives would dramatically cut the welfare state to balance the budget",
+            "That Conservatives would not abandon Attlee's reforms and would protect the welfare state",
+            "That Conservatives would renationalise industries privatised under Labour",
+            "That Conservatives would pursue a more aggressive foreign policy than Labour"
+        ],
+        answer: "That Conservatives would not abandon Attlee's reforms and would protect the welfare state",
+        feedback: "The Right Road for Britain stressed Tories would not abandon Attlee's reforms and would protect the welfare state. The promise to build 300,000 houses per year also resonated with voters wanting new homes."
+    },
+    {
+        topic: "Conservative Revival 1945-51",
+        question: "How did the Cold War assist the Conservative revival after 1945?",
+        options: [
+            "Conservative defence policy was seen as stronger than Labour's pacifism",
+            "Labour's links to Soviet trade unions were exposed by Conservative press campaigns",
+            "The Korean War discredited Labour's foreign policy and boosted Conservative support",
+            "The Cold War shifted public language from planning and state intervention to enterprise and opportunity — socialism became the enemy"
+        ],
+        answer: "The Cold War shifted public language from planning and state intervention to enterprise and opportunity — socialism became the enemy",
+        feedback: "Wartime state intervention had seemed to justify socialism, but the Cold War shifted the language — enterprise over planning, with socialism recast as the enemy, despite Labour bearing little resemblance to Soviet communism."
+    },
+    {
+        topic: "Conservative Revival 1945-51",
+        question: "What were the Conservative groups that Lord Woolton's party reorganisation appealed to?",
+        options: [
+            "Young voters, middle class, women, and centrist voters wanting moderate policies",
+            "Working class voters, trade unionists, northerners, and former Liberal voters",
+            "Farmers, small business owners, veterans, and Commonwealth citizens",
+            "Church of England members, grammar school pupils, homeowners, and industrialists"
+        ],
+        answer: "Young voters, middle class, women, and centrist voters wanting moderate policies",
+        feedback: "Conservatives appealed to the young via the Young Conservative movement, the middle class through free enterprise and lower tax, women by promising an end to rationing, and centrists through greater recognition of TUs and a limited role for the state."
+    },
+    {
+        topic: "Churchill's Premiership 1951-55",
+        question: "What was Churchill's physical and political condition at the start of his second term?",
+        options: [
             "He was 77, had already suffered two strokes, suffered another bad one in June 1953, and had a cautious, undogmatic outlook",
-            "He was 70, largely controlled by his cabinet due to ill health",
-            "He was 80 and completely incapacitated — Eden effectively ran the government from the start"
+            "He was 65, in excellent health, with a clear radical programme",
+            "He was 70, suffering from depression, and largely controlled by his cabinet",
+            "He was 80 and completely incapacitated — Eden effectively ran the government"
         ],
         answer: "He was 77, had already suffered two strokes, suffered another bad one in June 1953, and had a cautious, undogmatic outlook",
         feedback: "Churchill was 77 at the start of his second term, had already suffered two strokes, and suffered another bad one in June 1953. Paul Addison argues he led the party 'with great vigour and flair towards the middle ground of politics'. He resigned in April 1955."
     },
     {
-        topic: "Conservative Dominance 1951-64",
-        question: "What was Churchill's non-partisan approach to government in 1951-55?",
-        options: [
-            "He appointed only loyal Tories and moved quickly to reverse Labour's key policies",
-            "He appointed members of his wartime coalition including non-Tories, included reformers like Iain Macleod and Harold Macmillan, and made clear he would not repeal the 1946 Trade Union Act",
-            "He formed a coalition government with the Liberals to secure a larger majority",
-            "He appointed senior civil servants to cabinet positions to depoliticise economic policy"
-        ],
-        answer: "He appointed members of his wartime coalition including non-Tories, included reformers like Iain Macleod and Harold Macmillan, and made clear he would not repeal the 1946 Trade Union Act",
-        feedback: "Churchill's non-partisan approach included appointing members of his wartime coalition, including men not rooted in the Tory party like Sir Walter Monckton. He included reformers like Iain Macleod as Minister of Health and Harold Macmillan as Minister of Housing, and made clear there would be no attempt to repeal the 1946 Trade Union Act."
-    },
-    {
-        topic: "Conservative Dominance 1951-64",
+        topic: "Churchill's Premiership 1951-55",
         question: "What was Butler's economic inheritance in 1951 and how did he respond?",
         options: [
-            "A £200mil surplus — he cut taxes and expanded the welfare state immediately",
-            "A £700mil balance of payments deficit — he responded with savage cuts on imports, credit and food subsidies, raising the bank rate from 2% to 4%",
+            "A £200mil surplus — he cut taxes and expanded the welfare state",
             "A balanced budget — he maintained existing policies while reducing nationalisation",
-            "A £500mil deficit — he devalued the pound and sought an IMF loan"
+            "A £500mil deficit — he devalued the pound and sought an IMF loan",
+            "A £700mil balance of payments deficit — he cut imports, credit and food subsidies, and raised the bank rate from 2% to 4%"
         ],
-        answer: "A £700mil balance of payments deficit — he responded with savage cuts on imports, credit and food subsidies, raising the bank rate from 2% to 4%",
-        feedback: "Butler inherited a £700mil balance of payments deficit. He responded with a savage programme of cuts on imports, credit, food subsidies, and raised the bank rate from 2% to 4%. By 1952 the deficit was wiped out and there was a £259mil surplus."
+        answer: "A £700mil balance of payments deficit — he cut imports, credit and food subsidies, and raised the bank rate from 2% to 4%",
+        feedback: "Butler inherited a £700mil BOP deficit. He responded with savage cuts on imports, credit, and food subsidies, raising the bank rate from 2% to 4%. By 1952 the deficit was wiped out and there was a £259mil surplus."
     },
     {
-        topic: "Conservative Dominance 1951-64",
-        question: "What were the key social achievements of Churchill's 1951-55 government?",
+        topic: "Churchill's Premiership 1951-55",
+        question: "What were Churchill's key social achievements 1951-55?",
         options: [
-            "The creation of the NHS, introduction of comprehensive schools, and abolition of national service",
-            "Sharp rise in living standards, commercial TV introduced in 1954, food rationing abolished 1954, and Macmillan exceeded the 300K houses pledge with 327K in 1953 and 354K in 1954",
-            "Introduction of the contraceptive pill, Race Relations Act, and the abolition of capital punishment",
-            "Introduction of university grants, expansion of grammar schools, and the end of the eleven plus"
+            "Introduction of comprehensive schools, abolition of national service, and the Race Relations Act",
+            "Contraceptive pill, abolition of capital punishment, and equal pay for women",
+            "University grants, expansion of grammar schools, and the end of the eleven plus",
+            "Food rationing abolished 1954, commercial TV introduced 1954, and Macmillan exceeded the 300K houses pledge"
         ],
-        answer: "Sharp rise in living standards, commercial TV introduced in 1954, food rationing abolished 1954, and Macmillan exceeded the 300K houses pledge with 327K in 1953 and 354K in 1954",
-        feedback: "Churchill's social record included a sharp rise in living standards and economic freedom, the introduction of commercial television in 1954, food rationing abolished in 1954, wartime controls removed, and Macmillan exceeding the housing promise with 327K in 1953 and 354K in 1954."
+        answer: "Food rationing abolished 1954, commercial TV introduced 1954, and Macmillan exceeded the 300K houses pledge",
+        feedback: "Key social achievements included food rationing abolished in 1954, commercial television introduced in 1954, wartime controls removed, and Macmillan exceeding the housing promise with 327K in 1953 and 354K in 1954."
     },
     {
-        topic: "Conservative Dominance 1951-64",
-        question: "What was Eden's record as Prime Minister before the Suez Crisis?",
+        topic: "Eden's Premiership",
+        question: "What was Eden's record before Suez?",
         options: [
-            "He was widely regarded as a failure from the start, with a poor grasp of domestic policy",
-            "He increased the Conservative majority from 17 to 60, the first PM in 90 years to increase the majority, and oversaw barely 1% unemployment in July 1955",
-            "He maintained Churchill's majority unchanged and focused entirely on foreign affairs",
-            "He reduced the Conservative majority but introduced popular social reforms"
+            "He reduced the Conservative majority and introduced popular social reforms",
+            "He maintained Churchill's majority unchanged and focused on foreign affairs",
+            "He increased the Conservative majority from 17 to 60 — the first PM in 90 years to do so — and oversaw barely 1% unemployment in July 1955",
+            "He was widely regarded as a failure from the start, with poor domestic policy"
         ],
-        answer: "He increased the Conservative majority from 17 to 60, the first PM in 90 years to increase the majority, and oversaw barely 1% unemployment in July 1955",
-        feedback: "Eden increased the Conservative majority from 17 to 60 — the first PM in 90 years to increase the majority at a general election. He oversaw the lowest unemployment since WW2 at barely 1% in July 1955, and the age of affluence continued under his premiership."
+        answer: "He increased the Conservative majority from 17 to 60 — the first PM in 90 years to do so — and oversaw barely 1% unemployment in July 1955",
+        feedback: "Eden increased the Conservative majority from 17 to 60 — the first PM in 90 years to increase the majority at an election. He oversaw the lowest unemployment since WW2 at barely 1% in July 1955."
     },
     {
-        topic: "Conservative Dominance 1951-64",
-        question: "What was Macmillan's famous claim at Bedford Town Football Ground in 1957?",
+        topic: "Eden's Premiership",
+        question: "What was the Suez Crisis of 1956?",
         options: [
+            "Egypt seized British oil facilities — Britain successfully defended them with French and Israeli help",
+            "Nasser blockaded the canal — Britain and the US jointly threatened military action, successfully reopening it",
+            "Israel attacked Egypt — Britain and France intervened as neutral peacekeepers but were forced out by the UN",
+            "Nasser nationalised the Suez Canal — Britain secretly colluded with France and Israel to invade, but a run on the pound and US refusal to help forced a ceasefire, exposing Britain's inability to act independently"
+        ],
+        answer: "Nasser nationalised the Suez Canal — Britain secretly colluded with France and Israel to invade, but a run on the pound and US refusal to help forced a ceasefire, exposing Britain's inability to act independently",
+        feedback: "Nasser nationalised the Suez Canal in July 1956. Britain secretly colluded with Israel and France — Israel attacked Egypt, providing Britain and France the pretext to intervene. A run on the pound and US refusal of economic support forced a ceasefire. Eden resigned shortly after."
+    },
+    {
+        topic: "Macmillan's Premiership",
+        question: "What did Macmillan claim at Bedford Town Football Ground in 1957?",
+        options: [
+            "'The age of austerity is over — the age of opportunity has begun'",
             "'Britain is back — a proud nation leading the world once more'",
-            "'Most of our people have never had it so good' — though he added the cautionary note 'is it too good to last?'",
-            "'We shall build a Britain as prosperous as any nation on earth'",
-            "'The age of austerity is over — the age of opportunity has begun'"
+            "'Most of our people have never had it so good' — though adding the cautionary note 'is it too good to last?'",
+            "'We shall build a Britain as prosperous as any nation on earth'"
         ],
-        answer: "'Most of our people have never had it so good' — though he added the cautionary note 'is it too good to last?'",
-        feedback: "Addressing 1,500 people at Bedford Town Football Ground, Macmillan proclaimed 'most of our people have never had it so good' — but also added the cautionary note 'is it too good to last?', showing he was aware of the underlying economic vulnerabilities."
+        answer: "'Most of our people have never had it so good' — though adding the cautionary note 'is it too good to last?'",
+        feedback: "Addressing 1,500 people, Macmillan proclaimed 'most of our people have never had it so good' — but also added the cautionary note 'is it too good to last?', showing awareness of underlying economic vulnerabilities."
     },
     {
-        topic: "Conservative Dominance 1951-64",
+        topic: "Macmillan's Premiership",
         question: "What was the result of the 1959 general election?",
         options: [
+            "A hung parliament — Macmillan formed a minority Conservative government",
             "Labour won by a narrow majority of 4 seats",
-            "Conservatives gained 20 seats, Labour lost 19, and the Tories won 4% more votes",
             "Conservatives won a landslide of 100 seats, their biggest ever majority",
-            "A hung parliament — Macmillan formed a minority Conservative government"
+            "Conservatives gained 20 seats, Labour lost 19, Tories winning 4% more votes"
         ],
-        answer: "Conservatives gained 20 seats, Labour lost 19, and the Tories won 4% more votes",
-        feedback: "The 1959 election was a triumph for Macmillan — Conservatives gained 20 seats, Labour lost 19, and the Tories received 4% more votes. It reflected the affluence of the era and Labour's continued divisions and image problems."
+        answer: "Conservatives gained 20 seats, Labour lost 19, Tories winning 4% more votes",
+        feedback: "The 1959 election was a triumph for Macmillan — Conservatives gained 20 seats, Labour lost 19, and the Tories received 4% more votes. It reflected affluence and Labour's continued divisions."
     },
     {
-        topic: "Conservative Dominance 1951-64",
-        question: "How did Macmillan use television to his political advantage?",
+        topic: "Macmillan's Premiership",
+        question: "How did Macmillan use television to political advantage?",
         options: [
-            "He refused to appear on television, believing it was beneath the dignity of a Prime Minister",
-            "He appeared calm, authoritative and self-assured on TV — appearing more than Gaitskell — and his 'Supermac' image was reinforced when a cartoonist drew him as Superman",
-            "He used TV exclusively for party political broadcasts, refusing interviews",
-            "He hired professional actors to coach him, but his TV performances were widely regarded as wooden"
+            "He hired actors to coach him but his performances were widely regarded as wooden",
+            "He refused to appear on TV, believing it was beneath a Prime Minister's dignity",
+            "He used TV only for party political broadcasts, refusing interviews",
+            "He appeared calm, authoritative and self-assured on TV more than Gaitskell — a cartoonist drew him as Superman in 1957, earning him the 'Supermac' image"
         ],
-        answer: "He appeared calm, authoritative and self-assured on TV — appearing more than Gaitskell — and his 'Supermac' image was reinforced when a cartoonist drew him as Superman",
-        feedback: "Macmillan rebuilt his presentational skills and appearance — calm, aristocratic, wearing expensive Savile Row suits and fixing his lopsided teeth. In November 1957 a cartoonist drew him as Superman with a giant No.10 on his tunic. He appeared on TV more than Gaitskell, increasingly important as more people had TVs."
+        answer: "He appeared calm, authoritative and self-assured on TV more than Gaitskell — a cartoonist drew him as Superman in 1957, earning him the 'Supermac' image",
+        feedback: "Macmillan rebuilt his presentational skills — calm, aristocratic, wearing expensive Savile Row suits and fixing his lopsided teeth. In 1957 a cartoonist drew him as Superman with a giant No.10 on his tunic. He appeared on TV more than Gaitskell, increasingly important as more people had TVs."
     },
     {
-        topic: "Conservative Dominance 1951-64",
+        topic: "Conservative Fall from Power",
         question: "Why did the Conservatives fall from power by 1964?",
         options: [
+            "Harold Wilson won a landslide on the strength of his economic programme alone",
             "A major recession in 1963 caused mass unemployment and widespread poverty",
-            "A combination of spy scandals, the Profumo Affair, economic difficulties, the out-of-touch establishment image, and the selection of Alec Douglas-Home as PM",
-            "Harold Wilson won a landslide on the back of his 'white heat of technology' speech",
-            "Labour united under a charismatic new leader who swept the country with radical new policies"
+            "The Liberal Party collapsed, with most votes going to Labour",
+            "Spy scandals, the Profumo Affair, economic difficulties, the out-of-touch Establishment image, and the selection of Douglas-Home combined to cost the Conservatives power"
         ],
-        answer: "A combination of spy scandals, the Profumo Affair, economic difficulties, the out-of-touch establishment image, and the selection of Alec Douglas-Home as PM",
-        feedback: "The Conservative fall from power combined: spy scandals (Blake, Vassall), the Profumo Affair, economic difficulties including 878K unemployed in 1963 and the stop-go cycle, satire mocking the out-of-touch establishment, and the selection of Alec Douglas-Home — an old Etonian aristocrat seen as hopelessly dated."
+        answer: "Spy scandals, the Profumo Affair, economic difficulties, the out-of-touch Establishment image, and the selection of Douglas-Home combined to cost the Conservatives power",
+        feedback: "The Conservative fall combined spy scandals (Blake, Vassall), the Profumo Affair, economic difficulties (878K unemployed by 1963), satire mocking the out-of-touch Establishment, and the selection of old Etonian aristocrat Alec Douglas-Home as PM."
     },
-
-
     {
         topic: "Labour Divisions 1951-59",
-        question: "What were the key differences between the Bevanites and the Gaitskellites?",
+        question: "What were the key differences between the Bevanites and Gaitskellites?",
         options: [
-            "Bevanites wanted lower taxes; Gaitskellites wanted higher public spending",
-            "Bevanites wanted larger TU influence, greater state control and were often unilateralists; Gaitskellites were centre-right, resisted TU dominance, and wanted to move the party towards electability",
             "Bevanites supported NATO; Gaitskellites opposed it",
-            "Bevanites wanted to abolish Clause IV; Gaitskellites insisted on retaining it"
+            "Bevanites wanted to abolish Clause IV; Gaitskellites insisted on retaining it",
+            "Bevanites wanted larger TU influence, greater state control, and were often unilateralists; Gaitskellites were centre-right, resisted TU dominance, and focused on electability",
+            "Bevanites wanted lower taxes; Gaitskellites wanted higher public spending"
         ],
-        answer: "Bevanites wanted larger TU influence, greater state control and were often unilateralists; Gaitskellites were centre-right, resisted TU dominance, and wanted to move the party towards electability",
-        feedback: "Bevanites wanted larger TUs with committed left-wingers shaping policy, regarded the welfare state as just the first step towards socialism, and many were unilateralists. Gaitskellites believed TUs didn't represent the majority of the party, resisted TU dominance, and wanted to move Labour away from policies that alienated the electorate."
+        answer: "Bevanites wanted larger TU influence, greater state control, and were often unilateralists; Gaitskellites were centre-right, resisted TU dominance, and focused on electability",
+        feedback: "Bevanites wanted larger TUs with committed left-wingers shaping policy, regarded the welfare state as just the first step towards socialism, and many were unilateralists. Gaitskellites were centre-right, resisted TU dominance, and wanted to move Labour towards electability."
     },
     {
         topic: "Labour Divisions 1951-59",
         question: "What triggered the Bevanite split in 1951?",
         options: [
-            "Bevan's opposition to Britain's nuclear weapons programme",
-            "Bevan resigned from cabinet over prescription charges, giving the left wing a leader",
             "Bevan's refusal to support the Korean War effort",
+            "Bevan resigned from cabinet over prescription charges, giving the left wing a leader",
+            "Bevan's opposition to Britain's nuclear weapons programme",
             "Bevan's demand that Attlee resign as Labour leader immediately"
         ],
         answer: "Bevan resigned from cabinet over prescription charges, giving the left wing a leader",
-        feedback: "In 1951, Bevan resigned from cabinet over prescription charges, providing the left wing with a leader around whom to rally. Subsequently, in 1952, 57 Bevanites voted against the Tory rearmament programme despite the party having agreed to abstain."
+        feedback: "In 1951, Bevan resigned from cabinet over prescription charges, providing the left wing with a leader. Subsequently, in 1952, 57 Bevanites voted against the Tory rearmament programme despite the party having agreed to abstain."
     },
     {
         topic: "Labour Divisions 1951-59",
-        question: "How did Labour achieve relative unity between 1955 and 1959?",
+        question: "Why did Labour's divisions damage its electoral prospects in the 1950s?",
         options: [
-            "Bevan was expelled from the party and Gaitskell consolidated control",
-            "When Attlee retired in 1955 Gaitskell won the leadership overwhelmingly, and Bevan accepted and returned to the fold — the Suez affair then brought them together, with Bevan becoming shadow foreign secretary",
-            "The two factions merged when both agreed to abolish Clause IV",
-            "A new policy document reconciled both wings around a moderate social democratic platform"
+            "The divisions caused a formal party split in 1956, forcing a by-election Labour lost",
+            "Divisions meant no clear direction, no suggestion of strong leadership, and too much infighting to effectively attack the Conservatives",
+            "The divisions led the party to adopt extreme left-wing policies alienating centrist voters",
+            "Internal divisions led Gaitskell to defect to the Liberal Party"
         ],
-        answer: "When Attlee retired in 1955 Gaitskell won the leadership overwhelmingly, and Bevan accepted and returned to the fold — the Suez affair then brought them together, with Bevan becoming shadow foreign secretary",
-        feedback: "When Attlee retired in 1955, Gaitskell won the leadership vote overwhelmingly and Bevan accepted, returning to the fold. Between 1955 and 1959 a Bevan-Gaitskell axis developed — Bevan offered public support to Gaitskell — and the Suez affair brought them together, leading to Bevan becoming shadow foreign secretary."
+        answer: "Divisions meant no clear direction, no suggestion of strong leadership, and too much infighting to effectively attack the Conservatives",
+        feedback: "Labour's divisions meant voters were unsure what policies they'd get. If a leader can't unite their own party, how can they lead the country? Infighting distracted from attacking the opposition. Ppl still associated Labour with austerity and a 'cloth cap' image."
     },
-    {
-        topic: "Labour Divisions 1951-59",
-        question: "Why did Labour's divisions damage its electoral prospects?",
-        options: [
-            "They caused a formal party split in 1956, forcing a by-election that Labour lost",
-            "Divisions meant no clear direction, voters unsure of policies, no suggestion of strong leadership, and too much infighting to effectively attack the opposition",
-            "The divisions led to the party adopting extreme left-wing policies that alienated centrist voters",
-            "Internal divisions led directly to Gaitskell defecting to the Liberal Party"
-        ],
-        answer: "Divisions meant no clear direction, voters unsure of policies, no suggestion of strong leadership, and too much infighting to effectively attack the opposition",
-        feedback: "Labour's divisions meant a lack of clear direction — voters were unsure what policies they'd get. It did not suggest strong leadership — if a leader can't unite their own party, how can they lead the country? It led to infighting and distraction, meaning Labour couldn't effectively attack the opposition."
-    },
-
-
     {
         topic: "Economic Developments 1951-64",
         question: "What characterised the 'stop-go' economic cycle of the 1950s and early 1960s?",
         options: [
+            "Alternating periods of high employment and unemployment tied to global commodity prices",
             "A pattern of nationalisation followed by privatisation as governments changed",
-            "Growth leading to overheating through excessive imports and rising wage demands, with budgets used as short-term electoral measures rather than genuine economic strategy",
-            "Alternating periods of high employment and high unemployment tied to global commodity prices",
-            "A cycle of devaluation followed by deflation that recurred every three years"
+            "A cycle of devaluation followed by deflation recurring every three years",
+            "Growth leading to overheating through excessive imports and rising wages, with budgets used as short-term electoral tools rather than genuine economic strategy"
         ],
-        answer: "Growth leading to overheating through excessive imports and rising wage demands, with budgets used as short-term electoral measures rather than genuine economic strategy",
-        feedback: "The stop-go economy saw growth lead to overheating through excessive, expensive imports and rising wage demands. Budgets were used as short-term measures to buy election votes. Policy lagged behind events rather than directing them, suggesting no real economic plan — contributing to relative decline."
+        answer: "Growth leading to overheating through excessive imports and rising wages, with budgets used as short-term electoral tools rather than genuine economic strategy",
+        feedback: "Stop-go saw growth lead to overheating through excessive imports and rising wage demands. Budgets were used as short-term measures to buy election votes — policy lagged behind events rather than directing them, suggesting no real economic plan."
     },
     {
         topic: "Economic Developments 1951-64",
-        question: "How did Britain's economic performance compare to its main competitors between 1951 and 1964?",
+        question: "How did Britain's economic performance compare to competitors 1951-64?",
         options: [
-            "Britain grew faster than all its competitors throughout the period",
-            "Industrial production grew 3x quicker in France, 4x in West Germany, and 10x in Japan; Britain's share of world trade fell from 25.5% to 16.5% between 1950 and 1960",
+            "Britain grew faster than all competitors throughout the period",
+            "Industrial production grew 3x quicker in France, 4x in West Germany, 10x in Japan; Britain's world trade share fell from 25.5% to 16.5% between 1950 and 1960",
             "Britain and West Germany grew at roughly equal rates, both outpacing France and Japan",
-            "Britain's growth was slower only because it had already industrialised — a natural consequence of being a mature economy"
+            "Britain's slower growth was entirely explained by being a mature, already-industrialised economy"
         ],
-        answer: "Industrial production grew 3x quicker in France, 4x in West Germany, and 10x in Japan; Britain's share of world trade fell from 25.5% to 16.5% between 1950 and 1960",
-        feedback: "Between 1951 and 1964, industrial production grew 3x quicker in France, 4x in West Germany, and 10x in Japan. Britain's share of world trade fell from 25.5% in 1950 to 16.5% in 1960, while Germany and Japan's shares were growing. British shipbuilding fell from 37% of world share in 1950 to just 3.7% by 1974."
-    },
-    {
-        topic: "Economic Developments 1951-64",
-        question: "What were the positive economic indicators of the Conservative years 1951-64?",
-        options: [
-            "No inflation, trade surpluses every year, and the pound remained the world's reserve currency",
-            "2-3% growth per year, unemployment under 2% for most of the period, a BOT surplus of £132mil 1956-60 compared to a deficit of £56mil 1946-50, and generous pre-election budgets",
-            "Britain overtook Germany as the world's largest exporter of manufactured goods",
-            "GDP doubled in real terms and house prices remained stable throughout the period"
-        ],
-        answer: "2-3% growth per year, unemployment under 2% for most of the period, a BOT surplus of £132mil 1956-60 compared to a deficit of £56mil 1946-50, and generous pre-election budgets",
-        feedback: "Positive indicators included 2-3% growth per year 1951-64, unemployment under 2% for most of the period, a BOT surplus of £132mil 1956-60 compared to a deficit of £56mil 1946-50, and generous pre-election budgets — including £134mil tax cuts in 1955 and nearly a 5% income tax cut in 1958."
+        answer: "Industrial production grew 3x quicker in France, 4x in West Germany, 10x in Japan; Britain's world trade share fell from 25.5% to 16.5% between 1950 and 1960",
+        feedback: "Industrial production grew 3x quicker in France, 4x in West Germany, and 10x in Japan. Britain's share of world trade fell from 25.5% in 1950 to 16.5% in 1960, while Germany and Japan's shares were growing."
     },
     {
         topic: "Economic Developments 1951-64",
         question: "What was 'Butskellism'?",
         options: [
-            "A pejorative term for the cosy relationship between Conservative ministers and trade union leaders",
-            "A portmanteau of Butler and Gaitskell suggesting both main parties used broadly similar Keynesian demand management economics",
             "The policy of keeping wages artificially low to control inflation, pursued by both parties",
-            "The term used to describe the shared commitment to the nuclear deterrent across party lines"
+            "The term for the cosy relationship between Conservative ministers and trade union leaders",
+            "A portmanteau of Butler and Gaitskell suggesting both parties used broadly similar Keynesian demand management",
+            "The shared commitment to the nuclear deterrent across party lines"
         ],
-        answer: "A portmanteau of Butler and Gaitskell suggesting both main parties used broadly similar Keynesian demand management economics",
-        feedback: "Butskellism — combining Butler (Conservative Chancellor) and Gaitskell (Labour's Shadow Chancellor) — suggested both parties used broadly similar Keynesian demand management. Government expenditure rose from 39% of GDP in 1950 under Labour to 51% in 1960 under the Conservatives, reflecting a shared approach."
+        answer: "A portmanteau of Butler and Gaitskell suggesting both parties used broadly similar Keynesian demand management",
+        feedback: "Butskellism — combining Chancellor Butler and Shadow Chancellor Gaitskell — suggested both parties used broadly similar Keynesian demand management. Government expenditure rose from 39% of GDP in 1950 under Labour to 51% in 1960 under the Conservatives."
     },
-
     {
-        topic: "Affluence & Living Standards 1951-64",
-        question: "How did real wages and living standards change between 1951 and 1964?",
+        topic: "Affluence & Living Standards",
+        question: "How did wages and living standards change between 1951 and 1964?",
         options: [
             "Real wages fell slightly as inflation outpaced wage growth throughout the period",
-            "Average weekly wages of an adult male rose from around £8 to around £18, with real wages rising ahead of prices at nearly 3% per year 1955-60",
+            "Living standards improved only for the middle class — working class wages stagnated",
             "Wages doubled in nominal terms but barely kept pace with inflation",
-            "Living standards improved only for the middle class — working class wages stagnated"
+            "Average male weekly wages rose from around £8 to £18, with real wages rising ahead of prices at nearly 3% per year 1955-60"
         ],
-        answer: "Average weekly wages of an adult male rose from around £8 to around £18, with real wages rising ahead of prices at nearly 3% per year 1955-60",
-        feedback: "Average weekly wages of an adult male rose from around £8 in 1951 to around £18 in 1964. Real wages rose ahead of prices at nearly 3% per year 1955-60. Food rationing ended in 1954, car sales nearly quadrupled from 1.5 million to 5.5 million 1950-65, and home ownership almost doubled from 27% to 50% between 1950 and 1970."
+        answer: "Average male weekly wages rose from around £8 to £18, with real wages rising ahead of prices at nearly 3% per year 1955-60",
+        feedback: "Average weekly wages rose from around £8 in 1951 to around £18 in 1964. Real wages rose ahead of prices at nearly 3% per year 1955-60. Food rationing ended in 1954, and car sales nearly quadrupled from 1.5 million to 5.5 million 1950-65."
     },
     {
-        topic: "Affluence & Living Standards 1951-64",
-        question: "What new consumer goods and technologies defined the age of affluence?",
-        options: [
-            "Colour television, personal computers, and microwave ovens",
-            "Fridges, radios, TVs, vacuum cleaners, central heating, and commercial television introduced in 1954",
-            "Washing machines, dishwashers, and the first affordable foreign holidays",
-            "Home telephones, record players, and the first British supermarkets"
-        ],
-        answer: "Fridges, radios, TVs, vacuum cleaners, central heating, and commercial television introduced in 1954",
-        feedback: "The age of affluence brought a boom in modern consumer goods — fridges, radios, TVs, vacuums, and central heating. Commercial television was introduced in 1954. Car ownership grew rapidly, and by 1964 the Tories had built 1.7 million homes. The 1957 Rent Act put 6 million properties on the market."
-    },
-    {
-        topic: "Affluence & Living Standards 1951-64",
-        question: "What did the 1959 Mark Abrams survey reveal about changing social attitudes?",
+        topic: "Affluence & Living Standards",
+        question: "What did the 1959 Mark Abrams survey reveal about social attitudes?",
         options: [
             "That 60% of the population now considered themselves working class despite rising incomes",
             "That 40% of manual labourers considered themselves middle class and were hence more likely to vote Tory",
@@ -450,724 +446,616 @@ const britishQs = [
             "That support for the welfare state had collapsed as people became more affluent"
         ],
         answer: "That 40% of manual labourers considered themselves middle class and were hence more likely to vote Tory",
-        feedback: "The 1959 Mark Abrams survey found that 40% of manual labourers considered themselves middle class and hence more likely to vote Tory. People still associated Labour with austerity and a 'cloth cap' image, while Tories were associated with forward-looking, ambitious people in an age of affluence."
+        feedback: "The 1959 Mark Abrams survey found 40% of manual labourers considered themselves middle class and hence more likely to vote Tory. People associated Labour with austerity and a 'cloth cap' image, while Tories were associated with forward-looking, ambitious people."
     },
-
     {
         topic: "Class & The Establishment",
         question: "What was 'the Establishment' and why was it criticised?",
         options: [
-            "The Establishment was the BBC and broadsheet press, criticised for promoting left-wing values",
-            "A small but powerful group of upper class, publicly-schooled, Oxbridge-educated people who governed Britain — criticised for holding the country back through a narrow, self-selecting elite",
+            "A small but powerful group of upper class, publicly-schooled, Oxbridge-educated people governing Britain — criticised for holding the country back through a self-selecting elite",
+            "The BBC and broadsheet press, criticised for promoting left-wing values",
             "The trade union leadership that dominated post-war economic policy",
             "The network of Conservative Party donors who funded Macmillan's government"
         ],
-        answer: "A small but powerful group of upper class, publicly-schooled, Oxbridge-educated people who governed Britain — criticised for holding the country back through a narrow, self-selecting elite",
-        feedback: "The Establishment was a small but powerful group governing Britain — upper class, classically educated at public schools and Oxbridge. Macmillan was Eton and Oxford educated, with 35 members of his government related to him by marriage. Alec Douglas-Home's cabinet of 23 included 10 Old Etonians. Critics argued Britain needed leaders chosen on merit who understood the modern world."
+        answer: "A small but powerful group of upper class, publicly-schooled, Oxbridge-educated people governing Britain — criticised for holding the country back through a self-selecting elite",
+        feedback: "The Establishment was a small but powerful group — upper class, Oxbridge-educated. Macmillan was Eton and Oxford educated with 35 government members related to him by marriage. Alec Douglas-Home's cabinet of 23 included 10 Old Etonians. Social scientists like Richard Hoggart argued Britain needed leaders chosen on merit."
     },
     {
         topic: "Class & The Establishment",
         question: "How did the spy scandals damage Macmillan's government?",
         options: [
             "They had no real political impact as the public was indifferent to Cold War espionage",
-            "George Blake (a Soviet double agent given 42 years) and John Vassall (blackmailed by the KGB) tarnished the intelligence services, damaged US relations, and led Macmillan to imprison two journalists — turning the press against him",
-            "The spy scandals led directly to Macmillan's resignation in 1962",
-            "The scandals only damaged US relations — British public opinion remained supportive of the government"
+            "The scandals only damaged US relations — British public opinion remained supportive",
+            "The scandals led directly to Macmillan's resignation in 1962",
+            "George Blake (Soviet double agent, 42 years) and John Vassall (KGB blackmail) tarnished intelligence services, damaged US relations, and Macmillan angered the press by imprisoning two journalists — The Times called for a change of government"
         ],
-        answer: "George Blake (a Soviet double agent given 42 years) and John Vassall (blackmailed by the KGB) tarnished the intelligence services, damaged US relations, and led Macmillan to imprison two journalists — turning the press against him",
-        feedback: "George Blake was sentenced to 42 years in 1961 and made one of the most daring escapes in 1966. John Vassall was a clerk blackmailed by KGB photographs into passing Admiralty documents to Soviet intelligence. Both tarnished the security services. Macmillan angered by press inquiries had two journalists imprisoned — the press turned heavily against him. The Times called for a change of government."
+        answer: "George Blake (Soviet double agent, 42 years) and John Vassall (KGB blackmail) tarnished intelligence services, damaged US relations, and Macmillan angered the press by imprisoning two journalists — The Times called for a change of government",
+        feedback: "Blake was sentenced to 42 years in 1961. Vassall was a clerk blackmailed by KGB photographs into passing Admiralty documents to Soviet intelligence. Both tarnished the security services. Macmillan angered by press inquiries had two journalists imprisoned — the press turned heavily against him."
     },
     {
         topic: "Class & The Establishment",
-        question: "What was the Profumo Affair and why did it damage the Conservatives?",
+        question: "What was the Profumo Affair?",
         options: [
-            "A financial scandal in which the Minister for War was found to have accepted bribes from defence contractors",
-            "Secretary of State for War John Profumo had an affair with Christine Keeler, who was also linked to a Soviet naval attaché — he lied to Parliament about it, resigned in June 1963, and the scandal damaged the government's reputation and added pressure on Macmillan",
-            "A sex scandal involving a junior minister that the press deliberately exaggerated to sell newspapers",
-            "The revelation that cabinet ministers had attended parties hosted by a Soviet spy"
+            "A financial scandal in which the Minister for War accepted bribes from defence contractors",
+            "A sex scandal involving a junior minister that the press deliberately exaggerated",
+            "The revelation that cabinet ministers had attended parties hosted by a Soviet spy",
+            "Secretary of State for War John Profumo had an affair with Christine Keeler, who was also linked to a Soviet naval attaché — he lied to Parliament, resigned in June 1963, and the scandal damaged Conservative reputation and added pressure on Macmillan"
         ],
-        answer: "Secretary of State for War John Profumo had an affair with Christine Keeler, who was also linked to a Soviet naval attaché — he lied to Parliament about it, resigned in June 1963, and the scandal damaged the government's reputation and added pressure on Macmillan",
-        feedback: "In 1961 John Profumo began an affair with Christine Keeler, who was also linked to Soviet naval attaché Eugene Ivanov — raising Cold War security concerns. Profumo denied wrongdoing to Parliament in 1963, then admitted lying and resigned. The affair damaged Conservative reputation, fuelled public fascination with sex, class and espionage, and added pressure on Macmillan who resigned later in 1963."
+        answer: "Secretary of State for War John Profumo had an affair with Christine Keeler, who was also linked to a Soviet naval attaché — he lied to Parliament, resigned in June 1963, and the scandal damaged Conservative reputation and added pressure on Macmillan",
+        feedback: "In 1961 Profumo began an affair with Christine Keeler, who was also linked to Soviet naval attaché Eugene Ivanov. He denied wrongdoing to Parliament in 1963, then admitted lying and resigned. The affair damaged Conservative reputation, fuelled public fascination with sex, class and espionage, and added pressure on Macmillan who resigned later in 1963."
     },
-    {
-        topic: "Class & The Establishment",
-        question: "How did satire contribute to the decline of Conservative authority?",
-        options: [
-            "It had little real impact — political satire has always been part of British culture",
-            "'That Was The Week That Was' and 'Angry Young Men' works like David Storey's 'This Sporting Life' attacked the behaviours of the Establishment, contributing to an image of incompetence and being out of touch",
-            "The Conservatives successfully sued satirists for libel, making the satire movement a cause célèbre",
-            "Satire only affected the educated middle class — working class voters were unaffected"
-        ],
-        answer: "'That Was The Week That Was' and 'Angry Young Men' works like David Storey's 'This Sporting Life' attacked the behaviours of the Establishment, contributing to an image of incompetence and being out of touch",
-        feedback: "'Angry Young Men' used the arts to attack Establishment behaviours — including David Storey's 'This Sporting Life'. 'That Was The Week That Was' mocked Macmillan mercilessly. Social scientists like Richard Hoggart provided evidence of Britain's 'class-ridden' society. Home was a less effective TV performer than Wilson, and satire contributed heavily to the image of an incompetent, out-of-touch establishment."
-    },
-
     {
         topic: "Women in the Affluent Society",
         question: "What was the dominant image of women in the 1950s and early 1960s?",
         options: [
-            "Women were increasingly entering professional careers and the gender gap in the workplace was rapidly closing",
-            "The traditional housewife — cooking, shopping, washing, seeing to the children — reinforced by magazines like Woman's Own and advertisers using slogans like 'Your servant, madam'",
-            "Women were primarily defined by their role as factory workers following their wartime employment",
+            "Women were increasingly entering professional careers and the gender gap was rapidly closing",
+            "Women were primarily defined by their role as factory workers following wartime employment",
+            "The traditional housewife — cooking, shopping, washing, seeing to the children — reinforced by magazines like Woman's Own and the Kenwood Mixer slogan 'Your servant, madam'",
             "Women were seen as politically active citizens following the suffragette movement"
         ],
-        answer: "The traditional housewife — cooking, shopping, washing, seeing to the children — reinforced by magazines like Woman's Own and advertisers using slogans like 'Your servant, madam'",
-        feedback: "Throughout the 50s and 60s men and women lived generally separate lives. The modern housewife was presented as young, stylish and efficient, fuelled by magazines like 'Woman's Own'. Advertisers appealed to the housewife — the Kenwood Mixer used the slogan 'Your servant, madam'. Educationalist John Newson argued in 1963 that female education should follow 'broad themes of home-making'."
+        answer: "The traditional housewife — cooking, shopping, washing, seeing to the children — reinforced by magazines like Woman's Own and the Kenwood Mixer slogan 'Your servant, madam'",
+        feedback: "Throughout the 50s and 60s men and women lived generally separate lives. The modern housewife was presented as young, stylish and efficient. Educationalist John Newsom argued in 1963 that female education should follow 'broad themes of home-making' including needlework and cooking."
     },
     {
         topic: "Women in the Affluent Society",
         question: "How did women's employment change between 1951 and 1961?",
         options: [
-            "Women's employment fell as rising male wages allowed more families to survive on a single income",
-            "The proportion of married women working rose from 1 in 5 in 1951 to 1 in 3 in 1961, though women remained trapped in low-status jobs and were paid less than 2/3 of a man's wage for the same work in 1958",
             "Women achieved equal representation in most professional sectors by 1960",
-            "Women's employment was static throughout the period — the marriage bar remained firmly in place"
+            "Women's employment fell as rising male wages allowed more families to survive on one income",
+            "Married women working rose from 1 in 5 in 1951 to 1 in 3 in 1961, though women remained in low-status jobs earning less than two thirds of a man's wage for the same work",
+            "Women's employment was static throughout — the marriage bar remained firmly in place"
         ],
-        answer: "The proportion of married women working rose from 1 in 5 in 1951 to 1 in 3 in 1961, though women remained trapped in low-status jobs and were paid less than 2/3 of a man's wage for the same work in 1958",
-        feedback: "In 1951, 1 in 5 married women worked; by 1961, 1 in 3 did — made possible by contraception and the breakdown of the marriage bar. However, women remained trapped in low-status 'careers for girls' jobs and in 1958 were paid less than 2/3 of a man's wage for the same job. Many husbands still disliked the idea of wives working."
+        answer: "Married women working rose from 1 in 5 in 1951 to 1 in 3 in 1961, though women remained in low-status jobs earning less than two thirds of a man's wage for the same work",
+        feedback: "In 1951, 1 in 5 married women worked; by 1961, 1 in 3 did — made possible by contraception and the breakdown of the marriage bar. But women remained trapped in low-status jobs and in 1958 were paid less than 2/3 of a man's wage for the same job."
     },
-
-
     {
         topic: "Youth Culture 1951-64",
         question: "What factors enabled the emergence of a distinct youth culture in the late 1950s?",
         options: [
+            "Young people who had not experienced wartime hardship enjoyed greater affluence, financial independence through widely available work, reduced obligations to parents, and national service abolished in 1960",
             "The introduction of comprehensive schools brought young people from different backgrounds together",
-            "Young people who had not experienced wartime hardship enjoyed greater affluence, financial independence through widely available work, reduced obligations to parents, and national service was abolished in 1960",
-            "The introduction of rock and roll music from America created a shared cultural identity",
-            "The Baby Boom generation reached adulthood simultaneously, creating a large peer group for the first time"
+            "The Baby Boom generation reached adulthood simultaneously, creating a large peer group",
+            "American rock and roll music created a shared cultural identity across class boundaries"
         ],
-        answer: "Young people who had not experienced wartime hardship enjoyed greater affluence, financial independence through widely available work, reduced obligations to parents, and national service was abolished in 1960",
-        feedback: "By the end of the 50s, teenage youth were too young to have experienced wartime hardship. Unskilled and semi-skilled work was widely available, providing financial independence from parents. Less obligation to contribute income to household finances, income tax cut five times 1957-64, and national service abolished in 1960. The 1959 Mark Abrams survey found young people were spending £830 million and providing 40% of all cinema admissions."
+        answer: "Young people who had not experienced wartime hardship enjoyed greater affluence, financial independence through widely available work, reduced obligations to parents, and national service abolished in 1960",
+        feedback: "By the late 50s, youth were too young to have experienced wartime hardship. Unskilled work was widely available, providing financial independence. The 1959 Mark Abrams survey found young people spending £830 million and providing 40% of all cinema admissions."
     },
     {
         topic: "Youth Culture 1951-64",
-        question: "What distinguished Mods from Rockers in the early 1960s?",
+        question: "What distinguished Mods from Rockers?",
         options: [
             "Mods were from the North of England; Rockers were from the South",
-            "Mods wore immaculate suits influenced by Italian and French designs, rode Italian scooters, and defined working class aspirations; Rockers wore leather and studs, rode motorcycles, and embraced a loud, raw image",
+            "Mods listened to jazz; Rockers listened to American rock and roll",
             "Mods were university educated; Rockers were from working class backgrounds",
-            "Mods listened to jazz; Rockers listened to American rock and roll"
+            "Mods wore immaculate suits inspired by Italian and French designs, rode Italian scooters, and defined working class aspirations; Rockers wore leather and studs, rode motorcycles, and embraced a loud, raw image"
         ],
-        answer: "Mods wore immaculate suits influenced by Italian and French designs, rode Italian scooters, and defined working class aspirations; Rockers wore leather and studs, rode motorcycles, and embraced a loud, raw image",
-        feedback: "Mod dress was immaculate — suits crafted from fusions of Italian and French designs. Mods defined working class aspirations: smart, sharp and stylish. Fashion was a rejection of post-war austerity. Rockers were named for their love of rock — dirty, loud and vulgar, wearing lots of leather, silver studs and big heavy boots, riding motorcycles."
+        answer: "Mods wore immaculate suits inspired by Italian and French designs, rode Italian scooters, and defined working class aspirations; Rockers wore leather and studs, rode motorcycles, and embraced a loud, raw image",
+        feedback: "Mod dress was immaculate — suits crafted from Italian and French designs. Fashion was a rejection of post-war austerity. Rockers were named for their love of rock — dirty, loud, wearing leather and studs, riding motorcycles."
     },
-    {
-        topic: "Youth Culture 1951-64",
-        question: "What happened at the Battle of Margate in May 1964 and how was it reported?",
-        options: [
-            "A large-scale riot between Mods and Rockers that left 10 dead and hundreds injured",
-            "A gang of youths suddenly started breaking windows — 51 were arrested, £1,900 in fines issued, and the Daily Mirror reported 'Wild Ones Invade Seaside Town', though the reality was far more mundane — photographers even paid kids to pose",
-            "Rival football fans clashed with police, leading to calls for stadium bans on away supporters",
-            "A protest by Teddy Boys against a ban on rock and roll music in Margate cinemas"
-        ],
-        answer: "A gang of youths suddenly started breaking windows — 51 were arrested, £1,900 in fines issued, and the Daily Mirror reported 'Wild Ones Invade Seaside Town', though the reality was far more mundane — photographers even paid kids to pose",
-        feedback: "In May 1964, without apparent provocation a gang of youths started breaking windows of a trackside buffer in Margate. 51 were arrested and £1,900 in fines issued. The Daily Mirror publicised 'Wild Ones Invade Seaside Town' — but the press provided publicity that exaggerated events. The reality was much more mundane; photographers paid kids to pose for photos."
-    },
-
     {
         topic: "Immigration & Race 1951-64",
         question: "What were the main pull factors drawing Commonwealth immigrants to Britain in the 1950s?",
         options: [
             "British government cash grants and subsidised housing for new arrivals",
-            "A romanticised image of Britain as the mother country, plentiful unskilled work, and active recruitment drives — London Transport took on 4,000 new employees in 1956, and the NHS relied heavily on immigrant labour",
-            "The relatively high wages compared to Commonwealth countries and the welfare state benefits available",
-            "The 1948 British Nationality Act specifically advertised free movement for Commonwealth citizens"
+            "A romanticised image of Britain as the mother country, plentiful unskilled work, and active recruitment drives — London Transport took on 4,000 new employees in 1956, with the NHS particularly reliant on immigrant labour",
+            "The 1948 British Nationality Act specifically advertised free movement rights",
+            "Relatively high wages and the welfare state benefits available to new arrivals"
         ],
-        answer: "A romanticised image of Britain as the mother country, plentiful unskilled work, and active recruitment drives — London Transport took on 4,000 new employees in 1956, and the NHS relied heavily on immigrant labour",
-        feedback: "Pull factors included a romanticised image of Britain as the land of opportunity and mother country of the empire, plenty of work for unskilled labourers in factories, and active recruitment drives — London Transport took in 4,000 new employees in 1956, and the NHS and public transport were particularly reliant on immigrant labour."
+        answer: "A romanticised image of Britain as the mother country, plentiful unskilled work, and active recruitment drives — London Transport took on 4,000 new employees in 1956, with the NHS particularly reliant on immigrant labour",
+        feedback: "Pull factors included a romanticised image of Britain, plenty of unskilled work, and active recruitment drives. London Transport took in 4,000 new employees in 1956, and the NHS and public transport were particularly reliant on immigrant labour."
     },
     {
         topic: "Immigration & Race 1951-64",
         question: "What were the 1958 Notting Hill Race Riots?",
         options: [
             "West Indian immigrants attacked police after a series of deportations",
-            "Violent riots broke out when white youths went on 'n*****-hunts' in Notting Hill — 117 were arrested, with four nights of rioting bringing the issue of racial violence to national attention",
+            "Violent riots when white youths attacked West Indians and Black people — 117 arrested, four nights of rioting bringing racial violence to national attention. The Notting Hill Carnival was established the following year in response",
             "A clash between Jamaican and Pakistani immigrant communities over housing",
-            "Trade union members rioted against employers hiring immigrant workers at lower wages"
+            "Trade union members rioted against employers hiring immigrants at lower wages"
         ],
-        answer: "Violent riots broke out when white youths went on 'n*****-hunts' in Notting Hill — 117 were arrested, with four nights of rioting bringing the issue of racial violence to national attention",
-        feedback: "The 1958 Notting Hill riots saw violent attacks when white youths attacked West Indians and Black people. 117 people were arrested. Four nights of rioting brought the issue to national attention. In response, the Notting Hill Carnival was established in 1959, celebrating emerging multiculturalism."
+        answer: "Violent riots when white youths attacked West Indians and Black people — 117 arrested, four nights of rioting bringing racial violence to national attention. The Notting Hill Carnival was established the following year in response",
+        feedback: "The 1958 Notting Hill riots saw white youths attack West Indians and Black people. 117 were arrested. Four nights of rioting brought the issue to national attention. The Notting Hill Carnival was established in 1959 in response, celebrating emerging multiculturalism."
     },
     {
         topic: "Immigration & Race 1951-64",
         question: "What did the Commonwealth Immigrants Act 1962 introduce?",
         options: [
             "It banned all non-white immigration from Commonwealth countries",
-            "It ended free immigration for former colonial subjects and replaced it with a work permit scheme — Category A (employment arranged), B (skills in short supply), C (all others) — with 70% public support",
-            "It introduced a points-based system favouring skilled workers from all nationalities equally",
-            "It reaffirmed the 1948 British Nationality Act's guarantee of free entry for Commonwealth citizens"
+            "It introduced a points-based system favouring skilled workers of all nationalities equally",
+            "It reaffirmed the 1948 British Nationality Act's guarantee of free entry",
+            "It ended free immigration and replaced it with a work voucher scheme with 70% public support, though it effectively discriminated against non-white workers"
         ],
-        answer: "It ended free immigration for former colonial subjects and replaced it with a work permit scheme — Category A (employment arranged), B (skills in short supply), C (all others) — with 70% public support",
-        feedback: "The Commonwealth Immigrants Act 1962 ended free immigration for former colonial subjects and replaced it with a work voucher scheme. Category A was those with employment arranged, B those with skills in short supply, C all others with ex-servicemen given priority. It had 70% public support but effectively discriminated against non-white workers as white workers were more likely to have skills needed for vouchers."
+        answer: "It ended free immigration and replaced it with a work voucher scheme with 70% public support, though it effectively discriminated against non-white workers",
+        feedback: "The 1962 Act ended free immigration for former colonial subjects and replaced it with a work voucher scheme — Category A (employment arranged), B (skills in short supply), C (all others). It had 70% public support but white workers were more likely to have the skills needed for vouchers."
     },
     {
         topic: "Immigration & Race 1951-64",
         question: "What was the Kelso Cochrane case of 1959?",
         options: [
             "A West Indian bus driver wrongfully dismissed by London Transport whose case led to the Race Relations Act",
-            "An Antiguan carpenter stabbed to death by six white youths — police investigated it as a robbery despite evidence of racial motive, only arrested two who were later released, and 1,000 Black and white people lined the streets in solidarity at his funeral",
-            "A Jamaican man beaten to death by police in Brixton, leading to demands for police accountability",
-            "A Caribbean nurse refused employment at a London hospital, whose case exposed NHS racial discrimination"
+            "An Antiguan carpenter stabbed to death by six white youths — police treated it as robbery despite evidence of racial motive, and 1,000 Black and white people lined the streets in solidarity at his funeral",
+            "A Caribbean nurse refused employment at a London hospital, exposing NHS racial discrimination",
+            "A Jamaican man beaten by police in Brixton, leading to demands for accountability"
         ],
-        answer: "An Antiguan carpenter stabbed to death by six white youths — police investigated it as a robbery despite evidence of racial motive, only arrested two who were later released, and 1,000 Black and white people lined the streets in solidarity at his funeral",
-        feedback: "Kelso Cochrane was an Antiguan carpenter stabbed to death by six white youths in 1959. Despite evidence of racial motive, police investigated it as a robbery gone wrong, only arrested two, and they were later released. 1,000 Black and white people lined the streets in solidarity at his funeral — a powerful symbol of cross-racial solidarity."
+        answer: "An Antiguan carpenter stabbed to death by six white youths — police treated it as robbery despite evidence of racial motive, and 1,000 Black and white people lined the streets in solidarity at his funeral",
+        feedback: "Kelso Cochrane was an Antiguan carpenter stabbed to death by six white youths. Despite evidence of racial motive, police investigated it as a robbery, only arrested two who were later released. 1,000 Black and white people lined the streets in solidarity at his funeral."
     },
-
     {
         topic: "Foreign Relations 1951-64",
         question: "What was Churchill's 'three circles of influence' concept?",
         options: [
             "A military strategy dividing the world into American, Soviet, and neutral spheres",
-            "Churchill argued Britain had a unique position at the intersection of three circles — Europe, the US, and the Commonwealth — and was 'the only country which has a great part in every one of them'",
+            "A NATO doctrine organising Allied defences into three concentric rings around Western Europe",
             "A foreign policy framework dividing Britain's interests into economic, military, and cultural spheres",
-            "A NATO doctrine organising Allied defences into three concentric rings around Western Europe"
+            "Churchill argued Britain sat at the intersection of Europe, the US, and the Commonwealth — claiming it was 'the only country which has a great part in every one of them'"
         ],
-        answer: "Churchill argued Britain had a unique position at the intersection of three circles — Europe, the US, and the Commonwealth — and was 'the only country which has a great part in every one of them'",
-        feedback: "Churchill argued Britain sat at the intersection of three circles of influence — Europe, the US, and the Commonwealth. He claimed Britain was 'the only country which has a great part in every one of them' — a concept that helped justify Britain's reluctance to integrate fully into European institutions."
+        answer: "Churchill argued Britain sat at the intersection of Europe, the US, and the Commonwealth — claiming it was 'the only country which has a great part in every one of them'",
+        feedback: "Churchill argued Britain sat at the intersection of three circles of influence — Europe, the US, and the Commonwealth. He claimed Britain was 'the only country which has a great part in every one of them' — justifying reluctance to integrate into European institutions."
     },
     {
         topic: "Foreign Relations 1951-64",
-        question: "What was the Suez Crisis of 1956 and what were its consequences?",
+        question: "What was Macmillan's 'Winds of Change' speech?",
         options: [
-            "Egypt seized British oil facilities — Britain successfully defended them with French and Israeli help",
-            "President Nasser nationalised the Suez Canal — Britain secretly colluded with Israel and France to invade, but was forced into a ceasefire by a run on the pound and US refusal of economic support, exposing Britain could no longer act independently against US wishes",
-            "Israel attacked Egypt — Britain and France intervened as neutral peacekeepers but were forced out by UN pressure",
-            "Nasser blockaded the canal — Britain and the US jointly threatened military action, successfully reopening it"
-        ],
-        answer: "President Nasser nationalised the Suez Canal — Britain secretly colluded with Israel and France to invade, but was forced into a ceasefire by a run on the pound and US refusal of economic support, exposing Britain could no longer act independently against US wishes",
-        feedback: "President Nasser nationalised the Suez Canal in July 1956. Eden compared Nasser to Mussolini and Britain secretly colluded with Israel and France — Israel would attack Egypt, giving Britain and France the pretext to intervene. A drastic run on the pound and US refusal of economic support forced a ceasefire. Eden resigned shortly after. It demonstrated Britain could not act independently against US wishes."
-    },
-    {
-        topic: "Foreign Relations 1951-64",
-        question: "What was Macmillan's 'Winds of Change' speech and why was it significant?",
-        options: [
-            "A speech to the UN calling for a new world order based on American and British shared values",
-            "A speech in the South African Parliament in February 1960 publicly acknowledging the wind of change blowing through Africa, marking a decisive shift in British policy from suppressing independence to accepting decolonisation",
             "A speech to NATO allies calling for a new approach to containing Soviet expansion in Africa",
-            "A speech to the House of Commons announcing the withdrawal of British forces from all African colonies"
+            "A speech to the UN calling for a new world order based on American and British shared values",
+            "A speech to the House of Commons announcing withdrawal of British forces from all African colonies",
+            "A speech in the South African Parliament in February 1960 acknowledging independence movements across Africa, marking a decisive shift from suppressing independence to accepting decolonisation"
         ],
-        answer: "A speech in the South African Parliament in February 1960 publicly acknowledging the wind of change blowing through Africa, marking a decisive shift in British policy from suppressing independence to accepting decolonisation",
-        feedback: "Macmillan made his 'Winds of Change' speech in Cape Town, in the South African Parliament, in February 1960: 'the wind of change is blowing through this continent'. The speech marked public recognition of African independence and a shift from suppressing independence movements — as with the brutal treatment of the Mau Mau rebellion in Kenya."
+        answer: "A speech in the South African Parliament in February 1960 acknowledging independence movements across Africa, marking a decisive shift from suppressing independence to accepting decolonisation",
+        feedback: "Macmillan made his 'Winds of Change' speech in Cape Town in February 1960: 'the wind of change is blowing through this continent'. It marked public recognition of African independence and a shift from suppressing movements — as with the brutal Mau Mau response in Kenya."
     },
     {
         topic: "Foreign Relations 1951-64",
-        question: "Why did Britain initially refuse to join the European Economic Community?",
+        question: "Why did Britain initially refuse to join the EEC?",
         options: [
-            "Churchill believed the EEC would inevitably become a federal superstate and was fundamentally opposed",
-            "Britain objected because it would no longer control its own economy, worried economic unity would lead to political unity, feared damaging the special relationship with the US, and 40% of British exports went to the Empire/Commonwealth",
-            "The City of London lobbied successfully against membership as it would limit financial services trade",
-            "Britain believed the EFTA it helped found in 1959 would be just as economically successful as the EEC"
+            "Churchill believed the EEC would become a federal superstate and was fundamentally opposed",
+            "The City of London successfully lobbied against membership to protect financial services",
+            "Britain objected because membership would mean losing economic sovereignty, worried about political union, feared damaging the US special relationship, and 40% of exports went to the Empire/Commonwealth",
+            "Britain believed EFTA would be just as economically successful as the EEC"
         ],
-        answer: "Britain objected because it would no longer control its own economy, worried economic unity would lead to political unity, feared damaging the special relationship with the US, and 40% of British exports went to the Empire/Commonwealth",
-        feedback: "Britain objected to EEC membership for several reasons: it would no longer control its own economy; worry that economic unity would lead to political unity; suspicion that integration would damage the special relationship with the US; and 40% of British exports went to the Empire/Commonwealth of 800 million people compared to under 200 million in Europe."
+        answer: "Britain objected because membership would mean losing economic sovereignty, worried about political union, feared damaging the US special relationship, and 40% of exports went to the Empire/Commonwealth",
+        feedback: "Britain objected: it would no longer control its own economy; economic unity might lead to political unity; it feared damaging the special relationship with the US; and 40% of British exports went to the Empire/Commonwealth of 800 million people compared to under 200 million in Europe."
     },
     {
         topic: "Foreign Relations 1951-64",
         question: "Why did de Gaulle veto Britain's 1961 EEC application?",
         options: [
-            "He objected to Britain's refusal to adopt the French language as a second official language of the EEC",
-            "He claimed Britain's economic issues would weaken the EEC and that it acted as a 'Trojan horse' for American influence — Britain believed his real motive was to ensure continued French-German dominance of the EEC",
+            "He objected to Britain's refusal to adopt French as a second EEC official language",
             "He was responding to British opposition to French nuclear testing in the Pacific",
-            "He vetoed it because Britain refused to abandon its special trade relationships with former colonies"
+            "He vetoed it because Britain refused to abandon special trade relationships with former colonies",
+            "He claimed Britain's economic weaknesses would damage the EEC and it acted as a 'Trojan horse' for American influence — Britain believed his real motive was to preserve French-German dominance"
         ],
-        answer: "He claimed Britain's economic issues would weaken the EEC and that it acted as a 'Trojan horse' for American influence — Britain believed his real motive was to ensure continued French-German dominance of the EEC",
-        feedback: "De Gaulle vetoed Britain's 1961 application, claiming Britain's economic issues would weaken the EEC and that it acted as a Trojan horse for American influence. Britain believed his real motive was to ensure continued domination of the EEC. The Dutch and Belgians actually wanted Britain to join to counteract French-German dominance."
+        answer: "He claimed Britain's economic weaknesses would damage the EEC and it acted as a 'Trojan horse' for American influence — Britain believed his real motive was to preserve French-German dominance",
+        feedback: "De Gaulle claimed Britain's economic issues would weaken the EEC and that it acted as a Trojan horse for American influence. Britain believed his real motive was to ensure continued French-German dominance. The Dutch and Belgians actually wanted Britain to join to counteract this."
     },
     {
         topic: "Foreign Relations 1951-64",
         question: "What were the financial reasons for British decolonisation?",
         options: [
-            "The colonies were unprofitable from the start — Britain had always run them at a loss",
-            "Britain could no longer afford to maintain the Empire after WW2 — withdrawal from Palestine cost £40mil per year alone — and as it moved towards the EEC, the case for imperial commitments weakened",
+            "The colonies had always been unprofitable — Britain had run them at a loss from the start",
             "American pressure made maintaining colonial possessions politically impossible",
-            "Commonwealth independence movements were so powerful that maintaining any colony was simply too costly militarily"
+            "Britain could no longer afford to maintain the Empire after WW2 — Palestine alone cost £40 million per year — and as it moved towards the EEC, imperial commitments weakened",
+            "Commonwealth independence movements made maintaining any colony militarily impossible"
         ],
-        answer: "Britain could no longer afford to maintain the Empire after WW2 — withdrawal from Palestine cost £40mil per year alone — and as it moved towards the EEC, the case for imperial commitments weakened",
-        feedback: "Britain could no longer afford to maintain the Empire after WW2. The Palestine issue alone cost £40 million per year with one tenth of British armed forces there. Post-war debts made the Empire unsustainable, and as Britain stepped towards the EEC, replacing the Empire with the Commonwealth was less expensive while maintaining economic and diplomatic links."
+        answer: "Britain could no longer afford to maintain the Empire after WW2 — Palestine alone cost £40 million per year — and as it moved towards the EEC, imperial commitments weakened",
+        feedback: "Britain could no longer afford the Empire after WW2. Palestine cost £40 million per year with one tenth of British armed forces there. Post-war debts made the Empire unsustainable, and as Britain moved towards the EEC, replacing Empire with Commonwealth was less expensive."
     },
     {
-        topic: "Foreign Relations 1951-64",
-        question: "What was the post-war consensus on decolonisation?",
+        topic: "Post-War Consensus",
+        question: "What is the main evidence that a post-war consensus existed?",
         options: [
-            "Both parties firmly opposed decolonisation until the late 1960s",
-            "Both Labour and Conservative governments broadly agreed on the withdrawal from Empire — the Gold Coast model of managed independence became attractive, and the Suez Crisis accelerated the process under Macmillan",
-            "Labour wanted immediate independence for all colonies; Conservatives wanted to maintain the Empire for another generation",
-            "The consensus was to transfer colonies to American protection rather than grant full independence"
+            "Both parties agreed on immigration controls, nuclear deterrence, and EEC membership",
+            "Both parties agreed to abandon nationalisation and pursue free market economics after 1951",
+            "Both parties committed to the welfare state, used Keynesian economics (Butskellism), continued the housing pledge, agreed on decolonisation, and maintained trade union consultation",
+            "Both parties supported British entry into the EEC from its founding in 1957"
         ],
-        answer: "Both Labour and Conservative governments broadly agreed on the withdrawal from Empire — the Gold Coast model of managed independence became attractive, and the Suez Crisis accelerated the process under Macmillan",
-        feedback: "There was broad agreement between Labour and Conservatives on withdrawal from Empire. The Gold Coast (Ghana) experience — where nationalist leader Kwame Nkrumah's CPP won elections and was invited to form a government — became an attractive model. Suez demonstrated Britain was too weak to act as an independent imperial power, accelerating decolonisation under Macmillan."
+        answer: "Both parties committed to the welfare state, used Keynesian economics (Butskellism), continued the housing pledge, agreed on decolonisation, and maintained trade union consultation",
+        feedback: "Evidence for consensus includes: both parties committed to the welfare state (expenditure on social services rose from 39.2% to 43% of total public expenditure 1951-55); Butskellism in Keynesian economics; Conservatives continued Labour's housing pledge; agreement on decolonisation; and TU consultation as shared policy."
     },
+    {
+        topic: "Post-War Consensus",
+        question: "What is the main evidence against a genuine post-war consensus?",
+        options: [
+            "The parties fought bitterly over NATO membership and the nuclear deterrent throughout the period",
+            "The Conservatives abolished the welfare state in 1955 when they felt electorally secure",
+            "The parties disagreed on every major policy area — consensus was a myth invented by historians",
+            "Right-wing Tories called Attlee's legacy a 'social mistake'; Bevanites argued it wasn't socialist enough; Labour retained Clause IV; and sharp disagreements existed on immigration and the stop-go economic cycle"
+        ],
+        answer: "Right-wing Tories called Attlee's legacy a 'social mistake'; Bevanites argued it wasn't socialist enough; Labour retained Clause IV; and sharp disagreements existed on immigration and the stop-go economic cycle",
+        feedback: "Evidence against: right-wing Tories believed continuation of Attlee's legacy was a 'social mistake'; Bevanites argued it wasn't nearly socialist enough; Labour retained Clause IV; the Suez Crisis led to Labour attacks on Eden; Gaitskell criticised Butler's stop-go cycle; and sharp disagreements on immigration existed."
+    },
+
+    // =====================================
+    // THE SIXTIES 1964-1970
+    // =====================================
 
     {
         topic: "Wilson's Labour Governments 1964-70",
         question: "Why did Labour win the 1964 general election?",
         options: [
-            "A major economic recession had devastated living standards under the Conservatives",
-            "Labour was seen as a fresh start suited to a changing modern world — Wilson's youthful image, 'white heat of technology' modernisation agenda, Conservative scandals, and the out-of-touch Douglas-Home gave Labour the edge with a 4-seat majority",
             "Wilson won a landslide on the strength of his economic programme alone",
+            "A major economic recession had devastated living standards under the Conservatives",
+            "Labour was seen as a fresh start suited to a modern world — Wilson's youthful image, 'white heat of technology' agenda, Conservative scandals, and the out-of-touch Douglas-Home gave Labour a 4-seat majority",
             "The Liberal Party collapsed, with most of its votes going to Labour"
         ],
-        answer: "Labour was seen as a fresh start suited to a changing modern world — Wilson's youthful image, 'white heat of technology' modernisation agenda, Conservative scandals, and the out-of-touch Douglas-Home gave Labour the edge with a 4-seat majority",
-        feedback: "Labour was considered a fresh start — it created the Department of Economic Affairs, National Plan, Department of Technology, and seven new universities. Wilson at 48 was younger and more modern than Home. Conservative scandals had lost them their safe image. Roy Jenkins was bringing liberal legislation. Labour won a 4-seat majority in 1964, growing to a 96-seat majority in 1966."
+        answer: "Labour was seen as a fresh start suited to a modern world — Wilson's youthful image, 'white heat of technology' agenda, Conservative scandals, and the out-of-touch Douglas-Home gave Labour a 4-seat majority",
+        feedback: "Labour was considered a fresh start — creating the Department of Economic Affairs, National Plan, Department of Technology, and seven new universities. Wilson at 48 was younger and more modern than Home. Conservative scandals had damaged their image. Labour won a 4-seat majority in 1964, growing to 96 seats in 1966."
     },
     {
         topic: "Wilson's Labour Governments 1964-70",
-        question: "What was the 1967 devaluation of the pound and how did Wilson handle it politically?",
+        question: "What was the 1967 devaluation of the pound and how did Wilson handle it?",
         options: [
             "The pound was devalued by 5% — Wilson handled it calmly and it caused little political damage",
-            "The pound was devalued by 14% from $2.80 to $2.40 — Wilson worsened matters with an ill-judged TV broadcast appearing to deny the severity, Callaghan resigned as Chancellor, and it was a political catastrophe",
-            "The pound was devalued by 25% — Wilson successfully blamed the Conservatives' legacy",
-            "The pound was devalued by 10% — it was immediately successful in boosting exports and caused little lasting damage"
+            "The pound was devalued by 10% — Wilson successfully blamed the Conservative legacy",
+            "The pound was devalued by 25% — immediately boosting exports",
+            "The pound was devalued by 14% from $2.80 to $2.40 — Wilson's ill-judged TV broadcast appeared to deny the severity, Callaghan resigned as Chancellor, and it was a political catastrophe"
         ],
-        answer: "The pound was devalued by 14% from $2.80 to $2.40 — Wilson worsened matters with an ill-judged TV broadcast appearing to deny the severity, Callaghan resigned as Chancellor, and it was a political catastrophe",
-        feedback: "In November 1967 the pound was finally devalued by 14% from $2.80 to $2.40. Wilson worsened the situation with an ill-judged TV broadcast: 'devaluation does not mean that the value of the pound in the hands of the British consumer... is cut correspondingly' — appearing to deny the severity. Callaghan resigned as chancellor, swapping roles with Roy Jenkins."
+        answer: "The pound was devalued by 14% from $2.80 to $2.40 — Wilson's ill-judged TV broadcast appeared to deny the severity, Callaghan resigned as Chancellor, and it was a political catastrophe",
+        feedback: "In November 1967 the pound was devalued by 14% from $2.80 to $2.40. Wilson's ill-judged TV broadcast appeared to deny the severity. Callaghan resigned as Chancellor, swapping roles with Roy Jenkins. It was a political catastrophe for the government."
     },
     {
         topic: "Wilson's Labour Governments 1964-70",
         question: "What was 'In Place of Strife' and why did it fail?",
         options: [
             "A successful trade union reform programme that reduced strikes by 50%",
-            "Employment Secretary Barbara Castle's 1969 White Paper proposing strike ballots and fines for rule-breaking — it met with extreme protest from the TUC and the Labour Party, with Home Secretary Callaghan opposing it, and Wilson accepted defeat and dropped it",
-            "A pay agreement between the TUC and government that successfully held wages down for two years",
-            "A redundancy protection act that gave workers the right to appeal against unfair dismissal"
+            "Barbara Castle's 1969 White Paper proposing strike ballots and fines for rule-breaking — it met with extreme protest from the TUC and Labour Party, with Callaghan opposing it, and Wilson accepted defeat",
+            "A pay agreement between the TUC and government that successfully held wages down",
+            "A redundancy protection act giving workers the right to appeal against unfair dismissal"
         ],
-        answer: "Employment Secretary Barbara Castle's 1969 White Paper proposing strike ballots and fines for rule-breaking — it met with extreme protest from the TUC and the Labour Party, with Home Secretary Callaghan opposing it, and Wilson accepted defeat and dropped it",
-        feedback: "'In Place of Strife' was Employment Secretary Barbara Castle's January 1969 White Paper proposing measures including a ballot of all members before unions could strike and fines for rule-breaking. It met with extreme protests from the TUC and Labour Party. Home Secretary Callaghan opposed it. Wilson accepted defeat and dropped the proposal — reforms were needed but Labour could not carry them through."
+        answer: "Barbara Castle's 1969 White Paper proposing strike ballots and fines for rule-breaking — it met with extreme protest from the TUC and Labour Party, with Callaghan opposing it, and Wilson accepted defeat",
+        feedback: "'In Place of Strife' was Barbara Castle's January 1969 White Paper proposing strike ballots and fines for rule-breaking. It met with extreme protests from the TUC and Labour Party. Home Secretary Callaghan opposed it. Wilson accepted defeat — reforms were needed but Labour could not carry them through."
     },
     {
         topic: "Wilson's Labour Governments 1964-70",
         question: "What did the 1965 LSE study by Abel-Smith and Townsend reveal about poverty?",
         options: [
-            "That poverty had been virtually eliminated by the welfare state — fewer than 1% lived in genuine hardship",
-            "That the proportion in poverty had risen from 7.8% in 1953-54 to 14.2% in 1960, with over 2 million children in low income households and as many as 3 million elderly never claiming entitled benefits",
-            "That poverty was exclusively concentrated in the elderly population and could be solved by raising pensions",
+            "That poverty had been virtually eliminated by the welfare state — fewer than 1% were in genuine hardship",
+            "That poverty was exclusively concentrated in the elderly and could be solved by raising pensions",
+            "That poverty had risen from 7.8% in 1953-54 to 14.2% in 1960, with over 2 million children in low income households and up to 3 million elderly never claiming entitled benefits",
             "That poverty was overwhelmingly caused by unemployment rather than low wages"
         ],
-        answer: "That the proportion in poverty had risen from 7.8% in 1953-54 to 14.2% in 1960, with over 2 million children in low income households and as many as 3 million elderly never claiming entitled benefits",
-        feedback: "The 1965 LSE study by Brian Abel-Smith and Peter Townsend showed poverty had risen from 7.8% in 1953-54 to 14.2% in 1960. Over 2 million children were in low income households, and as many as 3 million elderly never claimed benefits to which they were entitled. Half a million children in poverty were in households where the male breadwinner earned so little they'd theoretically be better off on state benefits."
+        answer: "That poverty had risen from 7.8% in 1953-54 to 14.2% in 1960, with over 2 million children in low income households and up to 3 million elderly never claiming entitled benefits",
+        feedback: "The study showed poverty had risen from 7.8% in 1953-54 to 14.2% in 1960. Over 2 million children were in low income households, and up to 3 million elderly never claimed their entitled benefits. It led to the Child Poverty Action Group being set up in March 1965."
     },
     {
         topic: "Wilson's Labour Governments 1964-70",
         question: "Why did Labour lose the 1970 general election?",
         options: [
-            "Edward Heath ran a brilliant campaign that won over traditional Labour voters in northern cities",
-            "Many traditional supporters felt the government had failed to live up to its promises — key industries continued to decline, unemployment rose from 400K to 600K, ongoing issues with the pound, poverty and trade unions",
-            "Labour was devastated by the devaluation of the pound which caused a deep recession",
-            "Wilson resigned before the election and the party was unable to unite behind a new leader in time"
+            "Wilson resigned before the election and Labour failed to unite behind a new leader",
+            "Heath ran a brilliant campaign winning over traditional Labour voters in northern cities",
+            "The 1967 devaluation caused a deep recession from which Labour never recovered",
+            "Traditional supporters felt the government had failed — key industries declined, unemployment rose from 400K to 600K, and ongoing issues with the pound, poverty, and trade unions eroded support"
         ],
-        answer: "Many traditional supporters felt the government had failed to live up to its promises — key industries continued to decline, unemployment rose from 400K to 600K, ongoing issues with the pound, poverty and trade unions",
-        feedback: "Many traditional supporters felt the government had failed to live up to its promises. Key industries — shipbuilding, coal mining, railway — continued to decline. Unemployment rose from 400K to just over 600K by 1970. Issues with the pound, poverty, and trade unions combined to erode support. The end of pay restraint meant steep wage increases and inflation regardless."
+        answer: "Traditional supporters felt the government had failed — key industries declined, unemployment rose from 400K to 600K, and ongoing issues with the pound, poverty, and trade unions eroded support",
+        feedback: "Many traditional supporters felt the government had failed to live up to its promises. Key industries — shipbuilding, coal mining, railway — continued to decline. Unemployment rose from 400K to just over 600K by 1970. The end of pay restraint meant steep wage increases and inflation regardless."
     },
-    {
-        topic: "Wilson's Labour Governments 1964-70",
-        question: "What was the Department of Economic Affairs and why did it fail?",
-        options: [
-            "A new ministry that successfully broke the Treasury's dominance and ended the stop-go cycle",
-            "Intended to break Treasury dominance and end stop-go through George Brown's National Plan — but Brown lacked support from Chancellor Callaghan and Treasury economists, and it failed to escape stop-go",
-            "A department that successfully redirected investment from financial services to manufacturing",
-            "A think tank that produced the National Plan but was abolished when devaluation made its targets obsolete"
-        ],
-        answer: "Intended to break Treasury dominance and end stop-go through George Brown's National Plan — but Brown lacked support from Chancellor Callaghan and Treasury economists, and it failed to escape stop-go",
-        feedback: "The Department of Economic Affairs was intended to break Treasury dominance and end the stop-go cycle. George Brown was placed in charge with ambitious growth targets in the National Plan 1965. Brown attempted to establish agreements with TUs, civil servants and industry to stop inflation rising, but lacked support from Chancellor Callaghan and Treasury economists. The government failed to escape stop-go."
-    },
-
     {
         topic: "Liberal Legislation 1960s",
-        question: "What were the cases of Derek Bentley and Ruth Ellis, and how did they influence opinion on capital punishment?",
+        question: "What were the cases of Derek Bentley and Ruth Ellis, and how did they shape opinion on capital punishment?",
         options: [
-            "Both were exonerated after wrongful convictions, demonstrating the risk of executing innocent people",
-            "Bentley was hanged despite having a mental age of a child while his younger accomplice who fired the shot could not be hanged; Ellis was the last woman executed despite shooting an abusive partner who had caused her miscarriage — 600 letters were sent to the Home Secretary calling for a reprieve",
+            "Both were exonerated after wrongful convictions, demonstrating the risk of executing the innocent",
             "Both were convicted for murders they clearly committed but the brutality of their executions caused public revulsion",
-            "Bentley and Ellis were both pardoned posthumously by Parliament, leading directly to the abolition debate"
+            "Bentley was hanged despite having a mental age of a child while his younger accomplice who fired the shot could not be; Ellis was the last woman executed — her abusive partner had caused her a miscarriage — 600 letters were sent to the Home Secretary calling for a reprieve",
+            "Both were pardoned posthumously by Parliament, leading directly to the abolition debate"
         ],
-        answer: "Bentley was hanged despite having a mental age of a child while his younger accomplice who fired the shot could not be hanged; Ellis was the last woman executed despite shooting an abusive partner who had caused her miscarriage — 600 letters were sent to the Home Secretary calling for a reprieve",
-        feedback: "Derek Bentley had a mental age of a child, yet was hanged because his younger accomplice Craig, who fired the shot, was too young to hang. Ruth Ellis — a young mother who shot her abusive and unfaithful boyfriend who had caused her a miscarriage by punching her in the stomach — was the last woman to be executed. 600 letters and postcards were sent to the Home Secretary calling for a reprieve."
-    },
-    {
-        topic: "Liberal Legislation 1960s",
-        question: "What did the Murder (Abolition of Death Penalty) Act 1965 achieve?",
-        options: [
-            "It permanently abolished the death penalty and introduced life imprisonment as the maximum sentence",
-            "It abolished the death penalty on a trial basis for 5 years — then made permanent in 1969. Prisoner beating ceased in 1967, and Jenkins introduced majority jury verdicts of 10/12 rather than unanimity",
-            "It reduced the death penalty to cases of multiple murder only",
-            "It transferred the decision to impose the death penalty from judges to juries"
-        ],
-        answer: "It abolished the death penalty on a trial basis for 5 years — then made permanent in 1969. Prisoner beating ceased in 1967, and Jenkins introduced majority jury verdicts of 10/12 rather than unanimity",
-        feedback: "The Murder (Abolition of Death Penalty) Act 1965 abolished the death penalty on a trial basis for 5 years, then made permanent in 1969. Prisoner beating ceased in 1967. Jenkins also introduced majority jury verdicts — 10/12 rather than full unanimity. Despite these reforms, the rate of violent crime went up."
+        answer: "Bentley was hanged despite having a mental age of a child while his younger accomplice who fired the shot could not be; Ellis was the last woman executed — her abusive partner had caused her a miscarriage — 600 letters were sent to the Home Secretary calling for a reprieve",
+        feedback: "Bentley had a mental age of a child yet was hanged because his younger accomplice Craig, who fired the shot, was too young to hang. Ruth Ellis shot an abusive and unfaithful boyfriend who had caused her a miscarriage by punching her in the stomach. 600 letters called for a reprieve. Both cases shaped opinion ahead of the 1965 abolition."
     },
     {
         topic: "Liberal Legislation 1960s",
         question: "What was the background to the Sexual Offences Act 1967?",
         options: [
+            "The Act was introduced following a series of high-profile prosecutions of prominent gay men",
+            "American pressure to modernise Britain's laws as a condition of continued financial support",
             "The Act was introduced following a government inquiry into sexual crimes against women",
-            "The 1957 Wolfenden Report had called for decriminalisation of homosexual acts between consenting adults in private — this came about through backbencher Leo Abse's campaign. The age of consent was set at 21 and privacy was narrowly defined",
-            "The Act was introduced after a series of high-profile prosecutions of prominent gay men provoked public outrage",
-            "American pressure to modernise Britain's laws as a condition of continued financial support"
+            "The 1957 Wolfenden Report had called for decriminalisation of homosexual acts in private — backbencher Leo Abse led the campaign. The age of consent was set at 21, privacy was narrowly defined, and Abse later said the Act would be criticised for not going far enough"
         ],
-        answer: "The 1957 Wolfenden Report had called for decriminalisation of homosexual acts between consenting adults in private — this came about through backbencher Leo Abse's campaign. The age of consent was set at 21 and privacy was narrowly defined",
-        feedback: "The 1957 Wolfenden Report had called for decriminalisation of homosexual acts between consenting adults in private. The Homosexual Law Reform Society campaigned since 1958. Backbencher Leo Abse led the campaign that resulted in the 1967 Act. However, the age of consent was higher at 21, privacy was narrowly defined, and Abse later concluded the Act would be criticised by gay activists for not going far enough."
+        answer: "The 1957 Wolfenden Report had called for decriminalisation of homosexual acts in private — backbencher Leo Abse led the campaign. The age of consent was set at 21, privacy was narrowly defined, and Abse later said the Act would be criticised for not going far enough",
+        feedback: "The 1957 Wolfenden Report called for decriminalisation. The Homosexual Law Reform Society campaigned since 1958. Backbencher Leo Abse led the campaign resulting in the 1967 Act. However, the age of consent was 21, privacy was narrowly defined, and Abse concluded the Act would be criticised for not going far enough."
     },
     {
         topic: "Liberal Legislation 1960s",
         question: "What was the situation with abortion before the 1967 Abortion Act?",
         options: [
-            "Abortion was legal in all circumstances up to 12 weeks of pregnancy",
-            "The best option was a private clinic often only accessible to upper and upper-middle classes. Others relied on dangerous backstreet abortions — 100-200K illegal abortions per year with 35K hospital admissions from complications. The Thalidomide disaster also swayed public opinion",
-            "Abortion was completely legal but unavailable on the NHS, causing inequality of access",
-            "Abortion was legal only when the mother's life was at risk, and required approval from three doctors"
+            "Abortion was legal but unavailable on the NHS, causing inequality of access",
+            "Abortion was legal only when the mother's life was at risk, requiring three doctors' approval",
+            "Abortion was legal in all circumstances up to 12 weeks",
+            "Private clinics were only accessible to upper classes while others relied on dangerous backstreet abortions — 100-200K illegal abortions per year, 35K hospital admissions. The Thalidomide disaster swayed public opinion massively"
         ],
-        answer: "The best option was a private clinic often only accessible to upper and upper-middle classes. Others relied on dangerous backstreet abortions — 100-200K illegal abortions per year with 35K hospital admissions from complications. The Thalidomide disaster also swayed public opinion",
-        feedback: "Before the Act, the best option was a private clinic, often only accessible to upper classes. Others relied on dangerous backstreet abortions — 100-200K illegal abortions per year, with 35K admitted to hospital due to complications. The Thalidomide disaster, in which a drug caused horrible birth defects from 1959-62, massively swayed public opinion. The Act permitted termination within 28 weeks with written consent of two doctors."
+        answer: "Private clinics were only accessible to upper classes while others relied on dangerous backstreet abortions — 100-200K illegal abortions per year, 35K hospital admissions. The Thalidomide disaster swayed public opinion massively",
+        feedback: "Private clinics were only accessible to upper classes. Others relied on dangerous backstreet abortions — 100-200K illegal abortions per year with 35K admitted to hospital. The Thalidomide disaster, in which a drug caused horrible birth defects from 1959-62, massively swayed public opinion. The Act permitted termination within 28 weeks with consent of two doctors."
     },
     {
         topic: "Liberal Legislation 1960s",
         question: "What did the Divorce Reform Act 1969 change?",
         options: [
-            "It banned divorce entirely for the first five years of marriage",
-            "It removed the requirement to prove fault, ending the need for private investigators only the wealthy could afford — couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages in the 1950s to nearly half by the 1970s",
+            "It banned divorce for the first five years of marriage",
+            "It extended legal aid to cover divorce proceedings for the first time",
             "It made divorce available on demand after a 6-month cooling off period",
-            "It extended legal aid to cover divorce proceedings for the first time"
+            "It removed the requirement to prove fault — couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages in the 1950s to nearly half by the 1970s"
         ],
-        answer: "It removed the requirement to prove fault, ending the need for private investigators only the wealthy could afford — couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages in the 1950s to nearly half by the 1970s",
-        feedback: "The Divorce Reform Act 1969 removed the requirement to prove fault, ending the need for private investigators which only the wealthy could afford. Couples could divorce after living separately for 2 years if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages ending in divorce in the 1950s to nearly half by the 1970s. Stigma still attached to divorced women."
+        answer: "It removed the requirement to prove fault — couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages in the 1950s to nearly half by the 1970s",
+        feedback: "The Divorce Reform Act 1969 removed the requirement to prove fault, ending the need for private investigators only the wealthy could afford. Couples could divorce after 2 years separation if both agreed, or 5 years if only one agreed. Divorce rates rose from 7% of marriages in the 1950s to nearly half by the 1970s."
     },
-
-
+    {
+        topic: "Liberal Legislation 1960s",
+        question: "What did the Theatre Act 1968 achieve?",
+        options: [
+            "It imposed new censorship rules on theatre to counteract the permissive society",
+            "It introduced government funding for regional theatres for the first time",
+            "It required all theatre productions to carry age ratings similar to film certificates",
+            "It abolished stage censorship — scripts had previously needed to be licensed through the Lord Chamberlain's office. Writers began experimenting with new styles, and performances like 'Hair' and 'Oh Calcutta!' featured nudity"
+        ],
+        answer: "It abolished stage censorship — scripts had previously needed to be licensed through the Lord Chamberlain's office. Writers began experimenting with new styles, and performances like 'Hair' and 'Oh Calcutta!' featured nudity",
+        feedback: "The Theatre Act 1968 abolished stage censorship. Until this point scripts had to be licensed through the Lord Chamberlain's office. Backed by Labour backbencher George Strauss and supported by Roy Jenkins, it enabled writers to experiment with new styles — 'Hair' and 'Oh Calcutta!' soon featured nudity."
+    },
     {
         topic: "Social & Cultural Change 1960s",
         question: "How did television transform British society in the 1960s?",
         options: [
             "Television remained a luxury item throughout the 1960s, only reaching 30% of households by 1970",
-            "From two thirds of the population never having seen a TV in 1949, by the early 1960s TV was a social necessity — by 1964 there were 13 million licence holders. ITV launched in 1955 and Coronation Street became the most popular programme with over 20 million viewers by 1961",
-            "Television was exclusively a BBC monopoly until 1970 and maintained strict standards of public broadcasting",
-            "Television primarily reinforced conservative values — the BBC refused to broadcast anything that challenged traditional British culture"
+            "Television was exclusively a BBC monopoly until 1970 maintaining strict public broadcasting standards",
+            "From two thirds of the population never having seen a TV in 1949, TV was a social necessity by the early 1960s — 13 million licence holders by 1964. ITV's Coronation Street had over 20 million viewers by October 1961",
+            "Television primarily reinforced conservative values — the BBC refused anything that challenged British culture"
         ],
-        answer: "From two thirds of the population never having seen a TV in 1949, by the early 1960s TV was a social necessity — by 1964 there were 13 million licence holders. ITV launched in 1955 and Coronation Street became the most popular programme with over 20 million viewers by 1961",
-        feedback: "Two thirds of the population had never seen a TV in 1949. The Coronation in 1953 converted the public from 1.5 million to 3 million licence holders overnight. By 1964 there were 13 million licence holders. ITV launched in 1955, with advertising revenue growing from £13 million in 1956 to £93 million in 1961. Coronation Street had over 20 million viewers by October 1961."
-    },
-    {
-        topic: "Social & Cultural Change 1960s",
-        question: "What was the Theatre Act 1968 and what did it enable?",
-        options: [
-            "It imposed new censorship rules on theatre to counteract the permissive society",
-            "It abolished stage censorship — until this point scripts had to be licensed through the Lord Chamberlain's office. Writers began experimenting with new styles, and performances like 'Hair' and 'Oh Calcutta!' featured nudity",
-            "It introduced government funding for regional theatres for the first time",
-            "It required all theatre productions to carry age ratings similar to film certificates"
-        ],
-        answer: "It abolished stage censorship — until this point scripts had to be licensed through the Lord Chamberlain's office. Writers began experimenting with new styles, and performances like 'Hair' and 'Oh Calcutta!' featured nudity",
-        feedback: "The Theatre Act 1968 abolished stage censorship in the UK. Until this point scripts had to be licensed through the Lord Chamberlain's office. Backed by Labour backbencher George Strauss and supported by Roy Jenkins, it enabled writers to experiment with new styles — performances such as 'Hair' and 'Oh Calcutta!' soon featured nudity."
+        answer: "From two thirds of the population never having seen a TV in 1949, TV was a social necessity by the early 1960s — 13 million licence holders by 1964. ITV's Coronation Street had over 20 million viewers by October 1961",
+        feedback: "Two thirds of the population had never seen a TV in 1949. The 1953 Coronation took viewers from 1.5 million to 3 million overnight. By 1964 there were 13 million licence holders. ITV launched in 1955 — Lord Reith likened it to 'smallpox, bubonic plague and the black death'. Coronation Street had 20+ million viewers by October 1961."
     },
     {
         topic: "Social & Cultural Change 1960s",
         question: "How did pirate radio emerge and how did the government respond?",
         options: [
             "Pirate radio was immediately suppressed by the Post Office, which jammed all unlicensed broadcasts",
-            "Radio Caroline launched in 1964 from a ship off the Essex coast, broadcasting popular music the BBC ignored. The government introduced the Marine Broadcasting Act 1967 to shut down offshore stations and then launched Radio One, recruiting former pirate DJs",
             "Pirate radio was tolerated as a harmless novelty and eventually absorbed into the BBC without legislation",
-            "The government licensed pirate stations as commercial radio, creating a mixed broadcasting economy"
+            "The government licensed pirate stations as commercial radio, creating a mixed broadcasting economy",
+            "Radio Caroline launched in 1964 from a ship off the Essex coast broadcasting popular music. The government introduced the Marine Broadcasting Act 1967 to shut down offshore stations, then launched Radio One recruiting former pirate DJs"
         ],
-        answer: "Radio Caroline launched in 1964 from a ship off the Essex coast, broadcasting popular music the BBC ignored. The government introduced the Marine Broadcasting Act 1967 to shut down offshore stations and then launched Radio One, recruiting former pirate DJs",
-        feedback: "At the start of the 1960s the BBC ran just three stations with no station for popular recorded music. Radio Caroline launched in 1964 from a ship off the Essex coast, with Radio London soon following. The government introduced the Marine Broadcasting Act 1967 to shut down offshore stations, then launched Radio One later that year — recruiting former pirate DJs like Johnnie Walker and Tony Blackburn."
+        answer: "Radio Caroline launched in 1964 from a ship off the Essex coast broadcasting popular music. The government introduced the Marine Broadcasting Act 1967 to shut down offshore stations, then launched Radio One recruiting former pirate DJs",
+        feedback: "At the start of the 1960s the BBC had no station for popular music. Radio Caroline launched in 1964 from a ship off the Essex coast. The government introduced the Marine Broadcasting Act 1967 to shut down offshore stations, then launched Radio One — recruiting former pirate DJs like Tony Blackburn."
     },
     {
         topic: "Social & Cultural Change 1960s",
-        question: "What were the limits of the 'permissive society' of the 1960s?",
+        question: "What were the limits of the 'permissive society'?",
         options: [
             "There were no significant limits — British society was transformed root and branch by liberal attitudes",
-            "A New Society survey in 1969 showed only 5% welcomed easier laws as the most important 1960s change, 77% thought too much publicity was given to sex, and surveys found promiscuity was not common teenage behaviour — most were virgins on marriage",
-            "The permissive society was limited entirely to London and had no impact on provincial Britain",
-            "Religious opposition from the Catholic and Anglican churches successfully blocked most permissive legislation"
+            "Religious opposition from Catholic and Anglican churches successfully blocked most permissive legislation",
+            "The permissive society was limited entirely to London with no impact on provincial Britain",
+            "A 1969 New Society survey showed only 5% welcomed easier laws as the most important change; 77% thought too much publicity was given to sex; and surveys found most young people were virgins on marriage"
         ],
-        answer: "A New Society survey in 1969 showed only 5% welcomed easier laws as the most important 1960s change, 77% thought too much publicity was given to sex, and surveys found promiscuity was not common teenage behaviour — most were virgins on marriage",
-        feedback: "A New Society survey in 1969 showed only 5% welcomed easier laws for homosexuality, divorce, abortion etc as the most important 1960s change. 77% thought too much publicity was given to sex, and 71% believed murderers ought to be hanged. Surveys by Schofield and Gorer found promiscuity was not common teenage behaviour — most were virgins on marriage or married their first and only sexual partner."
+        answer: "A 1969 New Society survey showed only 5% welcomed easier laws as the most important change; 77% thought too much publicity was given to sex; and surveys found most young people were virgins on marriage",
+        feedback: "A New Society survey in 1969 showed only 5% welcomed easier laws as the most important 60s change. 77% thought too much publicity was given to sex, and 71% believed murderers ought to be hanged. Surveys by Schofield and Gorer found promiscuity was not common teenage behaviour — most were virgins on marriage."
     },
-    {
-        topic: "Social & Cultural Change 1960s",
-        question: "What was Mary Whitehouse's campaign and what did it achieve?",
-        options: [
-            "She successfully lobbied Parliament to introduce a Broadcasting Standards Act that transformed TV content",
-            "She led the Clean Up TV campaign attracting nearly 500K petitions, believing TV undermined family life and Christian values. She founded the National Viewers and Listeners Association in 1965 with 100K members — but ultimately failed to impact programmes shown",
-            "Her campaign was widely ridiculed and attracted fewer than 10,000 supporters",
-            "She successfully had ITV's licence revoked and forced it to adopt BBC-style public service obligations"
-        ],
-        answer: "She led the Clean Up TV campaign attracting nearly 500K petitions, believing TV undermined family life and Christian values. She founded the National Viewers and Listeners Association in 1965 with 100K members — but ultimately failed to impact programmes shown",
-        feedback: "Mary Whitehouse led the Clean Up TV campaign, attracting nearly 500K petitions, believing TV undermined family life and Christian values. This led to the National Viewers and Listeners Association in 1965, soon with 100K members. But it failed to impact programmes shown. Michael Grade put it: 'she really wanted television to be propaganda for a very moral view of the world, not the imperfect world we live in'."
-    },
-
     {
         topic: "Women's Rights 1964-70",
         question: "What was the Ford Dagenham Strike of 1968 and what did it lead to?",
         options: [
-            "Male workers struck in support of female colleagues' equal pay demands and won immediate equality",
-            "Women sewing machinists walked out after a regrading that left them 15% below the male rate, halting car production. Barbara Castle intervened — their pay was raised to 8% below the men's rate, with full 95% not secured until 1984. It led directly to the 1970 Equal Pay Act",
-            "Female workers struck demanding access to the same training schemes as men, and won the right to become engineers",
-            "A wildcat strike by women workers that the TUC refused to support, highlighting union sexism"
+            "Male workers struck in support of female colleagues' equal pay demands, winning immediate equality",
+            "Female workers struck demanding access to the same training schemes as men",
+            "A wildcat strike by women workers that the TUC refused to support, highlighting union sexism",
+            "Women sewing machinists walked out after a regrading leaving them 15% below male rates, halting car production. Barbara Castle raised their pay to 8% below the men's rate. It led directly to the 1970 Equal Pay Act"
         ],
-        answer: "Women sewing machinists walked out after a regrading that left them 15% below the male rate, halting car production. Barbara Castle intervened — their pay was raised to 8% below the men's rate, with full 95% not secured until 1984. It led directly to the 1970 Equal Pay Act",
-        feedback: "Women sewing machinists at Ford's Dagenham plant walked out in 1968 — the strike halted car production. It was caused by a regrading that meant they received 15% less pay than the male rate. Barbara Castle, Secretary of State for Employment, intervened — a deal raised their pay to 8% below the men's rate. Only by 1984 was 95% of men's rate secured. It led directly to the 1970 Equal Pay Act."
+        answer: "Women sewing machinists walked out after a regrading leaving them 15% below male rates, halting car production. Barbara Castle raised their pay to 8% below the men's rate. It led directly to the 1970 Equal Pay Act",
+        feedback: "Women sewing machinists at Ford's Dagenham plant walked out in 1968, halting car production. The regrading left them 15% below the male rate. Barbara Castle intervened — their pay was raised to 8% below men's rate. Only by 1984 was 95% of men's rate secured. It led directly to the 1970 Equal Pay Act."
     },
     {
         topic: "Women's Rights 1964-70",
         question: "What were the key women's rights legislative achievements of 1967-70?",
         options: [
             "Equal Pay Act, Sex Discrimination Act, and the right to vote in all elections",
-            "Matrimonial Homes Act (equal right of occupation), Abortion Act, Family Planning Act (pill for all women), Divorce Reform Act, Matrimonial Property Act (recognising domestic work as financial contribution), and Equal Pay Act",
             "Introduction of maternity leave, childcare subsidies, and the right to apply for mortgages independently",
-            "The abolition of the marriage bar, equal access to university education, and the right to serve on juries"
+            "Abolition of the marriage bar, equal access to university, and the right to serve on juries",
+            "Matrimonial Homes Act, Abortion Act, Family Planning Act, Divorce Reform Act, Matrimonial Property Act recognising domestic work as a financial contribution, and Equal Pay Act"
         ],
-        answer: "Matrimonial Homes Act (equal right of occupation), Abortion Act, Family Planning Act (pill for all women), Divorce Reform Act, Matrimonial Property Act (recognising domestic work as financial contribution), and Equal Pay Act",
-        feedback: "Key legislation included: Matrimonial Homes Act 1967 (equal right of occupation), Abortion Act 1967, Family Planning Act 1967 (contraceptive pill for single and married women), Divorce Reform Act 1969 (irretrievable breakdown as grounds), Matrimonial Property Act 1970 (recognising wife's domestic work as financial contribution), and Equal Pay Act 1970 (equal pay for equal work, though compliance was voluntary until 1975)."
+        answer: "Matrimonial Homes Act, Abortion Act, Family Planning Act, Divorce Reform Act, Matrimonial Property Act recognising domestic work as a financial contribution, and Equal Pay Act",
+        feedback: "Key legislation included: Matrimonial Homes Act 1967 (equal right of occupation), Abortion Act 1967, Family Planning Act 1967 (pill for all women), Divorce Reform Act 1969, Matrimonial Property Act 1970 (recognising domestic work as financial contribution), and Equal Pay Act 1970."
     },
     {
         topic: "Women's Rights 1964-70",
         question: "What were the limitations of the Women's Liberation Movement?",
         options: [
-            "It was entirely middle class and had no connection to the concerns of working class women",
-            "Male comrades on the left expected women to 'lick envelopes and make tea rather than make speeches'; popular magazines constantly revisited themes of 'getting and keeping your man'; and sexual freedom created new objectification of women",
+            "It was entirely middle class with no connection to working class women's concerns",
             "The movement was illegal under obscenity laws and its leaders were frequently imprisoned",
-            "It failed entirely to achieve any legislative change during the 1960s and 1970s"
+            "It failed entirely to achieve any legislative change during the 1960s and 1970s",
+            "Male left-wing comrades expected women to 'lick envelopes and make tea'; popular magazines constantly revisited 'getting and keeping your man'; and sexual freedom created new objectification of women"
         ],
-        answer: "Male comrades on the left expected women to 'lick envelopes and make tea rather than make speeches'; popular magazines constantly revisited themes of 'getting and keeping your man'; and sexual freedom created new objectification of women",
-        feedback: "Male comrades on the left, in Donnelly's words, expected women to 'lick envelopes and make tea rather than make speeches'. Popular publications like Woman and Woman's Own constantly revisited themes of 'getting and keeping your man' and 'the happy family'. Sexual freedom led to a new dimension of oppression — women were increasingly sexually objectified."
+        answer: "Male left-wing comrades expected women to 'lick envelopes and make tea'; popular magazines constantly revisited 'getting and keeping your man'; and sexual freedom created new objectification of women",
+        feedback: "Male comrades on the left expected women to 'lick envelopes and make tea rather than make speeches'. Popular publications like Woman's Own constantly revisited 'getting and keeping your man'. Sexual freedom led to new objectification — women were increasingly sexualised rather than liberated."
     },
-
-
     {
         topic: "Immigration & Race 1964-70",
         question: "What was the Commonwealth Immigrants Act 1968 and why was it controversial?",
         options: [
             "It banned all new Commonwealth immigration regardless of passport status",
-            "Triggered by the Kenyan Asian influx, it restricted UK citizenship to those with at least one parent or grandparent born in the UK — effectively excluding Kenyan Asians with British passports. 35 Labour, 15 Tory, and all Liberal MPs voted against it",
-            "It reduced the number of work vouchers issued to 8,500 per year with broad parliamentary support",
-            "It introduced a language test for all Commonwealth immigrants seeking permanent residence"
+            "It introduced a language test for all Commonwealth immigrants seeking permanent residence",
+            "It reduced work vouchers to 8,500 per year with broad parliamentary support",
+            "Triggered by the Kenyan Asian influx, it restricted UK citizenship to those with at least one parent or grandparent born in the UK — effectively excluding Kenyan Asians with British passports. 35 Labour, 15 Tory, and all Liberal MPs voted against it"
         ],
         answer: "Triggered by the Kenyan Asian influx, it restricted UK citizenship to those with at least one parent or grandparent born in the UK — effectively excluding Kenyan Asians with British passports. 35 Labour, 15 Tory, and all Liberal MPs voted against it",
-        feedback: "When Kenya gained independence in 1963, 40K Asians held British passports. 13K arrived in the first two months of 1967 alone. The emergency Act restricted UK citizenship to those with at least one parent or grandparent born in the UK — effectively excluding Kenyan Asians. It was incredibly divisive: 35 Labour, 15 Tory, and all Liberal MPs voted against it."
+        feedback: "When Kenya gained independence in 1963, 40K Asians held British passports. 13K arrived in the first two months of 1967 alone. The emergency Act restricted citizenship to those with at least one parent or grandparent born in the UK — effectively excluding Kenyan Asians. Incredibly divisive — 35 Labour, 15 Tory, and all Liberal MPs voted against it."
     },
     {
         topic: "Immigration & Race 1964-70",
         question: "What was Enoch Powell's 'Rivers of Blood' speech?",
         options: [
-            "A measured parliamentary speech calling for immigration controls that was widely supported by both parties",
-            "A scaremongering speech predicting racial violence — 'I seem to see the Tiber foaming with much blood' — arguing the Race Relations Bill would give 'the black man the whip hand over the white man'. Heath sacked him from the Shadow Cabinet, yet 74% of a poll supported Powell and 43K letters arrived within weeks",
-            "A private letter to the Prime Minister leaked to the press that called for voluntary repatriation",
+            "A measured parliamentary speech calling for immigration controls, widely supported by both parties",
+            "A speech predicting racial violence — 'I seem to see the Tiber foaming with much blood' — arguing the Race Relations Bill would give 'the black man the whip hand over the white man'. Heath sacked him from the Shadow Cabinet, yet 74% of a poll supported Powell",
+            "A private letter to the Prime Minister leaked to the press calling for voluntary repatriation",
             "A House of Commons speech that led directly to the Race Relations Act 1968 being strengthened"
         ],
-        answer: "A scaremongering speech predicting racial violence — 'I seem to see the Tiber foaming with much blood' — arguing the Race Relations Bill would give 'the black man the whip hand over the white man'. Heath sacked him from the Shadow Cabinet, yet 74% of a poll supported Powell and 43K letters arrived within weeks",
-        feedback: "Powell's speech delivered scaremongering predictions of racial violence: 'I seem to see the Tiber foaming with much blood'. He argued the Race Relations Bill would mean 'the black man will have the whip hand over the white man'. Heath sacked him from the shadow cabinet, yet a poll showed 74% in favour of Powell, 80% wanting stricter controls, and by early May he had received 43K letters of support."
+        answer: "A speech predicting racial violence — 'I seem to see the Tiber foaming with much blood' — arguing the Race Relations Bill would give 'the black man the whip hand over the white man'. Heath sacked him from the Shadow Cabinet, yet 74% of a poll supported Powell",
+        feedback: "Powell's speech predicted racial violence: 'I seem to see the Tiber foaming with much blood'. He argued the Race Relations Bill would mean 'the black man will have the whip hand over the white man'. Heath sacked him from the shadow cabinet, yet 74% of a poll supported Powell, 80% wanted stricter controls, and he received 43K letters within weeks."
     },
-
-
     {
         topic: "Northern Ireland 1964-70",
         question: "What was the Battle of the Bogside in 1969?",
         options: [
             "An IRA attack on the RUC that killed 15 police officers",
-            "When the Apprentice Boys were permitted to march through Londonderry near the Catholic Bogside — skirmishes escalated into a full-scale uprising. The RUC used tear gas and baton charges; 8 were killed, at least 750 injured, and £2.25 million in damage was caused",
             "A loyalist attack on Catholic homes in Belfast that triggered British Army deployment",
-            "A siege of the Bogside by British troops that lasted three weeks and ended with IRA surrender"
+            "A siege of the Bogside by British troops that ended with IRA surrender",
+            "Skirmishes after the Apprentice Boys marched near the Catholic Bogside rapidly escalated into a full-scale uprising — the RUC used tear gas; 8 were killed, at least 750 injured, and £2.25 million in damage was caused"
         ],
-        answer: "When the Apprentice Boys were permitted to march through Londonderry near the Catholic Bogside — skirmishes escalated into a full-scale uprising. The RUC used tear gas and baton charges; 8 were killed, at least 750 injured, and £2.25 million in damage was caused",
-        feedback: "The Apprentice Boys of Derry were permitted to march through Londonderry, passing close to the Catholic Bogside. Ensuing skirmishes rapidly escalated into a full-scale uprising. The RUC used tear gas and baton charges. 8 were killed by the RUC and B Specials, at least 750 injured, and £2.25 million in compensation was owed for 180 homes and buildings damaged."
+        answer: "Skirmishes after the Apprentice Boys marched near the Catholic Bogside rapidly escalated into a full-scale uprising — the RUC used tear gas; 8 were killed, at least 750 injured, and £2.25 million in damage was caused",
+        feedback: "The Apprentice Boys were permitted to march through Londonderry, passing close to the Catholic Bogside. Skirmishes rapidly escalated into a full-scale uprising. The RUC used tear gas and baton charges. 8 were killed by the RUC and B Specials, at least 750 injured, and £2.25 million in compensation was owed for 180 homes and buildings damaged."
     },
-    {
-        topic: "Northern Ireland 1964-70",
-        question: "What was the impact of the Falls Road Curfew of 1970?",
-        options: [
-            "It successfully suppressed IRA activity and reduced violence for the next two years",
-            "The army searched and uncovered 100 weapons, but considerable damage was done to households and 4 deaths occurred. Overnight, population sentiment turned from neutral or sympathetic to the military presence to outright hatred",
-            "It was welcomed by Catholic communities as proof the army was targeting IRA gun caches",
-            "It led to the Sunningdale Agreement as both sides sought to de-escalate tensions"
-        ],
-        answer: "The army searched and uncovered 100 weapons, but considerable damage was done to households and 4 deaths occurred. Overnight, population sentiment turned from neutral or sympathetic to the military presence to outright hatred",
-        feedback: "The Falls Road curfew of 1970 saw the army search and uncover 100 weapons, but considerable damage was done to households and 4 people died — none with any IRA connection. Overnight, population sentiment turned from neutral or sympathetic to the military presence to outright hatred — a key turning point in the relationship between the Catholic community and British forces."
-    },
-
-
-    {
-        topic: "Anti-Vietnam Protests 1960s",
-        question: "How did the anti-Vietnam War protests escalate between 1967 and 1968?",
-        options: [
-            "Protests remained small throughout — the British public was largely indifferent to Vietnam",
-            "October 1967 saw a 10K protest outside the US embassy; March 1968 saw 25K protesters with violence and 117 police and 45 demonstrators treated for injuries; October 1968 saw 100K marchers — 96% against US Vietnam policy, 68% against capitalism generally",
-            "The protests peaked in 1965 and declined after Wilson refused to send troops to Vietnam",
-            "Protests were limited to university campuses and had no broader public support"
-        ],
-        answer: "October 1967 saw a 10K protest outside the US embassy; March 1968 saw 25K protesters with violence and 117 police and 45 demonstrators treated for injuries; October 1968 saw 100K marchers — 96% against US Vietnam policy, 68% against capitalism generally",
-        feedback: "Tariq Ali led the Vietnam Solidarity Campaign. October 1967 saw a 10K protest outside the US embassy. March 1968 saw 25K protesters and violence — 117 police and 45 demonstrators treated for injuries. October 1968 saw 100K marchers with police exercising restraint — of the marchers, 96% were against US policy in Vietnam and 68% against capitalism in general."
-    },
-
     {
         topic: "Education Reform 1960s",
-        question: "What was Tony Crosland's Circular 10/65 and what did it achieve?",
+        question: "What was Tony Crosland's Circular 10/65?",
         options: [
             "It ordered all local authorities to immediately convert their grammar schools to comprehensives",
-            "Rather than ordering comprehensivisation, it requested it — making funding for new school buildings available only for comprehensives. Crosland privately declared 'If it's the last thing I do, I'm going to destroy every f***ing grammar school in England. And Wales. And Northern Ireland'",
+            "It created the polytechnic system by converting technical colleges into degree-awarding institutions",
             "It introduced the national curriculum for the first time, standardising education across all schools",
-            "It created the polytechnic system by converting technical colleges into degree-awarding institutions"
+            "Rather than ordering comprehensivisation, it requested it — making funding for new school buildings available only for comprehensives. Crosland privately declared his intention to 'destroy every f***ing grammar school in England'"
         ],
-        answer: "Rather than ordering comprehensivisation, it requested it — making funding for new school buildings available only for comprehensives. Crosland privately declared 'If it's the last thing I do, I'm going to destroy every f***ing grammar school in England. And Wales. And Northern Ireland'",
-        feedback: "Tony Crosland, Education Secretary, accelerated the shift to comprehensives. Rather than ordering comprehensivisation, he requested it via Circular 10/65, making funding for new school buildings only available for comprehensives. He privately declared his intention to destroy every grammar school. Change had already begun — 90 of 146 education authorities were moving to comprehensives by 1962."
+        answer: "Rather than ordering comprehensivisation, it requested it — making funding for new school buildings available only for comprehensives. Crosland privately declared his intention to 'destroy every f***ing grammar school in England'",
+        feedback: "Crosland accelerated the shift to comprehensives via Circular 10/65, making funding for new school buildings only available for comprehensives. He privately declared: 'If it's the last thing I do, I'm going to destroy every f***ing grammar school in England. And Wales. And Northern Ireland.' Change had already begun — 90 of 146 authorities were moving to comprehensives by 1962."
     },
     {
         topic: "Education Reform 1960s",
         question: "What was the Open University and why was Wilson proud of it?",
         options: [
             "A network of evening classes bringing degree-level education to factory workers",
-            "Wilson later said it was what he most wanted to be remembered for — high quality degree-level learning for those who had never attended campus universities, taught by radio, TV and later audio cassettes. First students began in January 1971. By 1980 it had 70K students and was awarding more degrees than Oxbridge",
-            "A distance learning programme exclusively for women returning to work after raising children",
-            "A government-funded adult literacy programme that expanded into higher education"
+            "A government-funded adult literacy programme that expanded into higher education",
+            "Wilson later said it was what he most wanted to be remembered for — high quality degree-level learning for those who had never attended campus universities, taught by radio and TV. First students began January 1971. By 1980 it had 70K students, awarding more degrees than Oxbridge",
+            "A distance learning programme exclusively for women returning to work after raising children"
         ],
-        answer: "Wilson later said it was what he most wanted to be remembered for — high quality degree-level learning for those who had never attended campus universities, taught by radio, TV and later audio cassettes. First students began in January 1971. By 1980 it had 70K students and was awarding more degrees than Oxbridge",
-        feedback: "Wilson later said the Open University was what he most wanted to be remembered for. Jennie Lee was appointed to handle the project — her working class background and commitment were crucial. First students began in January 1971, taught by radio, TV and later audio cassettes. Tory Ian Macleod called it 'blithering nonsense'. By 1980 it had 70K students and was awarding more degrees than Oxbridge."
+        answer: "Wilson later said it was what he most wanted to be remembered for — high quality degree-level learning for those who had never attended campus universities, taught by radio and TV. First students began January 1971. By 1980 it had 70K students, awarding more degrees than Oxbridge",
+        feedback: "Wilson said the Open University was what he most wanted to be remembered for. Jennie Lee was appointed to handle the project — her working class background was crucial. First students began January 1971, taught by radio and TV. Tory Ian Macleod called it 'blithering nonsense'. By 1980 it had 70K students, awarding more degrees than Oxbridge."
     },
-
     {
         topic: "Wilson & Foreign Policy",
-        question: "How did Wilson handle the Vietnam War in terms of British military commitment?",
+        question: "How did Wilson handle British military commitment to Vietnam?",
         options: [
-            "Wilson sent 5,000 British troops to Vietnam under pressure from President Johnson",
-            "Wilson never sent a single regular British soldier to Vietnam — historians regard this as a significant achievement despite needing US support for Rhodesian sanctions and facing enormous pressure from Johnson",
+            "Wilson sent 5,000 British troops under pressure from President Johnson",
             "Wilson offered naval support but refused to commit ground troops",
+            "Wilson never sent a single regular soldier to Vietnam — historians regard this as a significant achievement given the enormous pressure from Johnson and Britain's need for US support over Rhodesia",
             "Wilson supported the US position publicly but privately lobbied Johnson for a ceasefire"
         ],
-        answer: "Wilson never sent a single regular British soldier to Vietnam — historians regard this as a significant achievement despite needing US support for Rhodesian sanctions and facing enormous pressure from Johnson",
-        feedback: "Wilson never sent a single regular soldier to Vietnam — historians regard this as a significant achievement. Wilson needed US support for sanctions on Rhodesia, and Americans wanted him to support Vietnam. He got Kosygin to agree to an American-approved peace plan, until Johnson changed his mind at the last minute. Cooper recalled he 'had never seen anyone quite so angry' as Wilson."
+        answer: "Wilson never sent a single regular soldier to Vietnam — historians regard this as a significant achievement given the enormous pressure from Johnson and Britain's need for US support over Rhodesia",
+        feedback: "Wilson never sent a single regular soldier to Vietnam. He needed US support for Rhodesian sanctions, and Americans wanted British involvement in Vietnam. He got Kosygin to agree to an American-approved peace plan, until Johnson changed his mind at the last minute. Cooper recalled he 'had never seen anyone quite so angry' as Wilson."
     },
     {
         topic: "Wilson & Foreign Policy",
         question: "What was the Rhodesia Crisis and why did it embarrass Wilson?",
         options: [
             "Wilson successfully negotiated a peaceful transition to Black majority rule in Rhodesia by 1970",
-            "Wilson met Smith aboard HMS Tiger in 1966 and HMS Fearless in 1968 — Smith agreed to packages then rejected them at home. Sandbrook said there 'could hardly have been a more obvious symbol of British government's fading reputation' than its failure to control its own colonists",
             "Wilson sent troops to Rhodesia to enforce sanctions, leading to a minor military conflict",
-            "Rhodesia agreed to Black majority rule in 1968 following effective British economic sanctions"
+            "Rhodesia agreed to Black majority rule in 1968 following effective British economic sanctions",
+            "Wilson met Smith aboard HMS Tiger and HMS Fearless — Smith agreed to packages then rejected them at home both times. Sandbrook called it 'hardly a more obvious symbol of British government's fading reputation' than failing to control its own colonists"
         ],
-        answer: "Wilson met Smith aboard HMS Tiger in 1966 and HMS Fearless in 1968 — Smith agreed to packages then rejected them at home. Sandbrook said there 'could hardly have been a more obvious symbol of British government's fading reputation' than its failure to control its own colonists",
-        feedback: "By mid-1966, Ian Smith's regime had dug in. The effect of sanctions had evaporated — Rhodesia continued trading through Mozambique and South Africa. Wilson met Smith aboard HMS Tiger in 1966 and HMS Fearless in 1968 — both times Smith agreed to packages then rejected them at home. Sandbrook said it was 'hardly a more obvious and embarrassing symbol of British government's fading reputation'."
+        answer: "Wilson met Smith aboard HMS Tiger and HMS Fearless — Smith agreed to packages then rejected them at home both times. Sandbrook called it 'hardly a more obvious symbol of British government's fading reputation' than failing to control its own colonists",
+        feedback: "By mid-1966 Smith's regime had dug in — sanctions had evaporated as Rhodesia traded through Mozambique and South Africa. Wilson met Smith aboard HMS Tiger in 1966 and HMS Fearless in 1968 — both times Smith agreed to packages then rejected them. Sandbrook said it symbolised 'British government's fading reputation'."
     },
+
+    // =====================================
+    // END OF POST-WAR CONSENSUS 1970-1979
+    // =====================================
 
     {
         topic: "Heath's Government 1970-74",
         question: "What was Heath's initial economic approach and how did it fare?",
         options: [
             "Heath continued the Keynesian consensus, expanding public spending and achieving low inflation",
-            "Heath declared a 'new style of government' aiming to reduce state intervention — but inflation rose to 15% by end of 1971, and by 1973 BOP deficit was nearly £1 billion and unemployment exceeded 850K",
             "Heath immediately joined the EEC and used European structural funds to modernise British industry",
-            "Heath successfully reduced inflation through a strict monetarist policy of controlling the money supply"
+            "Heath successfully reduced inflation through strict monetarist control of the money supply",
+            "Heath declared a 'new style of government' aiming to reduce state intervention — but inflation rose to 15% by end of 1971, BOP deficit reached nearly £1 billion, and unemployment exceeded 850K by 1973"
         ],
-        answer: "Heath declared a 'new style of government' aiming to reduce state intervention — but inflation rose to 15% by end of 1971, and by 1973 BOP deficit was nearly £1 billion and unemployment exceeded 850K",
-        feedback: "Heath entered office declaring a 'new style of government' — determined to carry through a Tory 'quiet revolution' reducing state intervention. But inflation rose to 15% by end of 1971, and by 1973 the BOP deficit was nearly £1 billion with unemployment over 850K. Chancellor Ian Macleod died weeks into the government — described by Lowe as 'a politician of enormous ability and expertise'."
+        answer: "Heath declared a 'new style of government' aiming to reduce state intervention — but inflation rose to 15% by end of 1971, BOP deficit reached nearly £1 billion, and unemployment exceeded 850K by 1973",
+        feedback: "Heath entered office declaring a 'new style of government' — a Tory 'quiet revolution' reducing state intervention. But inflation rose to 15% by end of 1971, and by 1973 the BOP deficit was nearly £1 billion with unemployment over 850K. Chancellor Ian Macleod died weeks into the government."
     },
     {
         topic: "Heath's Government 1970-74",
         question: "What was Heath's 'U-Turn' of 1972?",
         options: [
-            "Heath reversed his pro-European stance and demanded renegotiation of EEC membership terms",
-            "Heath returned to controlling prices and incomes — contradicting his free market approach — bailing out failing companies like Upper Clyde Shipbuilders, nationalising Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'",
+            "Heath reversed his pro-European stance and demanded renegotiation of EEC terms",
+            "Heath reversed his industrial relations legislation and reached a compromise with the TUC",
             "Heath called a snap election to seek a new mandate for his economic policies",
-            "Heath reversed his industrial relations legislation and reached a compromise with the TUC"
+            "Heath returned to controlling prices and incomes — contradicting his free market approach — bailing out Upper Clyde Shipbuilders, nationalising Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'"
         ],
-        answer: "Heath returned to controlling prices and incomes — contradicting his free market approach — bailing out failing companies like Upper Clyde Shipbuilders, nationalising Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'",
-        feedback: "In 1972 Heath announced a return to controlling prices and incomes — directly contradicting his original free market approach. He bailed out failing companies like Upper Clyde Shipbuilders and nationalised Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'. The 1972 Industry Act gave the Tory government unprecedented powers of industrial intervention — the most direct repudiation of 'Selsdon Man'."
+        answer: "Heath returned to controlling prices and incomes — contradicting his free market approach — bailing out Upper Clyde Shipbuilders, nationalising Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'",
+        feedback: "In 1972 Heath announced a return to controlling prices and incomes — directly contradicting his original free market approach. He bailed out failing companies like Upper Clyde Shipbuilders and nationalised Rolls-Royce. Marr said he was 'behaving like a Wilson-era socialist'. The 1972 Industry Act gave unprecedented powers of industrial intervention."
     },
     {
         topic: "Heath's Government 1970-74",
         question: "What was the Industrial Relations Act 1971 and why did it fail?",
         options: [
-            "It successfully reduced strike days by 50% and improved industrial relations significantly",
-            "It set up a National Industrial Relations Court with power to enforce strike ballots and cooling-off periods — but the TUC formally voted not to cooperate and instructed all unions not to register. Murphy said Heath had 'made the mistake of legislating too quickly, without sufficient consultation'. 23.9 million working days were lost in 1972",
-            "It introduced compulsory arbitration for all industrial disputes and was broadly welcomed by unions",
-            "It abolished the right to strike in essential services but was overturned by the courts as unconstitutional"
+            "It successfully reduced strike days by 50% and improved industrial relations",
+            "It introduced compulsory arbitration for all industrial disputes and was broadly welcomed",
+            "It abolished the right to strike in essential services but was overturned by the courts",
+            "It set up a National Industrial Relations Court — but the TUC voted not to cooperate, instructing all unions not to register. Murphy said Heath had 'legislated too quickly without consultation'. 23.9 million working days were lost in 1972"
         ],
-        answer: "It set up a National Industrial Relations Court with power to enforce strike ballots and cooling-off periods — but the TUC formally voted not to cooperate and instructed all unions not to register. Murphy said Heath had 'made the mistake of legislating too quickly, without sufficient consultation'. 23.9 million working days were lost in 1972",
-        feedback: "The Industrial Relations Act 1971 set up a National Industrial Relations Court with power to enforce strike ballots and 60-day cooling-off periods. But the TUC formally voted not to cooperate and instructed all unions not to register. Murphy said Heath had 'made the mistake of legislating too quickly, without sufficient consultation'. 23.9 million working days were lost in 1972."
+        answer: "It set up a National Industrial Relations Court — but the TUC voted not to cooperate, instructing all unions not to register. Murphy said Heath had 'legislated too quickly without consultation'. 23.9 million working days were lost in 1972",
+        feedback: "The Industrial Relations Act 1971 set up a National Industrial Relations Court with powers to enforce strike ballots and 60-day cooling-off periods. But the TUC formally voted not to cooperate and instructed all unions not to register. Murphy said Heath had 'made the mistake of legislating too quickly, without sufficient consultation'."
     },
     {
         topic: "Heath's Government 1970-74",
-        question: "What was the miners' strike of 1972 and what was its outcome?",
+        question: "What was the outcome of the 1972 miners' strike?",
         options: [
-            "Miners struck for 2 weeks, accepted a modest pay increase, and returned to work without incident",
-            "The NUM used flying pickets to bring coal movement to a standstill — the NUM gained a 21% wage increase, nearly 3 times what employers originally offered — a major defeat for Heath's government",
+            "Miners struck for two weeks, accepted a modest increase, and returned to work without incident",
             "Heath used emergency powers to break the strike after two days, imprisoning the NUM leadership",
-            "The strike was settled by an independent pay board which awarded miners a 5% increase"
+            "The strike was settled by an independent pay board awarding miners a 5% increase",
+            "The NUM used flying pickets to bring coal movement to a standstill — the NUM gained a 21% wage increase, nearly 3 times what employers offered — a major defeat for Heath's government"
         ],
-        answer: "The NUM used flying pickets to bring coal movement to a standstill — the NUM gained a 21% wage increase, nearly 3 times what employers originally offered — a major defeat for Heath's government",
-        feedback: "In 1972 the NUM, led by Arthur Scargill, used flying pickets to bring the movement of coal to a standstill. The NUM gained a 21% wage increase — nearly 3 times what employers had originally offered. This was a major defeat for Heath's government and emboldened the unions significantly."
-    },
-    {
-        topic: "Heath's Government 1970-74",
-        question: "What was the Three Day Week and what caused it?",
-        options: [
-            "A voluntary agreement between government and industry to save fuel during the 1973 oil crisis",
-            "Caused by the 1973-74 miners' strike — Heath rejected the TUC's offer to treat miners as a special case and announced the Three Day Week. Television ended at 10:30, citizens shared baths and brushed teeth in the dark, restricted heat to a single room",
-            "An EU directive on working hours that Heath was forced to implement as a condition of EEC membership",
-            "A response to widespread power cuts caused by aging power station infrastructure"
-        ],
-        answer: "Caused by the 1973-74 miners' strike — Heath rejected the TUC's offer to treat miners as a special case and announced the Three Day Week. Television ended at 10:30, citizens shared baths and brushed teeth in the dark, restricted heat to a single room",
-        feedback: "The NUM executive rejected a 13% pay increase and voted for a national strike — 81% of miners voted to strike. Heath rejected the TUC's offer to treat miners as a special case and announced the Three Day Week, severely restricting electricity. Television ended at 10:30, citizens had to share baths, brush teeth in the dark, use boiling water for washing, and restrict heat to a single room."
+        answer: "The NUM used flying pickets to bring coal movement to a standstill — the NUM gained a 21% wage increase, nearly 3 times what employers offered — a major defeat for Heath's government",
+        feedback: "In 1972 the NUM, led by Arthur Scargill, used flying pickets to bring the movement of coal to a standstill. The NUM gained a 21% wage increase — nearly 3 times what employers had originally offered. A major defeat for Heath's government, emboldening the unions significantly."
     },
     {
         topic: "Heath's Government 1970-74",
         question: "What was Bloody Sunday and what were its consequences?",
         options: [
             "IRA bombers killed 13 soldiers in Londonderry, leading to the introduction of internment",
-            "Troops from the Parachute Regiment killed 13 unarmed civilians in Londonderry in 1972. Mass protests followed, the British embassy in Dublin was burned, and the Aldershot HQ was bombed — leading to the suspension of Stormont and direct rule from Westminster",
-            "RUC officers fired on a civil rights march, killing 6 people, triggering the formation of the Provisional IRA",
-            "Loyalist paramilitaries killed 13 Catholics in Belfast, leading Wilson to deploy British troops"
+            "RUC officers fired on a civil rights march, killing 6 people and triggering the formation of the Provisional IRA",
+            "Loyalist paramilitaries killed 13 Catholics in Belfast, leading Wilson to deploy British troops",
+            "Troops from the Parachute Regiment killed 13 unarmed civilians in Londonderry in 1972 — mass protests followed, the British embassy in Dublin was burned, and direct rule from Westminster was imposed"
         ],
-        answer: "Troops from the Parachute Regiment killed 13 unarmed civilians in Londonderry in 1972. Mass protests followed, the British embassy in Dublin was burned, and the Aldershot HQ was bombed — leading to the suspension of Stormont and direct rule from Westminster",
-        feedback: "On Bloody Sunday 1972, troops from the Parachute Regiment killed 13 unarmed civilians in Londonderry. Mass protests followed — the British embassy in Dublin was burned and the Parachute Regiment's Aldershot HQ was bombed. This led to the suspension of Stormont and the imposition of direct rule from Westminster."
+        answer: "Troops from the Parachute Regiment killed 13 unarmed civilians in Londonderry in 1972 — mass protests followed, the British embassy in Dublin was burned, and direct rule from Westminster was imposed",
+        feedback: "On Bloody Sunday 1972, troops from the Parachute Regiment killed 13 unarmed civilians in Londonderry. Mass protests followed — the British embassy in Dublin was burned and the Parachute Regiment's Aldershot HQ was bombed. This led to the suspension of Stormont and direct rule from Westminster."
     },
     {
         topic: "Heath's Government 1970-74",
-        question: "What global economic pressures affected Heath's government?",
+        question: "Why did Heath take Britain into the EEC in 1973?",
         options: [
-            "American protectionism closed off British export markets and caused a balance of payments crisis",
-            "Nixon suspended dollar-gold convertibility, forcing floating exchange rates, and the Yom Kippur War caused OPEC to cut oil supplies — prices spiked from $2 to $35 a barrel by end of the decade, coinciding with British EEC entry in 1973",
-            "A European banking collapse triggered by German reunification costs caused recession across the continent",
-            "The collapse of Bretton Woods forced a 30% devaluation of sterling against the dollar"
+            "He was forced to by American pressure and had no personal enthusiasm for European integration",
+            "He joined primarily to access European agricultural subsidies for British farmers",
+            "EEC entry was a condition of the IMF loan that bailed out the British economy in 1972",
+            "Heath was very pro-European and saw it as a means to modernise British society — the Commons approved entry 356 votes to 244, and Britain formally joined in January 1973"
         ],
-        answer: "Nixon suspended dollar-gold convertibility, forcing floating exchange rates, and the Yom Kippur War caused OPEC to cut oil supplies — prices spiked from $2 to $35 a barrel by end of the decade, coinciding with British EEC entry in 1973",
-        feedback: "Nixon unilaterally suspended convertibility of the dollar for gold, forcing floating exchange rates. The Yom Kippur War caused OPEC to cut oil supplies to western countries — coinciding with British EEC entry in 1973. Oil prices spiked from $2 to $35 a barrel by the end of the decade, removing the economic stimulus Britain had hoped for from EEC membership."
+        answer: "Heath was very pro-European and saw it as a means to modernise British society — the Commons approved entry 356 votes to 244, and Britain formally joined in January 1973",
+        feedback: "Heath was very pro-European and saw EEC membership as a means to modernise British society, believing Britain could no longer act alone in the world. The Commons approved entry 356 votes to 244 and Britain formally joined in January 1973. However, the Common Agricultural Policy imposed high food import tariffs."
     },
-
-
     {
         topic: "Wilson & Callaghan 1974-79",
         question: "What was the Social Contract under Wilson's second government?",
         options: [
             "A formal agreement between all three main parties to maintain the post-war consensus",
-            "An agreement with the TUC abolishing the Industrial Relations Act and introducing a £6/week limit on wage rises in exchange for union restraint — but it encouraged further action, with wages rising 19% in 1974 and 23% in 1975",
-            "A binding legal agreement between employers and unions to submit disputes to arbitration",
+            "An agreement with the TUC abolishing the Industrial Relations Act in exchange for a £6/week wage limit — but the miners' full wage claim was settled immediately, wages rose 19% in 1974 and 23% in 1975",
+            "A binding legal agreement between employers and unions to submit all disputes to arbitration",
             "A European-style works council system giving unions representation on company boards"
         ],
-        answer: "An agreement with the TUC abolishing the Industrial Relations Act and introducing a £6/week limit on wage rises in exchange for union restraint — but it encouraged further action, with wages rising 19% in 1974 and 23% in 1975",
-        feedback: "Wilson's second government abolished the Industrial Relations Act and introduced the Social Contract — the TUC agreed to a £6/week limit on wage rises. However, the miners' strike was settled by allowing their full wage claim, which encouraged further action. Wages rose 19% in 1974 and 23% in 1975. Unions grew in confidence — they had previously defeated Wilson over 'In Place of Strife'."
+        answer: "An agreement with the TUC abolishing the Industrial Relations Act in exchange for a £6/week wage limit — but the miners' full wage claim was settled immediately, wages rose 19% in 1974 and 23% in 1975",
+        feedback: "Wilson's second government abolished the Industrial Relations Act and introduced the Social Contract — the TUC agreed to a £6/week limit on wage rises. However, the miners' strike was settled by allowing their full wage claim, encouraging further action. Wages rose 19% in 1974 and 23% in 1975. Unions grew in confidence."
     },
     {
         topic: "Wilson & Callaghan 1974-79",
         question: "What was the 1976 IMF crisis and what were its consequences?",
         options: [
-            "Britain refused the IMF loan and instead cut spending voluntarily, emerging stronger within six months",
-            "Caused by a huge BOP deficit, 16% inflation, and the pound falling to $1.57, Healey was forced to ask the IMF for a £3 billion loan — granted on condition of massive spending cuts of £2.5 billion over two years. Economically successful but politically disastrous — Labour lost 4 by-elections and its Commons majority",
-            "The IMF imposed a devaluation of 20% as a condition of the emergency loan",
-            "Britain was forced to accept IMF supervision of all economic policy for the following five years"
+            "Britain refused the IMF loan and cut spending voluntarily, emerging stronger within six months",
+            "The IMF imposed a 20% devaluation of sterling as a condition of the emergency loan",
+            "Britain was forced to accept IMF supervision of all economic policy for five years",
+            "A huge BOP deficit, 16% inflation, and the pound falling to $1.57 forced Healey to ask the IMF for a £3 billion loan. £2.5 billion in cuts followed — economically successful but politically disastrous; Labour lost 4 by-elections and its Commons majority"
         ],
-        answer: "Caused by a huge BOP deficit, 16% inflation, and the pound falling to $1.57, Healey was forced to ask the IMF for a £3 billion loan — granted on condition of massive spending cuts of £2.5 billion over two years. Economically successful but politically disastrous — Labour lost 4 by-elections and its Commons majority",
-        feedback: "The 1976 crisis was caused by a huge BOP deficit, inflation at 16%, unemployment over 1 million, and the pound falling to $1.57. Healey was forced to ask the IMF for an emergency loan of £3 billion, granted on condition of massive spending cuts. Healey made £2.5 billion in cuts over 2 years. Along with North Sea Oil, by 1977 Britain could repay much of the loan. But it was politically disastrous — Labour lost 4 by-elections and its Commons majority."
+        answer: "A huge BOP deficit, 16% inflation, and the pound falling to $1.57 forced Healey to ask the IMF for a £3 billion loan. £2.5 billion in cuts followed — economically successful but politically disastrous; Labour lost 4 by-elections and its Commons majority",
+        feedback: "The 1976 crisis was caused by a huge BOP deficit, 16% inflation, unemployment over 1 million, and the pound falling to $1.57. Healey asked the IMF for £3 billion, granted on condition of massive cuts. Along with North Sea Oil, by 1977 Britain could repay much of the loan. But it was politically disastrous — Labour lost 4 by-elections and its Commons majority."
     },
     {
         topic: "Wilson & Callaghan 1974-79",
-        question: "What was Callaghan's famous statement about Keynesian economics and why was it significant?",
+        question: "What was Callaghan's statement about Keynesian economics and why was it significant?",
         options: [
             "'Inflation is the enemy of the working class' — signalling a shift to monetarist economics",
-            "'We used to think you could spend your way out of a recession... I tell you in all candour that that option no longer exists' — seen by some historians as the moment the post-war consensus ended, with Labour making a decisive break from Keynesian economics",
-            "'The trade unions must accept that wage restraint is the price of full employment' — signalling an end to the Social Contract",
-            "'Britain must join the ERM to solve inflation' — marking a shift to European monetary discipline"
+            "'The trade unions must accept that wage restraint is the price of full employment'",
+            "'Britain must join the ERM to solve inflation' — marking a shift to European monetary discipline",
+            "'We used to think you could spend your way out of a recession... I tell you in all candour that that option no longer exists' — seen by some historians as the moment the post-war consensus ended"
         ],
-        answer: "'We used to think you could spend your way out of a recession... I tell you in all candour that that option no longer exists' — seen by some historians as the moment the post-war consensus ended, with Labour making a decisive break from Keynesian economics",
+        answer: "'We used to think you could spend your way out of a recession... I tell you in all candour that that option no longer exists' — seen by some historians as the moment the post-war consensus ended",
         feedback: "Callaghan said: 'We used to think you could spend your way out of a recession... I tell you in all candour that that option no longer exists.' Some historians argue this was the moment the post-war consensus ended — Labour had made a decisive break from Keynesian economics, anticipating the Thatcherite shift that would follow."
     },
     {
@@ -1175,148 +1063,96 @@ const britishQs = [
         question: "What was the Winter of Discontent 1978-79?",
         options: [
             "A period of severe blizzards that disrupted the economy and brought down Callaghan's government",
-            "Callaghan proposed limiting wage increases to 5% at a time of 10% inflation — strikes followed from lorry drivers threatening food supplies, school meal workers, rubbish collectors and grave diggers. Press characterised Callaghan's relaxed response as 'Crisis? What crisis?' — 29 million working days were lost in 1979",
-            "A series of IRA bombings across mainland Britain that paralysed public life in the winter months",
-            "Mass unemployment protests that swept through northern cities in the winter of 1978"
+            "A series of IRA bombings across mainland Britain that paralysed public life",
+            "Mass unemployment protests sweeping through northern cities in the winter of 1978",
+            "Callaghan proposed limiting wages to 5% at a time of 10% inflation — strikes followed from lorry drivers, school meal workers, rubbish collectors and grave diggers. 29 million working days were lost in 1979. Press labelled his relaxed response as 'Crisis? What crisis?'"
         ],
-        answer: "Callaghan proposed limiting wage increases to 5% at a time of 10% inflation — strikes followed from lorry drivers threatening food supplies, school meal workers, rubbish collectors and grave diggers. Press characterised Callaghan's relaxed response as 'Crisis? What crisis?' — 29 million working days were lost in 1979",
-        feedback: "Callaghan proposed extending the Social Contract by limiting wage increases to 5% at a time of 10% inflation. The Winter of Discontent followed — lorry drivers struck threatening food supplies, school meal workers, rubbish collectors and grave diggers struck. The press characterised Callaghan's relaxed leadership style as 'Crisis? What crisis?' 29 million working days were lost in 1979."
+        answer: "Callaghan proposed limiting wages to 5% at a time of 10% inflation — strikes followed from lorry drivers, school meal workers, rubbish collectors and grave diggers. 29 million working days were lost in 1979. Press labelled his relaxed response as 'Crisis? What crisis?'",
+        feedback: "Callaghan proposed limiting wage increases to 5% at a time of 10% inflation. The Winter of Discontent followed — lorry drivers struck threatening food supplies, school meal workers, rubbish collectors and grave diggers struck. The press labelled Callaghan's relaxed leadership as 'Crisis? What crisis?' 29 million working days were lost in 1979."
     },
     {
         topic: "Wilson & Callaghan 1974-79",
         question: "What caused Callaghan to call a general election in 1979?",
         options: [
             "He chose to call an election at the most favourable moment following economic recovery",
-            "Scottish and Welsh devolution acts required 40% of the electorate to vote in favour — only 12% of Welsh and 33% of Scots voted yes. The SNP withdrew support, a vote of no confidence was passed, forcing Callaghan to call the election that Labour lost",
             "The Liberal Party withdrew from the Lib-Lab Pact, removing his working majority",
-            "Callaghan resigned after losing a vote on the Winter of Discontent emergency measures"
+            "Callaghan resigned after losing a vote on Winter of Discontent emergency measures",
+            "Scottish and Welsh devolution referendums failed to reach the 40% threshold — the SNP withdrew support, a vote of no confidence was passed, forcing the election that Labour lost"
         ],
-        answer: "Scottish and Welsh devolution acts required 40% of the electorate to vote in favour — only 12% of Welsh and 33% of Scots voted yes. The SNP withdrew support, a vote of no confidence was passed, forcing Callaghan to call the election that Labour lost",
-        feedback: "The Devolution Act 1978 promised devolution for Scotland and Wales if 40% of the electorate voted in favour. In March 1979 only 12% of Welsh and 33% of Scots voted yes. Plans were shelved, the SNP withdrew their crucial support, leading to a vote of no confidence — which forced Callaghan to call the general election that Labour lost."
+        answer: "Scottish and Welsh devolution referendums failed to reach the 40% threshold — the SNP withdrew support, a vote of no confidence was passed, forcing the election that Labour lost",
+        feedback: "Devolution acts required 40% of the electorate to vote in favour — only 12% of Welsh and 33% of Scots voted yes. Plans were shelved, the SNP withdrew support, a vote of no confidence was passed, and Callaghan was forced to call the general election that Labour lost."
     },
-
-
     {
         topic: "Society in the 1970s",
         question: "What progress did women make in the 1970s?",
         options: [
-            "Full equality was achieved in the workplace by 1979 following the implementation of the Equal Pay Act",
-            "The contraceptive pill was available on the NHS from 1971, women could take out mortgages without male guarantors from 1971, and 1975 saw the Equal Pay Act, Sex Discrimination Act, and Employment Protection Act (maternity leave) — though women's wages were still only 70% of men's by 1977",
+            "Full equality was achieved in the workplace by 1979 following the Equal Pay Act",
             "Women achieved equal representation in Parliament and the professions by the mid-1970s",
-            "Margaret Thatcher's election as Conservative leader in 1975 delivered equal opportunities across British society"
+            "Margaret Thatcher's election as Conservative leader in 1975 delivered equal opportunities",
+            "The pill was available on the NHS from 1971, women could take out mortgages without male guarantors from 1971, and 1975 saw the Equal Pay Act, Sex Discrimination Act, and Employment Protection Act — though women's wages were still only 70% of men's by 1977"
         ],
-        answer: "The contraceptive pill was available on the NHS from 1971, women could take out mortgages without male guarantors from 1971, and 1975 saw the Equal Pay Act, Sex Discrimination Act, and Employment Protection Act (maternity leave) — though women's wages were still only 70% of men's by 1977",
-        feedback: "The contraceptive pill became available on the NHS in 1971, women could take out mortgages without male guarantors from 1971, and 1975 saw the Equal Pay Act, Sex Discrimination Act (banned gender discrimination), and Employment Protection Act (paid maternity leave). The 1976 Domestic Violence Act allowed restraining orders. But the Equal Opportunities Commission was toothless, and by 1977 women's wages were only 70% of men's — though up from 59% in 1970."
+        answer: "The pill was available on the NHS from 1971, women could take out mortgages without male guarantors from 1971, and 1975 saw the Equal Pay Act, Sex Discrimination Act, and Employment Protection Act — though women's wages were still only 70% of men's by 1977",
+        feedback: "The contraceptive pill became available on the NHS in 1971, women could take out mortgages without male guarantors from 1971, and 1975 saw the Equal Pay Act, Sex Discrimination Act, and Employment Protection Act (maternity leave). The 1976 Domestic Violence Act allowed restraining orders. But the Equal Opportunities Commission was toothless — women's wages were only 70% of men's by 1977."
     },
     {
         topic: "Society in the 1970s",
         question: "What was the National Front and how significant was it in the 1970s?",
         options: [
-            "A small fringe group with fewer than 1,000 members that posed no serious political threat",
-            "It grew rapidly to 20K members by 1976 — its marches provoked violence with 100 incidents over 2.5 years including 2 murders. Assaults on Asians and Afro-Caribbeans rose by a third, and the skinhead movement engaged in 'paki-bashing'",
-            "A mainstream political party that won 15 seats in the 1979 general election",
-            "An anti-immigration pressure group that successfully lobbied for the 1971 Immigration Act"
+            "A small fringe group with fewer than 1,000 members posing no serious political threat",
+            "A mainstream party that won 15 seats in the 1979 general election",
+            "An anti-immigration pressure group that successfully lobbied for the 1971 Immigration Act",
+            "It grew rapidly to 20K members by 1976, its marches provoked violence with 100 incidents over 2.5 years including 2 murders, and assaults on Asians and Afro-Caribbeans rose by a third"
         ],
-        answer: "It grew rapidly to 20K members by 1976 — its marches provoked violence with 100 incidents over 2.5 years including 2 murders. Assaults on Asians and Afro-Caribbeans rose by a third, and the skinhead movement engaged in 'paki-bashing'",
-        feedback: "The National Front grew rapidly to 20K members by 1976. Its marches provoked violence — 100 incidents over 2.5 years including 2 murders. Assaults on Asians and Afro-Caribbeans rose by a third. The skinhead movement became increasingly linked to the National Front and football hooliganism. However, the Rock Against Racism movement attracted 100K to a Trafalgar Square concert in opposition."
+        answer: "It grew rapidly to 20K members by 1976, its marches provoked violence with 100 incidents over 2.5 years including 2 murders, and assaults on Asians and Afro-Caribbeans rose by a third",
+        feedback: "The National Front grew rapidly to 20K members by 1976. Its marches provoked violence — 100 incidents over 2.5 years including 2 murders. Assaults on Asians and Afro-Caribbeans rose by a third. The skinhead movement became linked to the NF and football hooliganism. But the Rock Against Racism movement attracted 100K to a Trafalgar Square concert in opposition."
     },
     {
         topic: "Society in the 1970s",
         question: "What was the 1972 Ugandan Asian crisis and how did Heath respond?",
         options: [
-            "Heath refused entry to Ugandan Asians and they were resettled in Canada and Australia instead",
-            "Idi Amin expelled Asians from Uganda — 28K with British passports were allowed exemptions from the 1971 Act, Heath set up a resettlement board, and most settled prosperously in Britain",
+            "Heath refused entry and they were resettled in Canada and Australia instead",
+            "The Ugandan Asians were held in detention camps for six months while Parliament debated their status",
             "Heath admitted Ugandan Asians only after enormous US pressure and public protests",
-            "The Ugandan Asians were held in detention camps for six months while Parliament debated their status"
+            "Idi Amin expelled Asians from Uganda — 28K with British passports were allowed exemptions from the 1971 Act, Heath set up a resettlement board, and most settled prosperously in Britain"
         ],
         answer: "Idi Amin expelled Asians from Uganda — 28K with British passports were allowed exemptions from the 1971 Act, Heath set up a resettlement board, and most settled prosperously in Britain",
-        feedback: "In 1972 Idi Amin expelled Asians from Uganda. The 28K Asians with British passports were allowed exemptions from the 1971 Immigration Act. Heath set up a resettlement board. Most settled and lived prosperously — it became an example of successful managed immigration in contrast to the hostile atmosphere of the era."
+        feedback: "In 1972 Idi Amin expelled Asians from Uganda. The 28K with British passports were allowed exemptions from the 1971 Immigration Act. Heath set up a resettlement board. Most settled and lived prosperously — an example of successful managed immigration in contrast to the hostile atmosphere of the era."
     },
     {
         topic: "Society in the 1970s",
-        question: "What characterised punk culture and what did it reflect?",
+        question: "What did punk culture reflect about 1970s Britain?",
         options: [
-            "Punk was an apolitical musical movement focused purely on fashion and music",
-            "Bands like the Sex Pistols and The Damned played loud, fast music with deliberately shocking attire. 'God Save the Queen' reached number 2 — criticising the monarchy as 'the fascist regime'. Punk reflected the social alienation, anger and hopelessness of young people in the 1970s",
-            "Punk was a middle class art school movement that had little connection to working class experience",
-            "Punk was primarily a response to the dominance of American pop music in the British charts"
+            "Punk was an apolitical musical movement focused purely on fashion",
+            "Punk was a middle class art school movement with little connection to working class experience",
+            "Punk was primarily a response to the dominance of American pop music in the British charts",
+            "Bands like the Sex Pistols played loud, fast music with deliberately shocking attire — 'God Save the Queen' reached number 2, criticising the monarchy as 'the fascist regime'. Punk reflected social alienation, anger and hopelessness of young people in the decade"
         ],
-        answer: "Bands like the Sex Pistols and The Damned played loud, fast music with deliberately shocking attire. 'God Save the Queen' reached number 2 — criticising the monarchy as 'the fascist regime'. Punk reflected the social alienation, anger and hopelessness of young people in the 1970s",
-        feedback: "Punks rejected all norms — bands like The Sex Pistols and The Damned played loud, fast guitar music with deliberately shocking attire and swearing. 'God Save the Queen' reached number 2 in the charts — the song criticised the monarchy as 'the fascist regime'. Punk reflected the social alienation of young people and the anger and hopelessness of the decade."
+        answer: "Bands like the Sex Pistols played loud, fast music with deliberately shocking attire — 'God Save the Queen' reached number 2, criticising the monarchy as 'the fascist regime'. Punk reflected social alienation, anger and hopelessness of young people in the decade",
+        feedback: "Punks rejected all norms — the Sex Pistols and The Damned played loud, fast music with deliberately shocking attire. 'God Save the Queen' reached number 2 — criticising the monarchy as 'the fascist regime'. Punk reflected the social alienation, anger and hopelessness of young people in the 1970s."
     },
     {
         topic: "Society in the 1970s",
         question: "What environmental developments characterised the 1970s?",
         options: [
             "Environmentalism was a fringe concern with little public support in 1970s Britain",
-            "Photos of Earth from space highlighted its fragility; David Attenborough's 'Life on Earth' showed the natural world's beauty; the 1967 Torrey Canyon wreck caused massive pollution; Greenpeace UK was founded in 1977; and the People's Party emerged in 1973 (later the Green Party) with 53 candidates in 1979",
+            "A series of nuclear accidents in Britain caused widespread public opposition to atomic power",
             "The government introduced strict environmental regulations following the Clean Air Act",
-            "A series of nuclear accidents in Britain caused widespread public opposition to atomic power"
+            "Photos of Earth from space highlighted its fragility; Greenpeace UK was founded in 1977; the 1967 Torrey Canyon wreck caused massive pollution; and the People's Party emerged in 1973 (later the Green Party), standing 53 candidates in 1979"
         ],
-        answer: "Photos of Earth from space highlighted its fragility; David Attenborough's 'Life on Earth' showed the natural world's beauty; the 1967 Torrey Canyon wreck caused massive pollution; Greenpeace UK was founded in 1977; and the People's Party emerged in 1973 (later the Green Party) with 53 candidates in 1979",
-        feedback: "Photos of Earth from space highlighted its fragility. David Attenborough's 'Life on Earth' showed the beauty of the natural world. The 1967 wreck of oil tanker Torrey Canyon caused massive pollution in SW England. Greenpeace UK was founded in 1977. The People's Party emerged in 1973 (later becoming the Green Party) and stood 53 candidates in the 1979 election."
-    },
-
-    {
-        topic: "Britain & Europe 1970-79",
-        question: "Why did Heath take Britain into the EEC in 1973?",
-        options: [
-            "He was forced to by American pressure and had no personal enthusiasm for European integration",
-            "Heath was very pro-European and saw it as a means to modernise British society — he thought Britain could no longer act alone in the world. The Commons approved entry 356 votes to 244, and Britain formally joined in January 1973",
-            "He joined primarily to access European agricultural subsidies for British farmers",
-            "EEC entry was a condition of the IMF loan that bailed out the British economy in 1972"
-        ],
-        answer: "Heath was very pro-European and saw it as a means to modernise British society — he thought Britain could no longer act alone in the world. The Commons approved entry 356 votes to 244, and Britain formally joined in January 1973",
-        feedback: "Heath was very pro-European and saw EEC membership as a means to modernise British society. He thought Britain could no longer act alone in the world. The House of Commons approved entry 356 votes to 244, and Britain formally joined in January 1973. However, the terms were unfavourable — the Common Agricultural Policy imposed high tariffs on food imports, and the Arab-Israeli War oil crisis removed the hoped-for economic stimulus."
+        answer: "Photos of Earth from space highlighted its fragility; Greenpeace UK was founded in 1977; the 1967 Torrey Canyon wreck caused massive pollution; and the People's Party emerged in 1973 (later the Green Party), standing 53 candidates in 1979",
+        feedback: "Photos of Earth from space highlighted its fragility. David Attenborough's 'Life on Earth' showed the beauty of the natural world. The 1967 Torrey Canyon wreck caused massive pollution in SW England. Greenpeace UK was founded in 1977. The People's Party (later Green Party) stood 53 candidates in the 1979 election."
     },
     {
         topic: "Britain & Europe 1970-79",
         question: "What was the 1975 EEC referendum result and why was it significant for Labour?",
         options: [
-            "17 million voted yes, 8 million voted no — it resolved the EEC question for a generation and avoided a Labour party split since 'no' campaigners could not argue with the democratic result",
-            "The vote was close — 51% yes, 49% no — and failed to resolve the issue within the Labour Party",
-            "Britain voted to leave the EEC, forcing a renegotiation of entry terms under Callaghan",
-            "The referendum returned a 70% yes vote, decisively ending debate on EEC membership"
+            "The vote was close — 51% yes — and failed to resolve the issue within Labour",
+            "Britain voted to leave the EEC, forcing renegotiation of entry terms under Callaghan",
+            "The referendum returned a 70% yes vote, decisively ending debate",
+            "17 million voted yes, 8 million voted no — it avoided a Labour party split as 'no' campaigners within Labour could not argue with the democratic result"
         ],
-        answer: "17 million voted yes, 8 million voted no — it resolved the EEC question for a generation and avoided a Labour party split since 'no' campaigners could not argue with the democratic result",
-        feedback: "In 1975, 17 million voted yes and 8 million voted no in the EEC referendum. However, only 2/3 of the electorate voted. Crucially, it avoided a Labour party split — as 'no' campaigners within Labour could not argue with the democratic result. Wilson had promised the referendum as a way of managing the deep divisions within his party over European membership."
-    },
-
-    {
-        topic: "Post-War Consensus",
-        question: "What is the main evidence that a post-war consensus existed between Labour and Conservatives?",
-        options: [
-            "Both parties agreed on immigration controls, nuclear deterrence, and the need to join the EEC",
-            "Both parties were committed to the welfare state, used Keynesian economics (Butskellism), continued the housing pledge, agreed on decolonisation, and maintained consultation with trade unions — expenditure on social services rose from 39.2% to 43% of total public expenditure 1951-55",
-            "Both parties agreed to abandon nationalisation and pursue free market economics after 1951",
-            "Both parties supported British entry into the EEC from its founding in 1957"
-        ],
-        answer: "Both parties were committed to the welfare state, used Keynesian economics (Butskellism), continued the housing pledge, agreed on decolonisation, and maintained consultation with trade unions — expenditure on social services rose from 39.2% to 43% of total public expenditure 1951-55",
-        feedback: "Evidence for consensus includes: both parties committed to the welfare state (expenditure on social services rose from 39.2% to 43% of total public expenditure 1951-55); Butskellism in Keynesian economics; Conservatives continued Labour's housing pledge; agreement on decolonisation ('winds of change'); and consultation with TUs as a shared policy — no attempt to repeal the 1946 Trade Union Act."
-    },
-    {
-        topic: "Post-War Consensus",
-        question: "What is the main evidence against a genuine post-war consensus?",
-        options: [
-            "The parties disagreed on every major policy area — consensus was a myth invented by historians",
-            "Right-wing Tories believed continuation of Attlee's legacy was a 'social mistake'; left-wing Bevanites argued it was not nearly socialist enough; Labour retained Clause IV; and sharp disagreements existed on immigration and economic policy — Gaitskell criticised Butler's stop-go cycle",
-            "The parties fought bitterly over NATO membership and the nuclear deterrent throughout the period",
-            "The Conservatives abolished the welfare state in 1955 when they felt electorally secure"
-        ],
-        answer: "Right-wing Tories believed continuation of Attlee's legacy was a 'social mistake'; left-wing Bevanites argued it was not nearly socialist enough; Labour retained Clause IV; and sharp disagreements existed on immigration and economic policy — Gaitskell criticised Butler's stop-go cycle",
-        feedback: "Evidence against consensus includes: right-wing Tories believed continuation of Attlee's legacy was a 'social mistake'; Bevanites argued it was not nearly socialist enough; Labour retained Clause IV — commitment to state ownership of means of production; the Suez Crisis led to Labour attacks on Eden; Gaitskell criticised Butler's stop-go cycle; and sharp disagreements existed on immigration, specifically the 1962 Immigration Act."
-    },
-    {
-        topic: "Post-War Consensus",
-        question: "What were the reasons for the post-war consensus?",
-        options: [
-            "American pressure to maintain political stability in a NATO ally throughout the Cold War",
-            "The shared experience of wartime coalition government, Conservative fear of electoral consequences if rejecting Attlee's reforms, both parties shifting ideologically, and similar educational backgrounds — independent or grammar school then Oxbridge",
-            "The trade unions imposed consensus by threatening to strike against any government that broke from it",
-            "The first-past-the-post electoral system forced parties towards the centre ground"
-        ],
-        answer: "The shared experience of wartime coalition government, Conservative fear of electoral consequences if rejecting Attlee's reforms, both parties shifting ideologically, and similar educational backgrounds — independent or grammar school then Oxbridge",
-        feedback: "Reasons for consensus include: the wartime coalition led to a broadly similar view of the post-war settlement; Conservative fear that rejecting Attlee's reforms would have grave electoral consequences; both parties shifted ideologically — Tories left socially and economically, Labour right on foreign affairs; and similar educational backgrounds of politicians — independent or grammar schools then Oxbridge created a shared governing culture."
+        answer: "17 million voted yes, 8 million voted no — it avoided a Labour party split as 'no' campaigners within Labour could not argue with the democratic result",
+        feedback: "In 1975, 17 million voted yes and 8 million voted no. Only 2/3 of the electorate voted. Crucially, it avoided a Labour party split — 'no' campaigners within Labour could not argue with the democratic result. Wilson had promised the referendum precisely to manage deep divisions within his party over European membership."
     }
 ]
 

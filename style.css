@@ -141,6 +141,7 @@ p {
 #nextQButton {
     padding: 0.75rem 2rem;
     display: none;
+    border-radius: 6px;
 }
 
 body {
