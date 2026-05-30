@@ -9,14 +9,15 @@
     --text: #e6edf3;
     --muted: #7d8590;
 
-    --success: #3fb950;
-    --danger: #f85149;
+    --correct: #3fb950;
+    --wrong: #f85149;
 
     --border: rgba(255, 255, 255, 0.08);
     --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 
-    --radius: 18px;
     --transition: 0.25s ease;
+    
+    
 }
 
 * {
@@ -72,6 +73,7 @@
 #britain, #us {
     padding: 0.75rem 2rem;
     font-size: 1.1rem;
+    border-radius: 4px;
 }
 
 #button {
@@ -95,6 +97,7 @@ p {
     border-style: solid;
     background: var(--card);
     border-color: var(--border);
+    border-radius: 16px;
     box-shadow: var(--shadow);
 }
 
@@ -126,12 +129,13 @@ p {
     text-align: left;
     background: var(--card-light);
     color: var(--text);
+    border-radius: 10px;
 }
 
 #feedback {
     padding-bottom: 1.2rem;
     display: none;
-    color: var(--muted);
+    color: var(--text);
 }
 
 #nextQButton {

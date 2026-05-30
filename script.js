@@ -1,5 +1,6 @@
 var currentPaper;
 var currentQ;
+var currentSelect;
 var selected;
 var currentGreen;
 
@@ -15,14 +16,17 @@ selected = false;
 //check which paper is selected
 }
 
-
-function selectAnswer(choice, question) {
+//when user chooses answer
+function selectAnswer(index) {
+    choice = currentQ.options[index];
+    question = currentQ;
     if (!selected) {
         if (choice == question.answer) {
         document.getElementById("feedback").textContent = ("CORRECT - " + question.feedback);
         }
         else {
             document.getElementById("feedback").textContent = ("INCORRECT - " + question.feedback);
+            getChoice(choice);
         }
         document.getElementById("feedback").style.display = "block";
         document.getElementById("nextQButton").style.display = "block";
@@ -32,13 +36,27 @@ function selectAnswer(choice, question) {
 
 }
 
+function getChoice(choice) {
+    let options = document.getElementsByClassName("but");
+    for (let i = 0; i < 4; i++) {
+        if (question.options[i] == choice) {
+            let id = String(options[i].id); 
+            currentSelect = id;
+            document.getElementById(id).style.backgroundColor = "#f38a8a";
+            document.getElementById(id).style.color = "black";
+            //#66BB6A green?
+            //#7c3a3a red
+
+        }
+    }
+}
+//display right answer
 function getCorrectOpt(question) {
     let options = document.getElementsByClassName("but");
     for (let i = 0; i < 4; i++) {
         if (question.options[i] == question.answer) {
             let id = String(options[i].id); 
             currentGreen = id;
-            console.log(id);
             document.getElementById(id).style.backgroundColor = "#a8d5b5";
             document.getElementById(id).style.color = "black";
             //#66BB6A green?
@@ -48,15 +66,19 @@ function getCorrectOpt(question) {
     }
 }
 
+//go to nextQ
 function nextQuestion() {
     displayQ(currentPaper);
     document.getElementById("feedback").textContent = "";
     document.getElementById("nextQButton").style.display = "none";
     document.getElementById(currentGreen).style.backgroundColor = "#21262d";
     document.getElementById(currentGreen).style.color = "white";
+    document.getElementById(currentSelect).style.backgroundColor = "#21262d";
+    document.getElementById(currentSelect).style.color = "white";
     selected = false;
 }
 
+//display the Q
 function displayQ(paper) {
     if (paper == "US") {
         const Q = chooseQ(usQs);
@@ -85,11 +107,13 @@ function displayQ(paper) {
     }
 }
 
+//randomly choose a Q
 function chooseQ(questions) {
     const randomQ = questions[Math.floor(Math.random() * questions.length)];
     return randomQ;
 }
 
+//check which paper is selected
 function checkPaper(paper) {
     if (paper == "US") {
         return true;
@@ -99,13 +123,27 @@ function checkPaper(paper) {
     }
 }
 
+//when US button pressed
 function usButtonPress() {
     
+    if (currentPaper == "US") { return; }
+
     selected = false;
     document.getElementById("centre").style.display = "block";
+    if (currentGreen) {
+        document.getElementById(currentGreen).style.backgroundColor = "#21262d";
+        document.getElementById(currentGreen).style.color = "white";
+    }
+    if (currentSelect) {
+        document.getElementById(currentSelect).style.backgroundColor = "#21262d";
+        document.getElementById(currentSelect).style.color = "white";
+    }
+    //main bit
     if (currentPaper != "US") {
         document.getElementById("nextQButton").style.display = "none";
-        document.getElementById("feedback").style.display = "none";
+        document.getElementById("feedback").textContent = "";
+        document.getElementById("desc").textContent = "";
+        document.getElementById("title").textContent = "US History"
         displayQ("US");
     }
     else {
@@ -114,13 +152,27 @@ function usButtonPress() {
     currentPaper = "US";
 }
 
+//when britain button pressed
 function britainButtonPress() {
+
+    if (currentPaper == "britain") { return; }
 
     selected = false;
     document.getElementById("centre").style.display = "block";
+    if (currentGreen) {
+        document.getElementById(currentGreen).style.backgroundColor = "#21262d";
+        document.getElementById(currentGreen).style.color = "white";
+    }
+    if (currentSelect) {
+    document.getElementById(currentSelect).style.backgroundColor = "#21262d";
+    document.getElementById(currentSelect).style.color = "white"; 
+    }
+    //main bit
     if (currentPaper != "britain") {
         document.getElementById("nextQButton").style.display = "none";
-        document.getElementById("feedback").style.display = "none";
+        document.getElementById("feedback").textContent = "";
+        document.getElementById("desc").textContent = "";
+        document.getElementById("title").textContent = "British History"
         displayQ("britain");
     }
     else {
@@ -2079,13 +2131,14 @@ const usQs = [
 
 onStart();
 
+//event listeners
 document.getElementById("us").addEventListener("click", usButtonPress);
 document.getElementById("britain").addEventListener("click", britainButtonPress);
 document.getElementById("nextQButton").addEventListener("click", nextQuestion);
-document.getElementById("op1").addEventListener("click", () => selectAnswer(currentQ.options[0], currentQ));
-document.getElementById("op2").addEventListener("click", () => selectAnswer(currentQ.options[1], currentQ));
-document.getElementById("op3").addEventListener("click", () => selectAnswer(currentQ.options[2], currentQ));
-document.getElementById("op4").addEventListener("click", () => selectAnswer(currentQ.options[3], currentQ));
+document.getElementById("op1").addEventListener("click", () => selectAnswer(0));
+document.getElementById("op2").addEventListener("click", () => selectAnswer(1));
+document.getElementById("op3").addEventListener("click", () => selectAnswer(2));
+document.getElementById("op4").addEventListener("click", () => selectAnswer(3));
 
 //fix button styling
 //so too vast a proportion of the answers are the 2nd option
