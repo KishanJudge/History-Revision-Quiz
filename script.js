@@ -41,7 +41,6 @@ function getCorrectOpt(question) {
             console.log(id);
             document.getElementById(id).style.backgroundColor = "#a8d5b5";
             document.getElementById(id).style.color = "black";
-            document.getElementById("feedback").style.backgroundColor = "#7c3a3a";
             //#66BB6A green?
             //#7c3a3a red
 
