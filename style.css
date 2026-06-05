@@ -1,26 +1,31 @@
 :root {
+
     --bg: #0d1117;
     --card: #161b22;
-    --card-light: #21262d;
+    --card-light: #1c2128;
 
-    --primary: #4f8ef7;
-    --primary-hover: #3b7de8;
+    --primary: #58a6ff;
+    --primary-hover: #79c0ff;
 
     --text: #e6edf3;
-    --muted: #7d8590;
+    --muted: #8b949e;
 
-    --correct: #3fb950;
-    --wrong: #f85149;
+    --correct: #238636;
+    --correct-bg: #1b4721;
 
-    --border: rgba(255, 255, 255, 0.08);
-    --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --wrong: #da3633;
+    --wrong-bg: #4b1d1d;
 
-    --transition: 0.25s ease;
-    
+    --border: #30363d;
+
+    --shadow: 0 8px 24px rgba(0,0,0,0.25);
+
+    --border: #2d3748;
     
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -52,7 +57,7 @@
     font-weight: 600;
     font-size: 3rem;
     color: var(--text);
-}
+    }
 
 #desc {
     text-align: center;
@@ -132,6 +137,7 @@ p {
     background: var(--card-light);
     color: var(--text);
     border-radius: 10px;
+    border: 1px solid var(--border);
 }
 
 #feedback {
@@ -148,4 +154,5 @@ p {
 
 body {
     background-color: var(--bg);
+    font-family: 'Inter', sans-serif;
 }
