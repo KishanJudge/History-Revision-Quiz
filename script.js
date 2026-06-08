@@ -1939,6 +1939,7 @@ const usQs = [
     }
 ]
 
+navigator.serviceWorker.register('./sw.js');
 
 onStart();
 
