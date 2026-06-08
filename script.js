@@ -1,3 +1,7 @@
+window.onerror = function(msg, src, line, col, err) {
+    alert(`JS Error: ${msg}`);
+};
+
 var currentPaper;
 var currentQ;
 var currentSelect;
@@ -1938,6 +1942,7 @@ const usQs = [
         feedback: "The 1900 Currency Act committed the US to the gold standard - a major defeat for the Populist movement which had campaigned for free silver coinage to expand the money supply and help indebted farmers."
     }
 ]
+
 
 //navigator.serviceWorker.register('./sw.js');
 
