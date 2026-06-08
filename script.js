@@ -30,15 +30,21 @@ function selectAnswer(index) {
     question = currentQ;
     if (!selected) {
         if (choice == question.answer) {
+        document.getElementById("feedback").style.color = "#a8d5b5";
         document.getElementById("feedback").textContent = ("CORRECT - " + question.feedback);
         }
         else {
+            document.getElementById("feedback").style.color = "#f38a8a";
             document.getElementById("feedback").textContent = ("INCORRECT - " + question.feedback);
             getChoice(choice, currentQ);
         }
         document.getElementById("feedback").style.display = "block";
         document.getElementById("nextQButton").style.display = "block";
         getCorrectOpt(question);
+        document.getElementById("feedback").scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
         selected = true;
     }
 
@@ -1946,7 +1952,6 @@ const usQs = [
         feedback: "The 1900 Currency Act committed the US to the gold standard - a major defeat for the Populist movement which had campaigned for free silver coinage to expand the money supply and help indebted farmers."
     }
 ]
-
 
 //navigator.serviceWorker.register('./sw.js');
 
