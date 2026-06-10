@@ -1,11 +1,3 @@
-window.onerror = function(msg, src, line, col, err) {
-    alert(
-        "JS Error:\n" +
-        msg +
-        "\nLine: " + line
-    );
-};
-
 var currentPaper;
 var currentQ;
 var currentSelect;
