@@ -516,12 +516,39 @@ const LizHTML = marked.parse(LizMD);
 const MaryHTML = marked.parse(MaryMD);
 const EdHTML = marked.parse(EdMD);
 
-console.log(HenryHTML);
-
-const elem = Object.assign(
+const monarchInfo = Object.assign(
     document.createElement(`div`),
     {
-        id: "newDiv",
-        innerHTML: HenryHTML
+        id: "displayMonarch",
     });
-document.getElementById("centre").appendChild(elem);
+
+document.getElementById("centre").appendChild(monarchInfo);
+
+const LizButton = document.getElementById("LizButton");
+const HenryButton = document.getElementById("HenryButton");
+const EdButton = document.getElementById("EdButton");
+const MaryButton = document.getElementById("MaryButton");
+
+const displayMonarch = document.getElementById("displayMonarch");
+
+
+HenryButton.addEventListener(`click`, () => {
+    displayMonarch.innerHTML = HenryHTML;
+});
+LizButton.addEventListener(`click`, () => {
+    displayMonarch.innerHTML = LizHTML;
+});
+EdButton.addEventListener(`click`, () => {
+    displayMonarch.innerHTML = EdHTML;
+});
+MaryButton.addEventListener(`click`, () => {
+    displayMonarch.innerHTML = MaryHTML;
+});
+
+document.addEventListener(`click`, (event) => {
+    if (event.target.tagName === `BUTTON`) {
+        document.getElementById("centre").style.display = "block";
+        document.getElementById("centre").appendChild(monarchInfo);
+        document.getElementById("subTitle").style.display = "none";
+    }
+}); //event.target = element

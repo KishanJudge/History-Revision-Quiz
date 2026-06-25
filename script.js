@@ -23,11 +23,11 @@ function selectAnswer(index) {
     if (!selected) {
         if (choice == question.answer) {
         document.getElementById("feedback").style.color = "#a8d5b5";
-        document.getElementById("feedback").textContent = ("CORRECT - " + question.feedback);
+        document.getElementById("feedback").textContent = ("✔ CORRECT - " + question.feedback);
         }
         else {
             document.getElementById("feedback").style.color = "#f38a8a";
-            document.getElementById("feedback").textContent = ("INCORRECT - " + question.feedback);
+            document.getElementById("feedback").textContent = ("✘ INCORRECT - " + question.feedback);
             getChoice(choice, currentQ);
         }
         document.getElementById("feedback").style.display = "block";
@@ -1958,6 +1958,9 @@ document.getElementById("op2").addEventListener("click", () => selectAnswer(1));
 document.getElementById("op3").addEventListener("click", () => selectAnswer(2));
 document.getElementById("op4").addEventListener("click", () => selectAnswer(3));
 
+document.getElementById("NEA").addEventListener("click", () => {
+    window.location.href = "NEAKnowledgeBase.html"
+});
 //fix button styling
 //so too vast a proportion of the answers are the 2nd option
 //british ones are also too lengthy need to be more like US ones
