@@ -774,7 +774,7 @@ MaryButton.addEventListener(`click`, () => {
 });
 HistoriansButton.addEventListener(`click`, () => {
     displayMonarch.innerHTML = HistoriansHTML;
-}
+});
 
 document.addEventListener(`click`, (event) => {
     if (event.target.tagName === `BUTTON`) {
