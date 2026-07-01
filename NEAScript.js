@@ -511,10 +511,237 @@ Edward's own articulation of his ambitions for England shows a vision driven sim
 - His final illness began in February 1553 (first coughing); by March he looked "very weak and thin"; by April he was vomiting blood and "black and greenish matter"; modern diagnosis: a suppurating pulmonary infection; he died 6 July 1553
 - The counterfactual assessment is directly relevant to the essay: had Edward lived, Protestant ideas would have been implemented with a thoroughness and rigour that went far beyond anything achieved under Henry, Edward, or Elizabeth — suggesting that what actually happened was a much more compromised, incomplete version of Protestant reform than its most committed advocates intended`;
 
+const HistoriansMD = `# Historians and the Historiography of the English Reformation
+
+## Historiographical Schools: Top-Down, Bottom-Up, and Revisionist
+
+Before looking at individual historians, it is useful to place them within three broad interpretative schools.
+
+**The Top-Down Approach**
+- Principally the work of J. A. Froude (1870s) and J. J. Scarisbrick
+- Emphasis placed on the actions of the Monarchy in legislating change within the Church
+- This approach has led to a very narrative structure of discussion, where the outcome is treated as almost pre-determined
+
+**The Bottom-Up Approach**
+- Generally associated with A. G. Dickens (1964)
+- Argues Henry VIII's actions were only made possible because Protestant thought had become rapidly and thoroughly part of the popular mentality
+- Facilitates a view of the Reformation as a process rather than a single event, but rests on the assumption that Protestantism spread quickly and effectively
+
+**The Revisionist Approach**
+- Refutes Dickens's thesis directly
+- Argues Protestant beliefs spread slowly at grass-roots level, and were slow to replace historical attachment to the institutions and doctrines of Catholicism
+- Christopher Haigh, a key figure in this school, argues there was not one Reformation in England, but many
+
+---
+
+## A. G. Dickens
+
+**Summary:** Dickens argues late-medieval English Catholicism was corrupted and superstition-heavy, leaving the country genuinely in need of reform. His central evidence is Lollardy: Wycliffe's followers survived underground persecution and revived from around 1490, providing a "springboard of critical dissent" that let Protestantism "overleap the walls of orthodoxy." This directly supports the essay statement, since Dickens argues Protestant-style ideas were spreading in England well before Henry's break with Rome.
+
+A separate, more specific framing of Dickens's position concerns the divorce itself: on this reading, the divorce was not crucial to the Reformation, which would have arisen through popular demand regardless, since the people of England were already Protestant and agitating for change. On this view, Protestant ideas, not the divorce or royal power, were the key factor.
+
+Dickens's 1964 book was, in the words of historian Peter Marshall, "widely hailed upon its first publication as a definitive and unimpeachable study," and its central assumption was that Protestant precepts of sola fide (faith alone) and sola scriptura (scripture alone) "rapidly and extensively captured the imaginations of the English people" in the mid-sixteenth century. It was precisely this assumption that the later revisionist historians (Duffy, Scarisbrick, Haigh) set out to dismantle.
+
+**Context and authorship:**
+- Born Hull, 6 July 1910; died 2001 aged 91; his obituary in the Daily Telegraph describes him as "his generation's leading English historian of the Reformation"
+- Born Arthur Geoffrey Dickens; educated Hymers College Hull, then Magdalen College Oxford (First in Modern History, 1932); deeply influenced by his tutor K. B. MacFarlane
+- Held the G. F. Grant Chair of History at the University of Hull from 1949, then moved to King's College London in 1962, where he published The English Reformation in 1964; left King's in 1967 to become Director of the Institute of Historical Research and editor of its bulletin — giving him control over one of the most influential historical journals
+- Served in the Royal Artillery during the Second World War; stationed as British Press Officer in Lübeck at the war's end
+- An ardent Yorkshireman and lifelong Germanophile; played a leading role in establishing the German Historical Institute in London in 1968; awarded the Commander's Cross of the Order of Merit by the West German government in 1980
+- Book: The English Reformation (1964), which the Telegraph obituary says "established a new benchmark of excellence for surveys of the sort and set the agenda for teaching and research in the field for the next 25 years"
+
+**Political/religious biases:**
+- A lifelong Protestant — stated explicitly in his Telegraph obituary, which also notes he had "little understanding of, and even less sympathy for, the Middle Ages"
+- His religious sensibilities were "formed early on by the Anglicanism he inherited from his paternal grandfather, a High Tory and a churchwarden, and by the ardent primitive Methodism of his mother's family" — a dual Protestant inheritance that directly shaped his sympathy with the reformers' cause
+- The obituary notes he viewed sixteenth-century Catholicism as "doomed to fail because it was un-English" — a strikingly loaded judgement revealing the Protestant nationalist lens through which he read the evidence
+- By the 1980s, "Dickensianism" had become "a code-word for a blinkered and 'Whiggish' account of the Reformation, which neglected both the vigour of the old and the unpopularity of the new religions in Tudor England"; Dickens produced a revised second edition in 1989 but was unable to halt the new revisionist orthodoxy
+- O'Day notes his work reasserted the importance of spiritual reformation alongside the legislative; frames the Reformation as a genuine popular and spiritual movement, not just something imposed from above by the state
+
+**Use of sources:**
+- Anecdotal/literary rather than statistical, e.g. a robber-knight story from Thomas Ashby's commonplace book, used to argue popular religion emphasised saints, relics and pilgrimage over Christ's core teaching
+- Draws on Thomas More's own writings on purgatory to show even sophisticated thinkers held what Dickens calls a "sadistic" view of the afterlife, implying ordinary people felt closer to saints than to God
+- This source-use itself supports his thesis: he reads popular devotional culture as theological superficiality, underpinning his claim England was ripe for reform
+
+**Extra relevant detail:**
+- Wycliffe held the Bible as sole authority, rejected transubstantiation as "philosophically unsound," and rejected papal supremacy, clerical marriage and monasticism; only justification by faith alone was missing from a fully Protestant doctrine
+- Lollardy was concentrated in the "great crescent" of southeast England, Norwich to Hove, including East Anglia, London and Kent, extending up the Thames Valley
+- By 1536, Protestant intellectuals were using Lollard writings as serviceable Reformation propaganda
+- Together, these let Dickens argue the Protestant doctrinal programme largely existed in England over a century before Luther, with a documented intellectual link to the Henrician Reformation
+- Counterpoint: this is precisely what Duffy rejects, so must be weighed against his revisionism
+
+---
+
+## Eamon Duffy
+
+**Summary:** Duffy argues the opposite of Dickens: pre-Reformation Catholicism was rich, coherent, and overwhelmingly popular. The Reformation was not liberation from corruption but a "great cultural hiatus" imposed on a contented population. This is the strongest fact in the historiography for challenging the essay statement, since if Duffy is right, political and dynastic factors (Henry's divorce, royal power) drove the Reformation, not popular demand for Protestant ideas.
+
+In a separate interview (HistoryExtra), Duffy develops a related but distinct argument about the nature of religious belief under monarchical power. He suggests that while rulers may have held genuine personal convictions, religious belief also functioned as a "convenient peg on which to hang royal authority," and that both Catholic and Protestant orthodoxies could be used to consolidate secular power, with correct religious practice becoming an instrument of state and social control. On Henry specifically, Duffy argues his personal beliefs were "essentially conservative" and that sacramentally and ritually he remained Catholic, but because of the royal supremacy, Protestantism became identified with loyalty to the crown; when Henry spoke of the "word of god," he effectively meant royal authority, collapsing the distinction between obedience to the king and obedience to God. On this reading, "the Henrician Reformation was undoubtedly all about the consolidation of power," driven not by doctrinal conviction but by the need for a male heir — directly reinforcing the Power category over Protestant Ideas. Duffy separately describes the Reformation as "the original Brexit," arguing it was fundamental to Henry's project that England be "an empire to itself," answerable to no external authority — a genuinely new conception of the nation-state, radically different from the internationally-minded Christendom of the Middle Ages.
+
+**Context and authorship:**
+- Professor of the History of Christianity, University of Cambridge, Fellow of Magdalene College
+- Book: The Stripping of the Altars, spanning 1400-1580
+- Identified by historian Peter Marshall as "a deeply committed Roman Catholic layman," a fact widely commented on in connection with his sympathetic reading of pre-Reformation Catholic culture
+- Describes himself as a "cradle Catholic" — born and raised in the faith, not a convert — which distinguishes his relationship to Catholicism from Scarisbrick's more politically prominent public Catholicism
+- Grouped with J. J. Scarisbrick and Christopher Haigh as one of the three central revisionist historians who, from the 1980s onward, systematically dismantled the older "progressivist" narrative of swift, popular Protestant triumph
+- Stripping of the Altars (1992) explicitly built on the earlier insights of Scarisbrick's The Reformation and the English People (1984)
+
+**Political/religious biases:**
+- Explicitly writes from a confessionally Roman Catholic perspective
+- Describes his own book as "an elegy for a world we had lost," a world the Reformers and many historians since had "misunderstood, traduced and destroyed" — a clear signal of sympathetic, non-neutral framing
+- No detail in the sources on his personal upbringing
+
+**Use of sources:**
+- Spends almost 400 pages on pre-Reformation religious life versus just over 100 on the Reformation itself
+- Builds his case through detailed primary-source immersion in liturgy, the cult of saints, and attitudes to death and purgatory, rather than anecdote
+- Directly inverts Dickens's reading of ritual: clergy leading prayers to saints or commending pilgrimage also promoted a religion centred on the daily Eucharist, making it "resolutely Christocentric" rather than distancing people from God
+- Revisionism's broader method, which Duffy shares with Scarisbrick and Haigh, made heavy use of parish-based sources such as churchwardens' accounts, rather than national-level statute or court records
+
+**Extra relevant detail:**
+- First edition largely omits Lollardy; second edition preface dismisses its influence as "grossly exaggerated," arguing most early Protestants converted from devout Catholicism, not Lollardy
+- This omission matters for the essay: it avoids engaging with the evidence that most directly challenges his thesis of a unified, satisfied Catholic population
+- Reviewer Kenneth Stewart counters that Catholic satisfaction doesn't prove the Reformation's later success was illegitimate, comparing the logic to assuming no reform was needed in Mao's China because the population was "satisfied"
+- Stewart's strongest point: Duffy's thesis cannot explain why there was comparatively little violence resisting Protestantism under Edward and Elizabeth, versus considerable violence needed to restore Catholicism under Mary
+- Also criticised for ignoring evidence of opposition to the Catholic Church, such as anti-clericalism in Chaucer's time (1343/4-1400) and the popular demand for the Bible to be available in English during the Reformation itself
+- Duffy's chapter on Marian Catholicism in Stripping of the Altars was, according to Marshall, "perhaps the most contentious part" of the entire book, criticised for largely ignoring the persecution that burned around 300 Protestant men and women between 1555 and 1558
+- In direct response to that criticism, Duffy made the burnings the central theme of his 2007 Birkbeck lectures, published as Fires of Faith: Catholic England under Mary Tudor (2009); his thesis there, that Mary's persecution policy was both inevitable and to a considerable extent successful, is described by Marshall as "likely to be highly controversial" — useful for an essay precisely because it shows Duffy's own position evolving and becoming more contested over time, not settling into one fixed view
+- Duffy has more recently adopted the "postrevisionist" label for his own work, for instance in The Voices of Morebath: Reformation and Rebellion in an English Village (2001), suggesting even revisionism's leading figure now sees the original revisionist position as needing refinement
+
+---
+
+## Diarmaid MacCulloch
+
+**Summary:** MacCulloch occupies a middle position. He largely accepts Duffy's picture of a rich, coherent pre-Reformation culture, but breaks from Duffy by reviving Dickens's Lollard influence, with regional qualification. His key framework asks whether the Reformation came fast (imposed from above) or slow (rising from below), allowing a regionally differentiated answer rather than one national verdict.
+
+MacCulloch has gone further in more recent writing, stating that in England there were "as many Reformations as there were monarchs on the Tudor throne after the break with Rome" — directly endorsing Haigh's pluralist framing, up to a point, while adding the crucial rider that there were also "reformations of ordinary people, scholars, clergy," which might clash with what the monarchs were doing as much as support the changes imposed from above. He disputed the "Anglo-Catholic" view of the Reformation and pointedly emphasised the influence of Edward VI — so Protestant ideas were important. He also argued there was "widespread popular support for the Reformation because of sizeable pockets of Lollardy," and that "regional differences were the reason that people accepted the Reformation at different rates of speed" — an argument that helped reconcile the apparently contradictory findings of Dickens (using Hull) and Haigh (using Lancashire).
+
+**Context and authorship:**
+- Professor of the History of the Church, University of Oxford; ordained as a deacon in the Church of England, but declined ordination to the priesthood because of the Church's attitude to his homosexuality
+- Tudor specialist; key books include Tudor Church Militant: Edward VI and the Protestant Reformation (1999) and Reformation: Europe's House Divided 1490-1700 (2003)
+- Author of the influential 1991 article "The Myth of the English Reformation" (Journal of British Studies)
+- Only child of a country parson; grew up in a big rectory in Suffolk, described as "lonely and alienated"; loved his parents but was "angry about Christian homophobia"; has described himself (2009) as "a candid friend of Christianity" — no longer holding dogmatic Christian belief but retaining affection for the tradition
+- Describes his approach to history through the lens of being gay from a young age: "from four or five onwards, I began to realise that the world was not as it pretends to be, there are lots of other things there. You learn how to listen to what is being half-said or implied, and that's a transferable skill" (Spectator, 2013) — he believes this outsider perspective makes him a better historian, more alert to silences and half-said things in the sources
+
+**Political/religious biases:**
+- Much of his energy has been spent "countering Catholic revisionism"; he recently had a public clash with his "old friend" Eamon Duffy, whom he accused of being "a Catholic historian rather than a historian who is Catholic" — a distinction pointing to Duffy's Catholicism shaping his historical conclusions rather than just being incidental background
+- Comes down hard on the Catholic Church institutionally: "nowadays the Catholic Church is not an institution for respectable people"; describes himself as "not anti-Catholic, but anti-curial" (i.e. opposed to the Vatican bureaucracy rather than to Catholic faith as such)
+- His own position as a gay deacon — accepted by but not fully included in the Church of England — gives him a personal stake in the history of how churches treat outsiders and minorities, which arguably sharpens his attention to voices the historical record tends to suppress (Nicodemites, Family of Love, etc.)
+- The Spectator notes: "it seems odd that someone who puts such a stress on historical objectivity should come down so consistently against the Church of Rome" — a fair methodological challenge to set against his claims to neutrality
+
+**Use of sources:**
+- Regional data showing the English response was "fragmented by region": some areas show a fast Reformation with strong grassroots support (e.g. Hull, southeast England), others a slow, late, top-down imposition (e.g. Lancashire)
+- Draws on historian J. F. Davis's research into Thomas Bilney, arguing Bilney's Cambridge education combined humanism with Lollard influence
+- Credited (with Carrie Euler and Torrance Kirby) with demonstrating how much the emergent English Protestant Reformation owed to direct contacts with Heinrich Bullinger in Zurich, rather than purely domestic or Lutheran influences
+- Argues the printing press allowed ideas to spread far more easily than in the Lollards' own era, helping explain why Protestantism succeeded where Lollardy alone had not
+
+**Extra relevant detail:**
+- His public clash with Duffy over the latter's confessional bias is directly useful for evaluating both historians in an essay: MacCulloch's accusation is that Duffy's Catholic identity distorts his historical judgements, while MacCulloch's own gay Anglican deacon identity arguably creates its own set of sympathies and blind spots
+- MacCulloch's insistence that "the revisionists have done a useful job of dismantling the Protestant myth of reformation, but it's in danger of becoming an orthodoxy, just as the old Anglican picture was" positions him as a genuine postrevisionist — neither endorsing Dickens's Protestant triumphalism nor fully accepting Duffy's Catholic revisionism
+
+**Extra relevant detail:**
+- Identifies a "striking coincidence" between former Lollard strongholds and Dickens's "great crescent" of early popular evangelicalism
+- Documents links from the 1520s between surviving Lollard groups and underground networks like the "Christian Brethren," who imported continental Reformed literature into England
+- This gives a traceable, evidenced transmission line from English dissent into Reformed theology — one of the strongest pieces of evidence here for the Protestant Ideas side
+- Caveat: MacCulloch admits proof of direct links between Lollardy and the Reformation's academic spokesmen is "the most difficult to substantiate," since Lollards had no university base and produced little new literature after 1450
+- This qualification matters: MacCulloch offers only partial, evidence-led support for Dickens rather than overclaiming, making his position more defensible to cite than either Dickens's or Duffy's fuller claims
+
+---
+
+## G. R. Elton
+
+**Summary:** Elton represents the clearest historiographical statement of the Power argument against the essay's statement. He argues the divorce was the main catalyst for change, and that the Reformation was directed by the desires of the monarch — meaning power, not popular religious conviction, was the key causal factor. This stands in direct, explicit opposition to the Dickens reading that the divorce was incidental and that Protestant ideas would have produced reform regardless.
+
+According to historian Peter Marshall, Elton was "the leading Tudor specialist of the day" when, in 1977, he made one of the boldest claims in the historiography on the opposite side of the argument from his "power" thesis on the divorce: that the reign of Edward VI brought about "a real transformation among the people," and that "by 1553 England was almost certainly nearer to being a Protestant country than to anything else." This specific, quotable claim represents the high-water mark of the old, pre-revisionist narrative — the view that the Reformation was a swift, essentially complete popular Protestant victory by the end of Edward's reign, with Mary's reign dismissed as "an unfortunate blip" before Elizabeth's settlement brought matters to "a fitting and triumphant conclusion." This is worth using carefully in the essay: it shows that even Elton, despite a power-based account of why the Reformation began under Henry, believed Protestant ideas had achieved genuine popular success by the 1550s.
+
+**Context and authorship:**
+- Born Gottfried Rudolph Ehrenberg in Germany in 1921; his Jewish family fled to England in 1939, six months before Germany invaded Poland; he anglicised his name to Geoffrey Rudolph Elton
+- Studied at the University of Prague before coming to England; his father was a classical historian, which likely explains both his early interest in history and his lifelong devotion to political rather than social history
+- Described as "the most universally known historian of the English Reformation period and the Tudors"; died 1994
+- A conservative historian who believed in the primacy of political history and the exclusive validity of original documents as evidence; was "often scathing in his comments about the work of other scholars" and "willingly spoke his mind"
+- His first published article was about Julius Caesar; he later became devoted specifically to Thomas Cromwell and Tudor government
+- Elton's thesis: that Cromwell was "the architect of English reform who spelled out the concept of national sovereignty, established royal supremacy over the church, set the locus of national sovereignty in Parliament, consolidated the national territory and reformed the central administration of government" — credited Cromwell with decisive, almost single-handed responsibility for the ecclesiastical revolution
+- His thesis that the administrative and financial structure of central government underwent a "revolution" in the 1530s under Cromwell "dictated the course of political scholarship for the second half of the twentieth century"
+- Book: Reform and Reformation: England, 1508-1558 (London, 1977)
+
+**Political/religious biases:**
+- A traditionalist who placed great emphasis on the role of individuals in history rather than abstract impersonal forces or social-economic explanations
+- His core philosophical position: "Insofar as men are social, they are; as political beings, they do" — all historical events transpire due to political decisions; this led him to dismiss social history as intellectually inferior
+- His conservative political instincts and belief in political history as the only valid form were directly shaped by his father's classical historical training and by the records available from the classical period, which are almost exclusively political and military
+- Despite harsh criticisms of others, Robert H. Landrum wrote in his eulogy that "behind the rhetorical fireworks lay a genuine concern for a discipline increasingly subject to the whims of ideologues" — Elton wanted "a return to the old values: hard work in the archives, unbiased research, and the return of individual responsibility for the process of making history"
+
+**Use of sources:**
+- No specific source-use detail given in the sources beyond his general thesis
+
+**Extra relevant detail:**
+- Elton's position is most useful in direct contrast with Dickens: where Dickens argues the Reformation would have happened anyway due to popular Protestant sentiment, Elton argues it was entirely contingent on the monarch's personal and dynastic situation, making the divorce not incidental but causally central
+- This framing is one of the cleanest single-sentence summaries available for the Power side of the essay argument, and pairs well with Duffy's later, more developed argument that the Reformation was fundamentally about consolidating royal power rather than doctrine
+- However, his specific 1977 claim about Edward's reign complicates a purely "power" reading of Elton overall, since it shows he believed Protestant ideas did go on to win genuine, widespread popular support relatively quickly once the political break had occurred — useful for an essay distinguishing between what caused the Reformation to begin and what explains its eventual popular success
+
+---
+
+## Christopher Haigh
+
+**Summary:** Haigh is identified as a key figure of the Revisionist school, alongside Scarisbrick, Duffy and MacCulloch, all of whom are revisionist against Dickens's original thesis to varying degrees. His specific and distinctive contribution is the argument that there was not one English Reformation, but many: Protestant beliefs spread slowly and unevenly at grass-roots level, and were slow to displace long-standing attachment to Catholic institutions and doctrine.
+
+Haigh's 1993 general survey of the period was deliberately titled English Reformations — plural, and without the definite article — a choice Marshall identifies as central to Haigh's whole approach. The deliberate avoidance of the title "The Reformation in England" was meant to avoid implying that what happened was simply "a local manifestation of the wider European movement." Haigh insists his subject is not something "exported across the Channel and installed in England by Luther, Calvin and Co. Ltd." His essential argument is that nothing that took place in the sixteenth century was qualitatively different from the abortive Puritan Reformation of the mid-seventeenth century or the Methodist and evangelical campaigns of the later eighteenth century — his reformations are "haphazard and limited," "discontinuous... and parallel," driven by the contingencies of politics and foreign policy rather than any single underlying cause. He considers it a "serious fallacy" to bundle all sixteenth-century events into one "big event" with grand underlying causes, and says to do so is to reveal oneself as a "neo-Whig and a teleologist."
+
+**Context and authorship:**
+- Oxford historian; Oxford lecturer
+- His first major work was Reformation and Resistance in Tudor Lancashire (Cambridge University Press, 1975) — a detailed local study of Tudor Lancashire which found "much support for pre-Reformation Catholicism there, as well as considerable resistance to Protestantism that lasted well into Elizabeth's reign"; from this regional base he controversially developed a national analysis
+- Edited The English Reformation Revised (Cambridge, 1987), the volume that established "revisionism" as a recognised term of art in the field
+- Author of English Reformations: Religion, Politics, and Society under the Tudors (Oxford, 1993) — described as "lively and readable" and praised for going "beneath the surface of official political policy to explore the religious views and practices of ordinary English people"
+- Produced a seminal 1982 article establishing the standard interpretative paradigm: whether the Reformation was fast or slow, and whether it was implemented from above or below
+- Writing context: 1970s-1990s — post-war, society becoming less religious, writing during and after Thatcher's premiership; the context note from the classroom material suggests Haigh's writing in the 1990s was also framed by the end of the Cold War and the break-up of the USSR, in which each country in Eastern Europe had its own individual most important reasons for breaking from Communist rule (e.g. Solidarity in Poland, Ceaușescu in Romania) — Haigh applied the same logic to the Reformation: a huge overriding event, but each individual reformation having its own key local causes
+
+**Political/religious biases:**
+- Despite frequently being grouped among the "Catholic revisionists" alongside Duffy and Scarisbrick, Haigh is in fact "a self-styled Anglican agnostic" — a mismatch Marshall notes has long been "a source of wry amusement to himself and to others," since critics often assume revisionist sympathy for Catholicism implies a Catholic confessional bias that, in Haigh's case, simply isn't there
+- This is a useful methodological point for the essay: it shows that sympathetic historical treatment of pre-Reformation Catholicism does not necessarily track a historian's own religious identity, undermining any simple "historians find what their own faith background predisposes them to find" reading of the historiography
+- Haigh has more recently accepted the "postrevisionist" label himself, remarking "we are (almost) all post-revisionists now"
+
+**Use of sources:**
+- In a 2001 article, "Success and Failure in the English Reformation," Haigh directly borrowed the analytical framework of the German historian Gerald Strauss, whose Luther's House of Learning argued that, based on the evidence of local visitations, the Lutheran Reformation in Germany was substantially "an educational failure" with little real impact on ordinary people's beliefs
+- Using English visitation reports and the stated grounds for excluding parishioners from communion, Haigh concluded that, eventually, after about 1600, English people did learn their catechism, but the great majority never progressed beyond rote learning of the commandments and creed, "let alone seriously internalizing Protestant doctrine"
+- This reflects a broader shift in his work, and in English Reformation studies more widely, from a primarily doctrinal to a more pastoral investigation of how Protestantism was actually "purveyed and purchased" at the local level
+
+**Extra relevant detail:**
+- Haigh's own closing assessment in English Reformations is that, despite everything, parish life simply continued much as before: congregations "went to church: they prayed again to their God, learned again how to be good, and went off home once more. That was how it had been in 1530; that was how it was in 1590"
+- This minimalist conclusion has been directly challenged by Marshall, who points to evidence of active, independent parish behaviour cutting against the idea of mere passive continuity: some parishes in Edwardian London removed their altars before they were legally required to, and numerous parishes began celebrating the Latin Mass again at the very start of Mary's reign, even while this was still technically illegal — suggesting ordinary people were not simply passive, stoic consumers of whatever religious policy the state currently prescribed
+- This tension between Haigh's "nothing really changed" conclusion and evidence of genuine grass-roots religious agency is a useful note on which to end an essay section using Haigh, since it shows even revisionism's own conclusions remain contested
+
+---
+
+## J. J. Scarisbrick
+
+**Summary:** Scarisbrick is one of the three central revisionist historians, alongside Duffy and Haigh, who from the 1980s onward dismantled the older "progressivist" narrative of a swift, popular Protestant triumph. He is also identified, somewhat differently, as a principal figure (alongside the earlier historian J. A. Froude) of the Top-Down Approach, which emphasises the actions of the Monarchy in legislating change within the Church — an approach that produces a very narrative structure of discussion in which the outcome is treated as almost pre-determined.
+
+**Context and authorship:**
+- Author of Henry VIII (Methuen, 1968) and The Reformation and the English People (Oxford, 1984)
+- His Reformation and the English People is identified by Marshall as a key historiographical precursor to Duffy's Stripping of the Altars, which explicitly built on its insights
+- Scarisbrick's Henry VIII (1968) directly challenged Elton's thesis by demonstrating that Henry was committed to ecclesiastical reform well before Cromwell appeared on the political scene — creating a "sharp conflict between two modern scholars regarding the role of Henry VIII in originating the reform of the English church"
+- Scarisbrick also challenged Elton's assumption that Cromwell's administrative ideas were revolutionary and original, claiming "there was nothing new in Cromwell's ideas and methods" and blaming the delay in breaking from Rome on a cautious Henry rather than on any minister's agenda
+- The Reformation and the English People focused on the period 1536-1553 — so covering Henry's later years and Edward but not Mary or Elizabeth — a limitation worth noting when evaluating the scope of his revisionist argument
+
+**Political/religious biases:**
+- A politically prominent British Catholic; co-founded with his wife the pro-life charity LIFE in 1970, which campaigned against the Abortion Act of 1967 and established the children's hospice Zoe's Place — while LIFE is not affiliated to the Catholic Church, it reflects his publicly committed Catholic values
+- Describes himself in a Catholic Herald interview as "a rather unsubtle sort of chap"; acknowledges he is "most proud" of "being part of" Catholic revisionism — the historical movement that "has completely reshaped modern understanding of the Reformation world"
+- In the same interview, shows striking self-awareness about the dangers of his own position: "We are in danger of making the Reformation inexplicable... In rejecting Whiggery and the overwhelmingly Protestant account of English history we must be very careful not to overstate the case" — conceding that Catholic revisionism risks replacing one mythology with another
+- His key quote on the English people's relationship to the Reformation: "on the whole, English men and women did not want the Reformation and most of them were slow to accept it when it came" (The Reformation and the English People, 1984) — the clearest single-sentence statement of the revisionist position
+
+**Use of sources:**
+- Like Duffy and Haigh, made heavy use of detailed parish-level evidence (such as churchwardens' accounts) to argue for the strength, popularity, and dynamism of late medieval Catholicism, rather than relying on national-level statute or court records
+
+**Extra relevant detail:**
+- Scarisbrick's dual classification — as both a Top-Down historian (in his account of the legislative break with Rome) and a revisionist (in his account of popular religion before the Reformation) — is a useful point for the essay: the same historian can argue power was central to how the Reformation was achieved at state level, while also arguing popular religious enthusiasm for change was minimal; these are not contradictory positions, only descriptions of different dimensions of the same process
+
+**Extra relevant detail:**
+- Haigh's "many reformations" argument is a useful corrective for a balanced essay conclusion: rather than asking whether Protestant ideas were responsible for the Reformation nationally, his framework implies the question must be answered region by region and period by period, since the pace and depth of genuine Protestant conversion varied enormously across the country and across the reigns of Henry, Edward, Mary and Elizabeth
+- This complements MacCulloch's regional "fast or slow" framework, though Haigh's position is more thoroughgoing in rejecting any single national narrative at all
+`;
+
 const HenryHTML = marked.parse(HenryMD);
 const LizHTML = marked.parse(LizMD);
 const MaryHTML = marked.parse(MaryMD);
 const EdHTML = marked.parse(EdMD);
+const HistoriansHTML = marked.parse(HistoriansMD);
 
 const monarchInfo = Object.assign(
     document.createElement(`div`),
@@ -528,6 +755,7 @@ const LizButton = document.getElementById("LizButton");
 const HenryButton = document.getElementById("HenryButton");
 const EdButton = document.getElementById("EdButton");
 const MaryButton = document.getElementById("MaryButton");
+const HistoriansButton = document.getElementById("HistoriansButton");
 
 const displayMonarch = document.getElementById("displayMonarch");
 
@@ -544,6 +772,9 @@ EdButton.addEventListener(`click`, () => {
 MaryButton.addEventListener(`click`, () => {
     displayMonarch.innerHTML = MaryHTML;
 });
+HistoriansButton.addEventListener(`click`, () => {
+    displayMonarch.innerHTML = HistoriansHTML;
+}
 
 document.addEventListener(`click`, (event) => {
     if (event.target.tagName === `BUTTON`) {
