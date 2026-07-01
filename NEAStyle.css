@@ -104,7 +104,7 @@ p, h1, h2, h3, li {
 h1 {
     margin-bottom: 1.5rem;
 }
-h3 {
+h2, h3 {
     margin-bottom: 0.5rem;
     margin-top: 2rem;
 }
