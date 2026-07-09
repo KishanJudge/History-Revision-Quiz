@@ -16,7 +16,7 @@ selected = false;
 //check which paper is selected
 }
 
-//when user chooses answer
+//when user chooses answer, display feedback
 function selectAnswer(index) {
     choice = currentQ.options[index];
     question = currentQ;
@@ -24,15 +24,16 @@ function selectAnswer(index) {
         if (choice == question.answer) {
         document.getElementById("feedback").style.color = "#a8d5b5";
         document.getElementById("feedback").textContent = ("✔ CORRECT - " + question.feedback);
+        fillInStats(index, true);
         }
         else {
             document.getElementById("feedback").style.color = "#f38a8a";
             document.getElementById("feedback").textContent = ("✘ INCORRECT - " + question.feedback);
-            getChoice(choice, currentQ);
+            getChoice(choice, currentQ); //find what the answer was + display incorrect choice
         }
         document.getElementById("feedback").style.display = "block";
         document.getElementById("nextQButton").style.display = "block";
-        getCorrectOpt(question);
+        getCorrectOpt(question);//display correct choice
         document.getElementById("feedback").scrollIntoView({
             behavior: "smooth",
             block: "start"
@@ -42,6 +43,25 @@ function selectAnswer(index) {
 
 }
 
+//correct answers
+//incorrect answers
+//percentage correct
+//time since last answered
+//database
+
+function fillInStats(index, correct) {
+    if (correct) {
+        switch (currentPaper) {
+            case "US":
+                usQsStats.correct += 1;
+                break;
+            case "britain":
+                britishQsStats.correct += 1;
+                break;
+    }
+    }
+}
+//get the user choice + display red if wrong
 function getChoice(choice, question) {
     let options = document.getElementsByClassName("but");
     for (let i = 0; i < 4; i++) {
@@ -1946,6 +1966,9 @@ const usQs = [
 ]
 
 //navigator.serviceWorker.register('./sw.js');
+const britishQsStats = Array.from({length:britishQs.length}, () => ({correct: 0, incorrect: 0}));
+const usQsStats = Array.from({length:usQs.length}, () => ({correct: 0, incorrect: 0}));
+
 
 onStart();
 
