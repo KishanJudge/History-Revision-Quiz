@@ -1959,7 +1959,7 @@ document.getElementById("op3").addEventListener("click", () => selectAnswer(2));
 document.getElementById("op4").addEventListener("click", () => selectAnswer(3));
 
 document.getElementById("NEA").addEventListener("click", () => {
-    window.location.href = "NEAKnowledgeBase.html"
+    window.location.href = "../NEAPage/NEAKnowledgeBase.html"
 });
 //fix button styling
 //so too vast a proportion of the answers are the 2nd option
