@@ -95,7 +95,7 @@ function displayQ(paper) {
         const Q = chooseQ(usQs);
         currentQ = Q;
         
-        document.getElementById("qTopic").textContent = Q.topic;
+        //document.getElementById("qTopic").textContent = Q.topic;
         document.getElementById("qTitle").textContent = Q.question;
 
         document.getElementById("op1").textContent = Q.options[0];
@@ -107,7 +107,7 @@ function displayQ(paper) {
         const Q = chooseQ(britishQs);
         currentQ = Q;
         
-        document.getElementById("qTopic").textContent = Q.topic;
+        //document.getElementById("qTopic").textContent = Q.topic;
         document.getElementById("qTitle").textContent = Q.question;
 
         document.getElementById("op1").textContent = Q.options[0];
@@ -505,16 +505,41 @@ const usQs = [
 ]
 //navigator.serviceWorker.register('./sw.js');
 
+
 onStart();
 displayQ("US");
 document.getElementById("centre").style.display = "block";
 
 
-//event listeners
 
+//event listeners
 document.getElementById("nextQButton").addEventListener("click", nextQuestion);
 document.getElementById("op1").addEventListener("click", () => selectAnswer(0));
 document.getElementById("op2").addEventListener("click", () => selectAnswer(1));
 document.getElementById("op3").addEventListener("click", () => selectAnswer(2));
 document.getElementById("op4").addEventListener("click", () => selectAnswer(3));
 
+const testInfoMD = `
+###  Foreign Policy Flashcards
+
+https://quizlet.com/user/kishanjudge/folders/foreign-policy-around-1890s?i=664bv4&x=1xqt
+
+### 1890s  FP source Qs
+
+https://pmt.physicsandmathstutor.com/download/History/A-level/Past-Papers/AQA/Component-1/QP/June%202024%20QP%20-%201K.pdf
+
+https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-70411K-QP-JUN22-CR.PDF
+
+https://revisionworld.com/sites/revisionworld.com/files/imce/AQA-70411K-QP-JUN16.PDF
+
+https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-70421K-QP-NOV20-CR.PDF
+
+https://pmt.physicsandmathstutor.com/download/History/A-level/Past-Papers/AQA/AS-Component-1/QP/June%202025%20QP%20-%201K.pdf
+
+`
+
+
+const testInfo = marked.parse(testInfoMD);
+const bottom = document.getElementById("bottom");
+ bottom.innerHTML = testInfo;
+bottom.style.display = "block";

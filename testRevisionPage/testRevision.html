@@ -2,22 +2,29 @@
 <html>
 <head>
 <title>Test Revision</title>
-<link rel="stylesheet" type="text/css" href="../mainPage/style.css">
+<link rel="stylesheet" type="text/css" href="../testRevisionPage/testInfoStyle.css">
 </head>
 <body>
     <div id="container">
 
+
+        
         <div id="top">
+            <button id = "back" onclick="window.location.href=`../mainPage/index.html`">&#8592;</button>
             <div id="titleDesc">
                 <p id="title">Test Revision</p>
                 <p id = "desc">1890s FP: Quiz + Past Qs</p>
             </div>
         </div>
 
+        <div id="bottom">
+            <!-- Info goes here -->
+        </div>
+
         <div id="centre" style = "display: none;">
 
         
-            <p id="qTopic">SAMPLE TOPIC</p>
+            <p id="quiz">Foreign Policy Quiz</p>
     
             <p id="qTitle">SAMPLE QUESTION</p>
             
@@ -38,12 +45,9 @@
             -->
         </div>
 
-        <div id="bottom">
-            
-            <!-- past Qs go here-->
-        </div>
+
 
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src = "../testRevisionPage/testRevisionScript.js"></script>
 </html>

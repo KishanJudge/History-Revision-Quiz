@@ -1961,6 +1961,10 @@ document.getElementById("op4").addEventListener("click", () => selectAnswer(3));
 document.getElementById("NEA").addEventListener("click", () => {
     window.location.href = "../NEAPage/NEAKnowledgeBase.html"
 });
+
+document.getElementById("test").addEventListener("click", () => {
+    window.location.href = "../testRevisionPage/testRevision.html"
+});
 //fix button styling
 //so too vast a proportion of the answers are the 2nd option
 //british ones are also too lengthy need to be more like US ones
