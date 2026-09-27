@@ -98,8 +98,14 @@ a {
     color: #58a6ff
 }
 
+p, li, a {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
 #centre {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     padding-top: 4rem;
     padding-bottom: 2rem;
     padding-left: 2.8rem;
@@ -211,4 +217,18 @@ hr {
 body {
     background-color: var(--bg);
     font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 600px) {
+    #centre {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;  
+    }
+}
+
+@media (max-width: 600px) {
+    #bottom {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;  
+    }
 }
