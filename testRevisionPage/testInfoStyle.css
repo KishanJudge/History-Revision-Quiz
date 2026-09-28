@@ -137,7 +137,6 @@ p, li, a {
 }
 
 #technique {
-    
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 2.8rem;
@@ -150,6 +149,13 @@ p, li, a {
     border-color: var(--border);
     border-radius: 16px;
     box-shadow: var(--shadow);
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 #back {
