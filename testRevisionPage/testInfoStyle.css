@@ -137,10 +137,10 @@ p, li, a {
 }
 
 #technique {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
+    padding-top: 1em;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
