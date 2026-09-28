@@ -136,6 +136,22 @@ p, li, a {
     box-shadow: var(--shadow);
 }
 
+#technique {
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-style: solid;
+    background: var(--card);
+    border-color: var(--border);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+}
+
 #back {
     position: absolute;
     top: 20px;

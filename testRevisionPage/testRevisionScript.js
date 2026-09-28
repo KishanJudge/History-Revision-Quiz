@@ -543,3 +543,12 @@ const testInfo = marked.parse(testInfoMD);
 const bottom = document.getElementById("bottom");
  bottom.innerHTML = testInfo;
 bottom.style.display = "block";
+
+const techniquesc = `
+<img width="559" height="377" alt="image" src="../testRevisionPage/USAtech.png">
+`
+
+const techsc = marked.parse(techniquesc);
+const technique = document.getElementById("technique");
+technique.innerHTML = techsc;
+technique.style.display = "block";
